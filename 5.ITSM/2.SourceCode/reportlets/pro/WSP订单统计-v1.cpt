@@ -315,7 +315,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </ReportWebAttr>
 <ReportFitAttr fitStateInPC="2" fitFont="false"/>
 <ElementCaseMobileAttr>
-<ElementCaseMobileAttrProvider horizontal="1" vertical="1" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="2" zoom="true" refresh="false" isUseHTML="true"/>
 </ElementCaseMobileAttr>
 <Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
 <ReportPageAttr>
