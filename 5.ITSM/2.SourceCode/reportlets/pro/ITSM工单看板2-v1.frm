@@ -160,12 +160,12 @@ from
 <Parameters/>
 <Layout class="com.fr.form.ui.container.WBorderLayout">
 <WidgetName name="form"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -177,12 +177,12 @@ from
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Center class="com.fr.form.ui.container.WFitLayout">
 <WidgetName name="body"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="1" left="1" bottom="1" right="1"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -197,12 +197,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
 <WidgetName name="chart0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -215,12 +215,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="0" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'各服务团队处理服务单未完成率分布\']]></O>
@@ -233,11 +233,6 @@ from
 </Border>
 <Background name="ColorBackground" color="-1"/>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -281,7 +276,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.map.VanChartMapPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -700,7 +694,7 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -718,7 +712,7 @@ from
 </Widget>
 <title class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -734,12 +728,12 @@ from
 </title>
 <body class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="1" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'各团队服务单分布情况\']]></O>
@@ -749,11 +743,6 @@ from
 <Alpha alpha="1.0"/>
 </Border>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -797,7 +786,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.map.VanChartMapPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1189,12 +1177,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
 <WidgetName name="chart1"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -1207,12 +1195,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart1"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="0" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'本月服务单完成情况(%)\']]></O>
@@ -1225,11 +1213,6 @@ from
 </Border>
 <Background name="ColorBackground" color="-1"/>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -1273,7 +1256,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.custom.VanChartCustomPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1539,7 +1521,6 @@ from
 <VanChartCustomPlotAttr customStyle="stack_column_line"/>
 <CustomPlotList>
 <VanChartPlot class="com.fr.plugin.chart.column.VanChartColumnPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1633,7 +1614,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -1666,8 +1647,6 @@ from
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
@@ -1688,8 +1667,6 @@ from
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
@@ -1949,7 +1926,6 @@ from
 <VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="20.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="false"/>
 </VanChartPlot>
 <VanChartPlot class="com.fr.plugin.chart.line.VanChartLinePlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -2032,7 +2008,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -2076,8 +2052,6 @@ from
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
@@ -2391,7 +2365,7 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart1"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -2409,7 +2383,7 @@ from
 </Widget>
 <title class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart1"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -2424,12 +2398,12 @@ from
 </title>
 <body class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart1"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="1" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'本月服务单完成情况\']]></O>
@@ -2439,11 +2413,6 @@ from
 <Alpha alpha="1.0"/>
 </Border>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -2487,7 +2456,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -2579,7 +2547,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -2826,12 +2794,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
 <WidgetName name="chart2"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -2844,12 +2812,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart2"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="0" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'工单分类TOP8服务完成情况(%)\']]></O>
@@ -2862,11 +2830,6 @@ from
 </Border>
 <Background name="ColorBackground" color="-1"/>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -2910,7 +2873,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.custom.VanChartCustomPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -3173,7 +3135,6 @@ from
 <VanChartCustomPlotAttr customStyle="stack_column_line"/>
 <CustomPlotList>
 <VanChartPlot class="com.fr.plugin.chart.column.VanChartColumnPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -3265,7 +3226,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -3579,7 +3540,6 @@ from
 <VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="20.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="false"/>
 </VanChartPlot>
 <VanChartPlot class="com.fr.plugin.chart.line.VanChartLinePlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -3660,7 +3620,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -4017,7 +3977,7 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart2"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -4035,7 +3995,7 @@ from
 </Widget>
 <title class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart2"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -4050,12 +4010,12 @@ from
 </title>
 <body class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart2"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="1" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'各服务团队服务单完成情况\']]></O>
@@ -4065,11 +4025,6 @@ from
 <Alpha alpha="1.0"/>
 </Border>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -4113,7 +4068,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -4205,7 +4159,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -4467,12 +4421,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
 <WidgetName name="chart4"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -4485,12 +4439,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart4"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="0" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=year()-1+\'-\'+year()+\'全年未完成订单趋势分析\']]></O>
@@ -4503,11 +4457,6 @@ from
 </Border>
 <Background name="ColorBackground" color="-1"/>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -4551,7 +4500,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.line.VanChartLinePlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -4673,7 +4621,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -4717,8 +4665,6 @@ from
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
@@ -4739,8 +4685,6 @@ from
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
@@ -4973,7 +4917,7 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart4"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -4991,7 +4935,7 @@ from
 </Widget>
 <title class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart4"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
@@ -5006,12 +4950,12 @@ from
 </title>
 <body class="com.fr.form.ui.ChartEditor">
 <WidgetName name="chart4"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="1" color="-723724" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[=\' \'+\'2015-2016全年未完成订单变化趋势\']]></O>
@@ -5021,11 +4965,6 @@ from
 <Alpha alpha="1.0"/>
 </Border>
 <LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
 <Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
@@ -5069,7 +5008,6 @@ from
 <Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
 </Title4VanChart>
 <Plot class="com.fr.plugin.chart.line.VanChartLinePlot">
-<VanChartPlotVersion version="20161104"/>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -5150,7 +5088,7 @@ from
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
-<Attr trendLineName="" trendLineType="linear" prePeriod="0" afterPeriod="0"/>
+<Attr trendLineName=""/>
 <LineStyleInfo>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -5405,12 +5343,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
 <WidgetName name="report0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -5423,12 +5361,12 @@ from
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ElementCaseEditor">
 <WidgetName name="report0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="1" left="1" bottom="1" right="1"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -5449,7 +5387,7 @@ from
 <RowHeight defaultValue="723900">
 <![CDATA[990600,1066800,152400,989280,1065600,723900,723900,723900,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[2592000,216000,3048000,152400,3009900,216000,3086100,216000,2895600,216000,2592000,2743200]]></ColumnWidth>
+<![CDATA[2857500,228600,3048000,152400,3009900,228600,3086100,114300,2895600,152400,2552700,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" rs="3" s="0">
 <O t="DSColumn">
@@ -5481,7 +5419,7 @@ from
 <CellPageAttr/>
 <Expand/>
 </C>
-<C c="4" r="0" s="2">
+<C c="4" r="0" s="3">
 <O>
 <![CDATA[应用软件]]></O>
 <PrivilegeControl/>
@@ -5490,7 +5428,7 @@ from
 <C c="5" r="0" s="1">
 <PrivilegeControl/>
 </C>
-<C c="6" r="0" s="2">
+<C c="6" r="0" s="4">
 <O>
 <![CDATA[账   号]]></O>
 <PrivilegeControl/>
@@ -5499,7 +5437,7 @@ from
 <C c="7" r="0" s="1">
 <PrivilegeControl/>
 </C>
-<C c="8" r="0" s="2">
+<C c="8" r="0" s="5">
 <O>
 <![CDATA[未分类]]></O>
 <PrivilegeControl/>
@@ -5508,7 +5446,7 @@ from
 <C c="9" r="0" s="1">
 <PrivilegeControl/>
 </C>
-<C c="10" r="0" rs="3" s="0">
+<C c="10" r="0" rs="3" s="6">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="未解决"/>
 <Complex/>
@@ -5537,12 +5475,12 @@ from
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="3" r="1" s="3">
+<C c="3" r="1" s="7">
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 </C>
-<C c="4" r="1" s="2">
+<C c="4" r="1" s="3">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="应用软件问题"/>
 <Complex/>
@@ -5555,10 +5493,10 @@ from
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="5" r="1" s="3">
+<C c="5" r="1" s="7">
 <PrivilegeControl/>
 </C>
-<C c="6" r="1" s="2">
+<C c="6" r="1" s="4">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="账号问题"/>
 <Complex/>
@@ -5569,12 +5507,12 @@ from
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand/>
+<Expand dir="0"/>
 </C>
-<C c="7" r="1" s="3">
+<C c="7" r="1" s="7">
 <PrivilegeControl/>
 </C>
-<C c="8" r="1" s="2">
+<C c="8" r="1" s="5">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="未分类"/>
 <Complex/>
@@ -5585,7 +5523,7 @@ from
 <Parameters/>
 </O>
 <PrivilegeControl/>
-<Expand/>
+<Expand dir="0"/>
 </C>
 <C c="9" r="1" s="1">
 <PrivilegeControl/>
@@ -5617,7 +5555,7 @@ from
 <C c="9" r="2" s="1">
 <PrivilegeControl/>
 </C>
-<C c="0" r="3" rs="2" s="4">
+<C c="0" r="3" rs="2" s="8">
 <O>
 <![CDATA[总服务单]]></O>
 <PrivilegeControl/>
@@ -5626,7 +5564,7 @@ from
 <C c="1" r="3" s="1">
 <PrivilegeControl/>
 </C>
-<C c="2" r="3" s="2">
+<C c="2" r="3" s="4">
 <O>
 <![CDATA[系统问题]]></O>
 <PrivilegeControl/>
@@ -5637,7 +5575,7 @@ from
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 </C>
-<C c="4" r="3" s="2">
+<C c="4" r="3" s="5">
 <O>
 <![CDATA[用户操作]]></O>
 <PrivilegeControl/>
@@ -5655,7 +5593,7 @@ from
 <C c="7" r="3" s="1">
 <PrivilegeControl/>
 </C>
-<C c="8" r="3" s="2">
+<C c="8" r="3" s="3">
 <O>
 <![CDATA[其他]]></O>
 <PrivilegeControl/>
@@ -5664,7 +5602,7 @@ from
 <C c="9" r="3" s="1">
 <PrivilegeControl/>
 </C>
-<C c="10" r="3" rs="2" s="4">
+<C c="10" r="3" rs="2" s="9">
 <O>
 <![CDATA[未解决工单]]></O>
 <PrivilegeControl/>
@@ -5673,7 +5611,7 @@ from
 <C c="1" r="4" s="1">
 <PrivilegeControl/>
 </C>
-<C c="2" r="4" s="2">
+<C c="2" r="4" s="4">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="系统问题"/>
 <Complex/>
@@ -5686,12 +5624,12 @@ from
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="3" r="4" s="3">
+<C c="3" r="4" s="7">
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 </C>
-<C c="4" r="4" s="2">
+<C c="4" r="4" s="5">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="用户操作"/>
 <Complex/>
@@ -5704,7 +5642,7 @@ from
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="5" r="4" s="3">
+<C c="5" r="4" s="7">
 <PrivilegeControl/>
 </C>
 <C c="6" r="4" s="2">
@@ -5720,10 +5658,10 @@ from
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="7" r="4" s="3">
+<C c="7" r="4" s="7">
 <PrivilegeControl/>
 </C>
-<C c="8" r="4" s="2">
+<C c="8" r="4" s="3">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="其他"/>
 <Complex/>
@@ -5748,7 +5686,7 @@ from
 </FormElementCase>
 <StyleList>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="112" foreground="-526345"/>
+<FRFont name="微软雅黑" style="1" size="112" foreground="-1"/>
 <Background name="ColorBackground" color="-11813788"/>
 <Border/>
 </Style>
@@ -5759,7 +5697,27 @@ from
 </Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
 <FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-9792513"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-6583820"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-20626"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" textStyle="1" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="112" foreground="-526345"/>
+<Background name="ColorBackground" color="-11813788"/>
 <Border/>
 </Style>
 <Style textStyle="1" imageLayout="1">
@@ -5777,22 +5735,27 @@ from
 <Right color="-1"/>
 </Border>
 </Style>
+<Style horizontal_alignment="0" textStyle="2" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-11813788"/>
+<Border/>
+</Style>
 </StyleList>
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
-<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="480" y="0" width="480" height="134"/>
 </Widget>
 <body class="com.fr.form.ui.ElementCaseEditor">
 <WidgetName name="report0"/>
-<WidgetAttr description="">
+<WidgetAttr>
 <PrivilegeControl/>
 </WidgetAttr>
 <Margin top="1" left="1" bottom="1" right="1"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-723724" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
@@ -5920,7 +5883,7 @@ from
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
-<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" isUseHTML="false"/>
 </body>
 </InnerWidget>
 <BoundsAttr x="480" y="197" width="480" height="134"/>
@@ -5929,7 +5892,7 @@ from
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
 <Size width="960" height="540"/>
-<ResolutionScalingAttr percent="0.9"/>
+<ResolutionScalingAttr percent="1.0"/>
 <BodyLayoutType type="0"/>
 <MobileWidgetList/>
 </Center>
