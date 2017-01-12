@@ -140,7 +140,7 @@ from
 		  ,case  when  a.times_type='3个月'  then  sum(a.成功)  end  as  [3个月]A
 		  ,case  when  a.times_type='上月'  then  sum(a.成功)  end  as  上月
 		  ,case  when  a.times_type='本月'  then  sum(a.成功)  end  as  本月
-	FROM ETL_SAPYH_YHJCB  a
+	FROM ETL_SAPYH_YHJCB1  a
 	GROUP BY  a.times_type) t1]]></Query>
 </TableData>
 <TableData name="登陆成功率" class="com.fr.data.impl.DBTableData">
@@ -162,7 +162,7 @@ from
       ,sum(a.失败) 失败
       ,sum(a.总数) 总数
 	  ,case  when  convert(decimal(18,2),sum(a.总数))=0  then  0  else  convert(decimal(18,2),convert(decimal(18,2),sum(a.成功))/convert(decimal(18,2),23000)*100)  end  as  成功率
-FROM ETL_SAPYH_YHJCB  a
+FROM ETL_SAPYH_YHJCB1  a
 WHERE 1=1 ${if(len(times_type)==0,"","and times_type='"+times_type+"'")}
 GROUP  BY  a.times_type]]></Query>
 </TableData>
