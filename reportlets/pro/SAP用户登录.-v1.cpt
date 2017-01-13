@@ -161,7 +161,7 @@ from
       ,sum(a.成功) 成功
       ,sum(a.失败) 失败
       ,sum(a.总数) 总数
-	  ,case  when  convert(decimal(18,2),sum(a.总数))=0  then  0  else  convert(decimal(18,2),convert(decimal(18,2),sum(a.成功))/convert(decimal(18,2),23000)*100)  end  as  成功率
+	  ,case  when  convert(decimal(18,2),sum(a.总数))=0  then  0  else  convert(decimal(18,2),convert(decimal(18,2),sum(a.成功))/convert(decimal(18,2),13000)*100)  end  as  成功率
 FROM ETL_SAPYH_YHJCB1  a
 WHERE 1=1 ${if(len(times_type)==0,"","and times_type='"+times_type+"'")}
 GROUP  BY  a.times_type]]></Query>
