@@ -342,10 +342,10 @@ setInterval(function() {
 <FRFont name="宋体" style="0" size="72"/>
 <Position pos="0"/>
 </WidgetTitle>
-<Background name="ColorBackground" color="-13415076"/>
+<Background name="ColorBackground" color="-16764058"/>
 <Alpha alpha="1.0"/>
 </Border>
-<Background name="ColorBackground" color="-13415076"/>
+<Background name="ColorBackground" color="-16764058"/>
 <LCAttr vgap="0" hgap="0" compInterval="5"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -7001,12 +7001,23 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <BoundsAttr x="0" y="252" width="201" height="115"/>
 </Widget>
 <Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="report2"/>
+<Widget widgetName="chart1"/>
+<Widget widgetName="chart2"/>
+<Widget widgetName="chart4"/>
+<Widget widgetName="chart5"/>
+<Widget widgetName="chart0"/>
+<Widget widgetName="report1"/>
+<Widget widgetName="chart6"/>
+<Widget widgetName="report0"/>
+<Widget widgetName="chart3"/>
+</MobileWidgetList>
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
 <Size width="902" height="367"/>
-<ResolutionScalingAttr percent="1.2"/>
+<ResolutionScalingAttr percent="0.9"/>
 <BodyLayoutType type="0"/>
-<MobileWidgetList/>
 </Center>
 </Layout>
 <DesignerVersion DesignerVersion="IAA"/>
