@@ -94,17 +94,17 @@ Kr<Gd:fpd"%GjpV!*2Nmlbh,kSHdo?/TKSkiMZXCJjDVkF7o~
 <![CDATA[ select top 5
    c.SERVICE_CATEGORY_LV4_NAME+':'+convert(nvarchar(5),aa) as 原因,aa,aweights,bweights from 
    (select count(INCIDENT_ID) aa ,SERVICE_CATEGORY_LV4_NAME,SERVICE_CATEGORY_LV3_NAME from ITSM_WorkOrder_Sync_test
-   where datediff(day,getdate(),REGISTER_DATE)>=0
+    where 1=1 and  INCIDENT_STATUS<>7 and datediff(day,getdate(),REGISTER_DATE)>=0
    group by SERVICE_CATEGORY_LV4_NAME,SERVICE_CATEGORY_LV3_NAME) c
    inner join 
     (select rank() over (order by count(INCIDENT_ID) ) as bweights,
   
-   SERVICE_CATEGORY_LV4_NAME from ITSM_WorkOrder_Sync_test group by SERVICE_CATEGORY_LV4_NAME
+   SERVICE_CATEGORY_LV4_NAME from ITSM_WorkOrder_Sync_test where 1=1 and  INCIDENT_STATUS<>7 group by SERVICE_CATEGORY_LV4_NAME
    ) b on b.SERVICE_CATEGORY_LV4_NAME=c.SERVICE_CATEGORY_LV4_NAME
    inner join 
    (select rank() over (order by count(INCIDENT_ID) ) as aweights,
   
-   SERVICE_CATEGORY_LV3_NAME from ITSM_WorkOrder_Sync_test group by SERVICE_CATEGORY_LV3_NAME
+   SERVICE_CATEGORY_LV3_NAME from ITSM_WorkOrder_Sync_test where 1=1 and  INCIDENT_STATUS<>7  group by SERVICE_CATEGORY_LV3_NAME
    ) a on c.SERVICE_CATEGORY_LV3_NAME=a.SERVICE_CATEGORY_LV3_NAME
    order by aa desc]]></Query>
 </TableData>
@@ -123,7 +123,7 @@ Kr<Gd:fpd"%GjpV!*2Nmlbh,kSHdo?/TKSkiMZXCJjDVkF7o~
           count(case when (INCIDENT_STATUS=9 or  INCIDENT_STATUS=5) then INCIDENT_ID else null end ) 已解决工单,
   
 COUNT(INCIDENT_ID) ORDERS from ITSM_WorkOrder_Sync_test
-  WHERE 1=1 and   datediff(day,getdate(),REGISTER_DATE)=0
+  WHERE 1=1 and  INCIDENT_STATUS<>7 and   datediff(day,getdate(),REGISTER_DATE)=0
    GROUP BY OWNER_ORGNAME
 
   ORDER BY COUNT(INCIDENT_ID) DESC) as A
@@ -171,7 +171,7 @@ from
 COUNT(INCIDENT_ID) 总数,
 '已解决' 已解决
  
- from ITSM_WorkOrder_Sync_test where datediff(day,getdate(),REGISTER_DATE)=-1]]></Query>
+ from ITSM_WorkOrder_Sync_test  where 1=1 and  INCIDENT_STATUS<>7 and datediff(day,getdate(),REGISTER_DATE)=-1]]></Query>
 </TableData>
 <TableData name="工单地区" class="com.fr.data.impl.DBTableData">
 <Parameters/>
@@ -198,7 +198,7 @@ COUNT(INCIDENT_ID) 总数,
 </Connection>
 <Query>
 <![CDATA[select convert(datetime,LEFT(CONVERT(NVARCHAR(25),REGISTER_DATE,20),13) + ':00:00') 时间,count(INCIDENT_ID) 工单数 from ITSM_WorkOrder_Sync_test 
-where 1=1  and datediff(day,getdate(),REGISTER_DATE)=0
+where 1=1  and  INCIDENT_STATUS<>7 and datediff(day,getdate(),REGISTER_DATE)=0
 group by convert(datetime,LEFT(CONVERT(NVARCHAR(25),REGISTER_DATE,20),13) + ':00:00')
 order by convert(datetime,LEFT(CONVERT(NVARCHAR(25),REGISTER_DATE,20),13) + ':00:00')]]></Query>
 </TableData>
@@ -253,7 +253,7 @@ WHEN 11 THEN '拒绝'
 ,'【'+left(convert(nvarchar(300),REGISTER_DATE),16)+'】'+convert(nvarchar(300),SYMPTOM) AS SYMPTOM
 
 
-from ITSM_WorkOrder_Sync_test where datediff(HOUR,REGISTER_DATE,getdate())<=2 order by NEWID() ) as TTT
+from ITSM_WorkOrder_Sync_test where 1=1 and  INCIDENT_STATUS<>7 and datediff(HOUR,REGISTER_DATE,getdate())<=5 order by NEWID() ) as TTT
 order by TTT.REGISTER_DATE desc]]></Query>
 </TableData>
 <TableData name="今日工单来源" class="com.fr.data.impl.DBTableData">
@@ -276,7 +276,7 @@ WHEN 9 THEN '其他'
 ELSE '未知'  
 END ) AS 工单来源
 ,COUNT(INCIDENT_ID) 工单量           
-from ITSM_WorkOrder_Sync_test where datediff(day,REGISTER_DATE,getdate())=0
+from ITSM_WorkOrder_Sync_test where datediff(day,REGISTER_DATE,getdate())=0 and  INCIDENT_STATUS<>7
 group by INCIDENT_SOURCE]]></Query>
 </TableData>
 </TableDataMap>
