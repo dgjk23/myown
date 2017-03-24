@@ -6155,7 +6155,7 @@ from
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
 <Size width="957" height="537"/>
-<ResolutionScalingAttr percent="0.9"/>
+<ResolutionScalingAttr percent="1.0"/>
 <BodyLayoutType type="0"/>
 <MobileWidgetList/>
 </Center>

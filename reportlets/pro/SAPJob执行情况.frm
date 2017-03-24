@@ -271,6 +271,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </TableData>
 </TableDataMap>
 <ReportFitAttr fitStateInPC="2" fitFont="false"/>
+<FormMobileAttr>
+<FormMobileAttr refresh="false"/>
+</FormMobileAttr>
 <Parameters/>
 <Layout class="com.fr.form.ui.container.WBorderLayout">
 <WidgetName name="form"/>
@@ -349,7 +352,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <widgetValue>
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=today()-1]]></Attributes>
+<![CDATA[=today()-2]]></Attributes>
 </O>
 </widgetValue>
 </InnerWidget>
@@ -381,7 +384,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <widgetValue>
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=today()]]></Attributes>
+<![CDATA[=today()-1]]></Attributes>
 </O>
 </widgetValue>
 </InnerWidget>
@@ -1453,7 +1456,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[723900,723900,1676400,0,351129,1905000,790041,1287475,723900,723900,723900]]></RowHeight>
+<![CDATA[723900,723900,1676400,0,351129,1905000,1287475,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
 <![CDATA[432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,288000,288000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,288000,288000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,288000,288000,2743200]]></ColumnWidth>
 <CellElementList>
@@ -1895,75 +1898,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="0" r="6" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="1" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="2" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="3" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="4" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="5" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="6" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="7" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="8" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="9" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="10" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="11" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="12" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="13" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="14" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="15" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="16" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="17" r="6" s="2">
+<C c="0" r="6" cs="18" s="5">
+<O>
+<![CDATA[任务数]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -1975,75 +1912,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="20" r="6" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="21" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="22" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="23" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="24" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="25" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="27" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="28" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="29" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="30" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="31" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="32" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="33" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="34" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="35" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="6" s="2">
+<C c="20" r="6" cs="18" s="5">
+<O>
+<![CDATA[总时长]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -2055,75 +1926,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="40" r="6" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="41" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="42" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="43" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="44" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="45" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="46" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="49" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="50" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="51" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="52" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="53" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="54" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="55" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="56" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="57" r="6" s="2">
+<C c="40" r="6" cs="18" s="5">
+<O>
+<![CDATA[最长执行时间]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -2132,138 +1937,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Expand/>
 </C>
 <C c="59" r="6">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="0" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="1" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="2" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="3" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="4" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="5" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="6" r="7" cs="2" s="6">
-<O>
-<![CDATA[↑]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="8" r="7" cs="10" s="7">
-<O>
-<![CDATA[任务数]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="18" r="7">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="19" r="7">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="20" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="21" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="22" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="23" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="24" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="25" r="7" cs="2" s="6">
-<O>
-<![CDATA[↑]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="27" r="7" cs="10" s="7">
-<O>
-<![CDATA[总时长]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="38" r="7">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="39" r="7">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="40" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="41" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="42" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="43" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="44" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="45" r="7" cs="2" s="6">
-<O>
-<![CDATA[↑]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="7" cs="10" s="7">
-<O>
-<![CDATA[最长执行时间]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="57" r="7" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="7">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="59" r="7">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -2279,53 +1952,48 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <FRFont name="SimSun" style="1" size="128" foreground="-9930087"/>
 <Background name="ColorBackground" color="-1"/>
 <Border>
-<Top style="1" color="-3355444"/>
-<Left style="1" color="-3355444"/>
-<Right style="1" color="-3355444"/>
+<Top style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
 </Border>
 </Style>
 <Style imageLayout="1">
 <FRFont name="SimSun" style="0" size="72"/>
 <Background name="NullBackground"/>
 <Border>
-<Left style="1" color="-3355444"/>
+<Left style="1" color="-4144960"/>
 </Border>
 </Style>
 <Style imageLayout="1">
 <FRFont name="SimSun" style="0" size="72"/>
 <Background name="NullBackground"/>
 <Border>
-<Right style="1" color="-3355444"/>
+<Right style="1" color="-4144960"/>
 </Border>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="SimSun" style="0" size="72" foreground="-11562566"/>
 <Background name="NullBackground"/>
 <Border>
-<Left style="1" color="-3355444"/>
+<Left style="1" color="-4144960"/>
 </Border>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="SimSun" style="0" size="72" foreground="-13408513"/>
 <Background name="NullBackground"/>
 <Border>
-<Right style="1" color="-2171170"/>
+<Right style="1" color="-4144960"/>
 </Border>
 </Style>
-<Style imageLayout="1">
-<FRFont name="SimSun" style="0" size="72"/>
-<Background name="ColorBackground" color="-656902"/>
-<Border/>
-</Style>
-<Style horizontal_alignment="0" imageLayout="4">
-<FRFont name="SimSun" style="1" size="72"/>
-<Background name="ColorBackground" color="-656902"/>
-<Border/>
-</Style>
-<Style horizontal_alignment="2" imageLayout="1">
+<Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="SimSun" style="0" size="80"/>
 <Background name="ColorBackground" color="-656902"/>
-<Border/>
+<Border>
+<Top color="-16777216"/>
+<Bottom style="1" color="-4144960"/>
+<Left style="1" color="-4144960"/>
+<Right style="1" color="-4144960"/>
+</Border>
 </Style>
 </StyleList>
 <showToolbar showtoolbar="false"/>

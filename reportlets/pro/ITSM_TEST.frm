@@ -373,15 +373,17 @@ setInterval(function() {
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-12829627" borderRadius="0" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
-<FRFont name="SimSun" style="0" size="72"/>
+<FRFont name="宋体" style="0" size="72"/>
 <Position pos="0"/>
 </WidgetTitle>
+<Background name="ColorBackground" color="-12829627"/>
 <Alpha alpha="1.0"/>
 </Border>
+<Background name="ColorBackground" color="-12829627"/>
 <LayoutAttr selectedIndex="0"/>
 <ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
 <TextAttr>
@@ -392,12 +394,12 @@ setInterval(function() {
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
 <AttrBackground>
-<Background name="ColorBackground" color="-12829627"/>
+<Background name="NullBackground"/>
 <Attr shadow="false"/>
 </AttrBackground>
 <AttrBorder>
 <Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-1118482"/>
+<newColor borderColor="-13421824"/>
 </AttrBorder>
 <AttrAlpha>
 <Attr alpha="1.0"/>
@@ -2408,42 +2410,6 @@ setInterval(function() {
 </GI>
 </AttrTooltip>
 </Attr>
-<Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
-<TrendLine>
-<Attr trendLineName="" trendLineType="exponential" prePeriod="0" afterPeriod="0"/>
-<LineStyleInfo>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-<AttrColor>
-<Attr/>
-</AttrColor>
-<AttrLineStyle>
-<newAttr lineStyle="0"/>
-</AttrLineStyle>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-</LineStyleInfo>
-</TrendLine>
-</Attr>
-<Attr class="com.fr.plugin.chart.base.VanChartAttrLine">
-<VanAttrLine>
-<Attr lineWidth="2" lineStyle="2" nullValueBreak="true"/>
-</VanAttrLine>
-</Attr>
-<Attr class="com.fr.plugin.chart.base.VanChartAttrMarker">
-<VanAttrMarker>
-<Attr isCommon="true" markerType="RoundFilledMarker" radius="0.5" width="30.0" height="30.0"/>
-<Background name="NullBackground"/>
-</VanAttrMarker>
-</Attr>
-<Attr class="com.fr.plugin.chart.base.AttrAreaSeriesFillColorBackground">
-<AttrAreaSeriesFillColorBackground>
-<Attr alpha="0.15"/>
-</AttrAreaSeriesFillColorBackground>
-</Attr>
 <Attr class="com.fr.plugin.chart.base.AttrLabel">
 <AttrLabel>
 <labelAttr enable="true"/>
@@ -2484,6 +2450,42 @@ setInterval(function() {
 </AttrToolTipContent>
 </labelDetail>
 </AttrLabel>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
+<TrendLine>
+<Attr trendLineName="" trendLineType="exponential" prePeriod="0" afterPeriod="0"/>
+<LineStyleInfo>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+<AttrColor>
+<Attr/>
+</AttrColor>
+<AttrLineStyle>
+<newAttr lineStyle="0"/>
+</AttrLineStyle>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+</LineStyleInfo>
+</TrendLine>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrLine">
+<VanAttrLine>
+<Attr lineWidth="2" lineStyle="2" nullValueBreak="true"/>
+</VanAttrLine>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrMarker">
+<VanAttrMarker>
+<Attr isCommon="true" markerType="RoundFilledMarker" radius="4.5" width="30.0" height="30.0"/>
+<Background name="NullBackground"/>
+</VanAttrMarker>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.AttrAreaSeriesFillColorBackground">
+<AttrAreaSeriesFillColorBackground>
+<Attr alpha="0.15"/>
+</AttrAreaSeriesFillColorBackground>
 </Attr>
 </AttrList>
 </ConditionAttr>
@@ -3590,7 +3592,7 @@ setInterval(function() {
 <TickLine201106 type="2" secType="0"/>
 <ArrowShow arrowShow="false"/>
 <TextAttr>
-<Attr alignText="0">
+<Attr rotation="-1" alignText="0">
 <FRFont name="微软雅黑" style="0" size="48" foreground="-1"/>
 </Attr>
 </TextAttr>
@@ -3599,7 +3601,7 @@ setInterval(function() {
 <AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
 <ZoomAxisAttr isZoom="false"/>
 <axisReversed axisReversed="false"/>
-<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="true" maxHeight="25.0" commonValueFormat="true" isRotation="false"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="true" maxHeight="35.0" commonValueFormat="true" isRotation="false"/>
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
@@ -4743,7 +4745,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[]]></O>
 <TextAttr>
 <Attr rotation="-90" alignText="0">
-<FRFont name="Verdana" style="0" size="48" foreground="-10066330"/>
+<FRFont name="Verdana" style="0" size="48" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="0"/>
@@ -4764,7 +4766,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
 <ZoomAxisAttr isZoom="false"/>
 <axisReversed axisReversed="false"/>
-<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="true" maxHeight="20.0" commonValueFormat="true" isRotation="false"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="true" maxHeight="30.0" commonValueFormat="true" isRotation="false"/>
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
@@ -6600,6 +6602,13 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ConditionAttrList>
 <List index="0">
 <ConditionAttr name="条件属性1">
+<AttrList>
+<Attr class="com.fr.plugin.chart.base.AttrEffect">
+<AttrEffect>
+<attr enabled="true" period="5.0"/>
+</AttrEffect>
+</Attr>
+</AttrList>
 <Condition class="com.fr.data.condition.ListCondition"/>
 </ConditionAttr>
 </List>
@@ -6999,9 +7008,20 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
 <Size width="902" height="367"/>
-<ResolutionScalingAttr percent="0.9"/>
+<ResolutionScalingAttr percent="1.0"/>
 <BodyLayoutType type="0"/>
-<MobileWidgetList/>
+<MobileWidgetList>
+<Widget widgetName="report2"/>
+<Widget widgetName="chart1"/>
+<Widget widgetName="chart2"/>
+<Widget widgetName="chart4"/>
+<Widget widgetName="chart5"/>
+<Widget widgetName="chart0"/>
+<Widget widgetName="report1"/>
+<Widget widgetName="chart6"/>
+<Widget widgetName="report0"/>
+<Widget widgetName="chart3"/>
+</MobileWidgetList>
 </Center>
 </Layout>
 <DesignerVersion DesignerVersion="IAA"/>
