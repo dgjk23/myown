@@ -6996,12 +6996,23 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <BoundsAttr x="0" y="252" width="201" height="115"/>
 </Widget>
 <Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="report2"/>
+<Widget widgetName="chart1"/>
+<Widget widgetName="chart2"/>
+<Widget widgetName="chart4"/>
+<Widget widgetName="chart5"/>
+<Widget widgetName="chart0"/>
+<Widget widgetName="report1"/>
+<Widget widgetName="chart6"/>
+<Widget widgetName="report0"/>
+<Widget widgetName="chart3"/>
+</MobileWidgetList>
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
 <Size width="902" height="367"/>
 <ResolutionScalingAttr percent="0.9"/>
 <BodyLayoutType type="0"/>
-<MobileWidgetList/>
 </Center>
 </Layout>
 <DesignerVersion DesignerVersion="IAA"/>
