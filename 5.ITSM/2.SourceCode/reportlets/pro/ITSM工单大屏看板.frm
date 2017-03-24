@@ -373,15 +373,17 @@ setInterval(function() {
 </WidgetAttr>
 <Margin top="0" left="0" bottom="0" right="0"/>
 <Border>
-<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<border style="0" color="-12829627" borderRadius="0" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
 <![CDATA[新建标题]]></O>
-<FRFont name="SimSun" style="0" size="72"/>
+<FRFont name="宋体" style="0" size="72"/>
 <Position pos="0"/>
 </WidgetTitle>
+<Background name="ColorBackground" color="-12829627"/>
 <Alpha alpha="1.0"/>
 </Border>
+<Background name="ColorBackground" color="-12829627"/>
 <LayoutAttr selectedIndex="0"/>
 <ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
 <TextAttr>
@@ -392,7 +394,7 @@ setInterval(function() {
 <Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
 <AttrBackground>
-<Background name="ColorBackground" color="-12829627"/>
+<Background name="NullBackground"/>
 <Attr shadow="false"/>
 </AttrBackground>
 <AttrBorder>
@@ -3360,13 +3362,6 @@ setInterval(function() {
 <ConditionAttrList>
 <List index="0">
 <ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="5.0"/>
-</AttrEffect>
-</Attr>
-</AttrList>
 <Condition class="com.fr.data.condition.ListCondition"/>
 </ConditionAttr>
 </List>
@@ -4525,13 +4520,6 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ConditionAttrList>
 <List index="0">
 <ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="5.0"/>
-</AttrEffect>
-</Attr>
-</AttrList>
 <Condition class="com.fr.data.condition.ListCondition"/>
 </ConditionAttr>
 </List>
@@ -6598,13 +6586,6 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ConditionAttrList>
 <List index="0">
 <ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="2.0"/>
-</AttrEffect>
-</Attr>
-</AttrList>
 <Condition class="com.fr.data.condition.ListCondition"/>
 </ConditionAttr>
 </List>
@@ -6723,7 +6704,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 </WordCloudTableDefinition>
 </ChartDefinition>
 </Chart>
-<tools hidden="false" sort="false" export="false" fullScreen="false"/>
+<tools hidden="false" sort="false" export="true" fullScreen="false"/>
 <VanChartZoom>
 <zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
 <from>
@@ -7006,7 +6987,18 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <Size width="902" height="367"/>
 <ResolutionScalingAttr percent="1.0"/>
 <BodyLayoutType type="0"/>
-<MobileWidgetList/>
+<MobileWidgetList>
+<Widget widgetName="report2"/>
+<Widget widgetName="chart1"/>
+<Widget widgetName="chart2"/>
+<Widget widgetName="chart4"/>
+<Widget widgetName="chart5"/>
+<Widget widgetName="chart0"/>
+<Widget widgetName="report1"/>
+<Widget widgetName="chart6"/>
+<Widget widgetName="report0"/>
+<Widget widgetName="chart3"/>
+</MobileWidgetList>
 </Center>
 </Layout>
 <DesignerVersion DesignerVersion="IAA"/>

@@ -253,7 +253,7 @@ WHEN 11 THEN '拒绝'
 ,'【'+left(convert(nvarchar(300),REGISTER_DATE),16)+'】'+convert(nvarchar(300),SYMPTOM) AS SYMPTOM
 
 
-from ITSM_WorkOrder_Sync_test where datediff(HOUR,REGISTER_DATE,getdate())<=5 order by NEWID() ) as TTT
+from ITSM_WorkOrder_Sync_test where datediff(HOUR,REGISTER_DATE,getdate())<=2 order by NEWID() ) as TTT
 order by TTT.REGISTER_DATE desc]]></Query>
 </TableData>
 <TableData name="今日工单来源" class="com.fr.data.impl.DBTableData">
@@ -403,7 +403,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
 <Title4VanChart>
 <Title>
 <GI>
@@ -425,7 +425,7 @@ setInterval(function() {
 </O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="2"/>
@@ -1064,7 +1064,7 @@ setInterval(function() {
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="0" y="21" width="201" height="115"/>
+<BoundsAttr x="0" y="43" width="240" height="239"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -1096,7 +1096,7 @@ setInterval(function() {
 <WidgetTitle>
 <O>
 <![CDATA[工单发生情况]]></O>
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Position pos="2"/>
 <Background name="ColorBackground" color="-12829627"/>
 </WidgetTitle>
@@ -1125,7 +1125,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
 <Title4VanChart>
 <Title>
 <GI>
@@ -1353,7 +1353,7 @@ setInterval(function() {
 </Attr>
 <Attr class="com.fr.plugin.chart.base.AttrEffect">
 <AttrEffect>
-<attr enabled="true" period="2.0"/>
+<attr enabled="false" period="2.0"/>
 </AttrEffect>
 </Attr>
 <Attr class="com.fr.plugin.chart.bubble.attr.VanChartAttrBubble">
@@ -1387,7 +1387,7 @@ setInterval(function() {
 <Attr showLine="false" autoAdjust="false" position="5" isCustom="true"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="48" foreground="-65536"/>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-2171170"/>
 </Attr>
 </TextAttr>
 <AttrToolTipContent>
@@ -1423,10 +1423,10 @@ setInterval(function() {
 <AttrLabel>
 <labelAttr enable="true"/>
 <labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
-<Attr showLine="false" autoAdjust="false" position="5" isCustom="true"/>
+<Attr showLine="false" autoAdjust="false" position="5" isCustom="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="宋体" style="0" size="72"/>
 </Attr>
 </TextAttr>
 <AttrToolTipContent>
@@ -1464,10 +1464,10 @@ setInterval(function() {
 <AttrLabel>
 <labelAttr enable="true"/>
 <labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
-<Attr showLine="false" autoAdjust="false" position="5" isCustom="true"/>
+<Attr showLine="false" autoAdjust="false" position="5" isCustom="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="宋体" style="0" size="72"/>
 </Attr>
 </TextAttr>
 <AttrToolTipContent>
@@ -1731,7 +1731,7 @@ setInterval(function() {
 <![CDATA[工单发生情况]]></O>
 </widgetValue>
 <LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-12829627"/>
 <border style="0" color="-16104350"/>
 </InnerWidget>
@@ -1982,7 +1982,7 @@ setInterval(function() {
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="201" y="21" width="402" height="231"/>
+<BoundsAttr x="240" y="43" width="481" height="481"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -2008,13 +2008,13 @@ setInterval(function() {
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
-<Margin top="0" left="0" bottom="0" right="0"/>
+<Margin top="1" left="1" bottom="1" right="1"/>
 <Border>
 <border style="0" color="-16104350" borderRadius="0" type="1" borderStyle="1"/>
 <WidgetTitle>
 <O>
 <![CDATA[最近新增工单]]></O>
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Position pos="2"/>
 <Background name="ColorBackground" color="-12829627"/>
 </WidgetTitle>
@@ -2181,7 +2181,7 @@ setInterval(function() {
 <![CDATA[最近新增工单]]></O>
 </widgetValue>
 <LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-12829627"/>
 <border style="0" color="-16104350"/>
 </InnerWidget>
@@ -2243,7 +2243,7 @@ setInterval(function() {
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
-<BoundsAttr x="201" y="252" width="402" height="115"/>
+<BoundsAttr x="240" y="524" width="481" height="244"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -2303,7 +2303,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
 <Title4VanChart>
 <Title>
 <GI>
@@ -2323,7 +2323,7 @@ setInterval(function() {
 <![CDATA[工单时间分布（单）]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="2"/>
@@ -2435,7 +2435,7 @@ setInterval(function() {
 </Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrMarker">
 <VanAttrMarker>
-<Attr isCommon="true" markerType="RoundFilledMarker" radius="0.5" width="30.0" height="30.0"/>
+<Attr isCommon="true" markerType="RoundFilledMarker" radius="3.5" width="30.0" height="30.0"/>
 <Background name="NullBackground"/>
 </VanAttrMarker>
 </Attr>
@@ -2451,7 +2451,7 @@ setInterval(function() {
 <Attr showLine="false" autoAdjust="true" position="1" isCustom="true"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="48" foreground="-1"/>
 </Attr>
 </TextAttr>
 <AttrToolTipContent>
@@ -2488,53 +2488,6 @@ setInterval(function() {
 </AttrList>
 </ConditionAttr>
 </DefaultAttr>
-<ConditionAttrList>
-<List index="0">
-<ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.chart.base.AttrBackground">
-<AttrBackground>
-<Background name="ColorBackground" color="-65536"/>
-<Attr shadow="false"/>
-</AttrBackground>
-</Attr>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="5.0"/>
-</AttrEffect>
-</Attr>
-<Attr class="com.fr.plugin.chart.base.VanChartAttrMarker">
-<VanAttrMarker>
-<Attr isCommon="true" markerType="RoundMarker" radius="8.0" width="30.0" height="30.0"/>
-<Background name="NullBackground"/>
-</VanAttrMarker>
-</Attr>
-</AttrList>
-<Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
-<CNAME>
-<![CDATA[值]]></CNAME>
-<Compare op="3">
-<O t="I">
-<![CDATA[80]]></O>
-</Compare>
-</Condition>
-</ConditionAttr>
-</List>
-<List index="1">
-<ConditionAttr name="条件属性2">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="5.0"/>
-</AttrEffect>
-</Attr>
-</AttrList>
-<Condition class="com.fr.data.condition.ListCondition"/>
-</ConditionAttr>
-</List>
-</ConditionAttrList>
 </ConditionCollection>
 <Legend4VanChart>
 <Legend>
@@ -2650,7 +2603,7 @@ setInterval(function() {
 <ArrowShow arrowShow="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Verdana" style="0" size="64" foreground="-1"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-1"/>
 </Attr>
 </TextAttr>
 <Format class="java.text.SimpleDateFormat">
@@ -3122,7 +3075,7 @@ setInterval(function() {
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="603" y="252" width="299" height="115"/>
+<BoundsAttr x="721" y="524" width="359" height="244"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -3182,7 +3135,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
 <Title4VanChart>
 <Title>
 <GI>
@@ -3202,7 +3155,7 @@ setInterval(function() {
 <![CDATA[今日工单分类（单）]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="2"/>
@@ -3360,13 +3313,6 @@ setInterval(function() {
 <ConditionAttrList>
 <List index="0">
 <ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="5.0"/>
-</AttrEffect>
-</Attr>
-</AttrList>
 <Condition class="com.fr.data.condition.ListCondition"/>
 </ConditionAttr>
 </List>
@@ -3530,7 +3476,7 @@ setInterval(function() {
 <![CDATA[]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Verdana" style="0" size="48" foreground="-10066330"/>
+<FRFont name="Verdana" style="0" size="64" foreground="-10066330"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="0"/>
@@ -3578,7 +3524,7 @@ setInterval(function() {
 <![CDATA[]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Verdana" style="0" size="48" foreground="-10066330"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="0"/>
@@ -3591,7 +3537,7 @@ setInterval(function() {
 <ArrowShow arrowShow="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="48" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
 </Attr>
 </TextAttr>
 <AxisLabelCount value="=1"/>
@@ -4007,7 +3953,7 @@ setInterval(function() {
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="603" y="21" width="299" height="75"/>
+<BoundsAttr x="721" y="43" width="359" height="156"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -4328,7 +4274,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
-<BoundsAttr x="0" y="0" width="902" height="21"/>
+<BoundsAttr x="0" y="0" width="1080" height="43"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -4388,7 +4334,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
 <Title4VanChart>
 <Title>
 <GI>
@@ -4408,7 +4354,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[今日工单分配情况（单）]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="2"/>
@@ -4525,13 +4471,6 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ConditionAttrList>
 <List index="0">
 <ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrEffect">
-<AttrEffect>
-<attr enabled="true" period="5.0"/>
-</AttrEffect>
-</Attr>
-</AttrList>
 <Condition class="com.fr.data.condition.ListCondition"/>
 </ConditionAttr>
 </List>
@@ -4695,7 +4634,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Verdana" style="0" size="48" foreground="-10066330"/>
+<FRFont name="Verdana" style="0" size="64" foreground="-10066330"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="0"/>
@@ -4743,7 +4682,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[]]></O>
 <TextAttr>
 <Attr rotation="-90" alignText="0">
-<FRFont name="Verdana" style="0" size="48" foreground="-10066330"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="0"/>
@@ -4756,7 +4695,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ArrowShow arrowShow="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="48" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
 </Attr>
 </TextAttr>
 <AxisLabelCount value="=1"/>
@@ -4788,8 +4727,8 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[服务单分配组]]></Name>
 </TableData>
 <CategoryName value="当前分配组"/>
-<ChartSummaryColumn name="已解决工单" function="com.fr.data.util.function.SumFunction" customName="已解决"/>
-<ChartSummaryColumn name="未解决工单" function="com.fr.data.util.function.SumFunction" customName="未解决"/>
+<ChartSummaryColumn name="已解决工单" function="com.fr.data.util.function.SumFunction" customName="已解决工单"/>
+<ChartSummaryColumn name="未解决工单" function="com.fr.data.util.function.SumFunction" customName="未解决工单"/>
 </MoreNameCDDefinition>
 </ChartDefinition>
 </Chart>
@@ -5108,7 +5047,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="603" y="96" width="299" height="77"/>
+<BoundsAttr x="721" y="199" width="359" height="160"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -5140,7 +5079,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <WidgetTitle>
 <O>
 <![CDATA[今日服务单故障情况（单）]]></O>
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Position pos="2"/>
 <Background name="ColorBackground" color="-12829627"/>
 </WidgetTitle>
@@ -5160,7 +5099,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <RowHeight defaultValue="723900">
 <![CDATA[990600,1066800,144000,989280,1065600,723900,723900,723900,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[2592000,144000,3168000,144000,3168000,144000,3168000,144000,3168000,144000,2592000,2743200]]></ColumnWidth>
+<![CDATA[2857500,144000,3048000,144000,3009900,144000,3086100,144000,2895600,144000,2552700,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" rs="3" s="0">
 <O t="DSColumn">
@@ -5186,33 +5125,33 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <CellGUIAttr showAsHTML="true"/>
 <Expand dir="0"/>
 </C>
-<C c="3" r="0" s="1">
+<C c="3" r="0" s="3">
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 <Expand/>
 </C>
-<C c="4" r="0" s="3">
+<C c="4" r="0" s="4">
 <O>
 <![CDATA[应用软件]]></O>
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="5" r="0" s="1">
+<C c="5" r="0" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="6" r="0" s="4">
+<C c="6" r="0" s="5">
 <O>
 <![CDATA[账   号]]></O>
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="7" r="0" s="1">
+<C c="7" r="0" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="8" r="0" s="5">
+<C c="8" r="0" s="6">
 <O>
 <![CDATA[未分类]]></O>
 <PrivilegeControl/>
@@ -5222,7 +5161,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="10" r="0" rs="3" s="6">
+<C c="10" r="0" rs="3" s="7">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="未解决"/>
 <Complex/>
@@ -5252,13 +5191,13 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="3" r="1" s="1">
+<C c="3" r="1" s="3">
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 <Expand/>
 </C>
-<C c="4" r="1" s="3">
+<C c="4" r="1" s="4">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="应用软件问题"/>
 <Complex/>
@@ -5271,11 +5210,11 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="5" r="1" s="1">
+<C c="5" r="1" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="6" r="1" s="4">
+<C c="6" r="1" s="5">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="账号问题"/>
 <Complex/>
@@ -5288,11 +5227,11 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="7" r="1" s="1">
+<C c="7" r="1" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="8" r="1" s="5">
+<C c="8" r="1" s="6">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="未分类"/>
 <Complex/>
@@ -5313,31 +5252,31 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="2" r="2" s="1">
+<C c="2" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="3" r="2" s="1">
+<C c="3" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="4" r="2" s="1">
+<C c="4" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="5" r="2" s="1">
+<C c="5" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="6" r="2" s="1">
+<C c="6" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="7" r="2" s="1">
+<C c="7" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="8" r="2" s="1">
+<C c="8" r="2" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -5345,42 +5284,35 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="0" r="3" rs="2" s="7">
-<O t="RichText">
-<RichText>
-<RichChar styleIndex="8">
-<text>
-<![CDATA[总工单]]></text>
-</RichChar>
-</RichText>
-</O>
+<C c="0" r="3" rs="2" s="8">
+<O>
+<![CDATA[总服务单]]></O>
 <PrivilegeControl/>
-<CellGUIAttr showAsHTML="true"/>
 <Expand dir="0"/>
 </C>
 <C c="1" r="3" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="2" r="3" s="4">
+<C c="2" r="3" s="5">
 <O>
 <![CDATA[系统问题]]></O>
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="3" r="3" s="1">
+<C c="3" r="3" s="3">
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 <Expand/>
 </C>
-<C c="4" r="3" s="5">
+<C c="4" r="3" s="6">
 <O>
 <![CDATA[用户操作]]></O>
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="5" r="3" s="1">
+<C c="5" r="3" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -5390,11 +5322,11 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand dir="0"/>
 </C>
-<C c="7" r="3" s="1">
+<C c="7" r="3" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="8" r="3" s="3">
+<C c="8" r="3" s="4">
 <O>
 <![CDATA[其他]]></O>
 <PrivilegeControl/>
@@ -5404,7 +5336,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="10" r="3" rs="2" s="6">
+<C c="10" r="3" rs="2" s="9">
 <O>
 <![CDATA[待解决]]></O>
 <PrivilegeControl/>
@@ -5414,7 +5346,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="2" r="4" s="4">
+<C c="2" r="4" s="5">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="系统问题"/>
 <Complex/>
@@ -5427,13 +5359,13 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="3" r="4" s="1">
+<C c="3" r="4" s="3">
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 <Expand/>
 </C>
-<C c="4" r="4" s="5">
+<C c="4" r="4" s="6">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="用户操作"/>
 <Complex/>
@@ -5446,7 +5378,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="5" r="4" s="1">
+<C c="5" r="4" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -5463,11 +5395,11 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="7" r="4" s="1">
+<C c="7" r="4" s="3">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="8" r="4" s="3">
+<C c="8" r="4" s="4">
 <O t="DSColumn">
 <Attributes dsName="订单完成指标明细" columnName="其他"/>
 <Complex/>
@@ -5493,42 +5425,47 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 </FormElementCase>
 <StyleList>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="112" foreground="-1"/>
 <Background name="ColorBackground" color="-11813788"/>
 <Border/>
 </Style>
 <Style textStyle="1" imageLayout="1">
-<FRFont name="SimSun" style="0" size="64"/>
+<FRFont name="SimSun" style="0" size="72"/>
 <Background name="ColorBackground" color="-13422022"/>
 <Border/>
 </Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-9792513"/>
 <Border/>
 </Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="88"/>
+<Background name="ColorBackground" color="-13422022"/>
+<Border/>
+</Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-6583820"/>
 <Border/>
 </Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-1215354"/>
 <Border/>
 </Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
-<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-20626"/>
 <Border/>
 </Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
-<FRFont name="微软雅黑" style="1" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="112" foreground="-1"/>
 <Background name="ColorBackground" color="-1215354"/>
 <Border/>
 </Style>
 <Style horizontal_alignment="0" textStyle="1" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="64" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-11813788"/>
 <Border>
 <Top color="-1"/>
@@ -5537,9 +5474,9 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <Right color="-1"/>
 </Border>
 </Style>
-<Style imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="88"/>
-<Background name="NullBackground"/>
+<Style horizontal_alignment="0" textStyle="1" imageLayout="1" paddingLeft="4">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
 <Border/>
 </Style>
 </StyleList>
@@ -5561,7 +5498,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[今日服务单故障情况（单）]]></O>
 </widgetValue>
 <LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-12829627"/>
 <border style="0" color="-16104350"/>
 </InnerWidget>
@@ -5925,7 +5862,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
-<BoundsAttr x="603" y="173" width="299" height="79"/>
+<BoundsAttr x="721" y="359" width="359" height="165"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -6005,7 +5942,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[今日工单来源]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="2"/>
@@ -6103,7 +6040,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <Attr showLine="true" autoAdjust="false" position="6" isCustom="true"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="48" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="64" foreground="-1"/>
 </Attr>
 </TextAttr>
 <AttrToolTipContent>
@@ -6427,7 +6364,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="0" y="136" width="201" height="116"/>
+<BoundsAttr x="0" y="282" width="240" height="242"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -6462,10 +6399,10 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <FRFont name="宋体" style="0" size="72"/>
 <Position pos="0"/>
 </WidgetTitle>
-<Background name="ColorBackground" color="-12829627"/>
+<Background name="ColorBackground" color="-11349576"/>
 <Alpha alpha="1.0"/>
 </Border>
-<Background name="ColorBackground" color="-12829627"/>
+<Background name="ColorBackground" color="-11349576"/>
 <LayoutAttr selectedIndex="0"/>
 <ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
 <TextAttr>
@@ -6507,7 +6444,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <![CDATA[今日热点故障]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-1"/>
+<FRFont name="微软雅黑" style="0" size="96" foreground="-1"/>
 </Attr>
 </TextAttr>
 <TitleVisible value="true" position="2"/>
@@ -6704,7 +6641,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 </AttrFillStyle>
 </newPlotFillStyle>
 <VanChartPlotAttr isAxisRotation="false"/>
-<VanChartWordCloudPlotAttr minrotation="2.0" maxrotation="4.0" autofontsize="false" minfontsize="3.0" maxfontsize="20.0" shapetype="0"/>
+<VanChartWordCloudPlotAttr minrotation="4.0" maxrotation="4.0" autofontsize="false" minfontsize="3.0" maxfontsize="20.0" shapetype="0"/>
 <FRFont name="微软雅黑" style="0" size="72"/>
 </Plot>
 <DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
@@ -6993,12 +6930,12 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="0" y="252" width="201" height="115"/>
+<BoundsAttr x="0" y="524" width="240" height="244"/>
 </Widget>
 <Sorted sorted="false"/>
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
-<Size width="902" height="367"/>
+<Size width="1080" height="768"/>
 <ResolutionScalingAttr percent="0.9"/>
 <BodyLayoutType type="0"/>
 <MobileWidgetList/>
