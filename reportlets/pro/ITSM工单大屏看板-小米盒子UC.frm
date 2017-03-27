@@ -279,6 +279,16 @@ END ) AS 工单来源
 from ITSM_WorkOrder_Sync_test where datediff(day,REGISTER_DATE,getdate())=0 and  INCIDENT_STATUS<>7
 group by INCIDENT_SOURCE]]></Query>
 </TableData>
+<TableData name="工单数据最后更新时间" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[JDBC2]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[SELECT MAX(INSERTTIME) as LAST_UPDATETIME FROM [ITSM_WorkOrder_Sync_test]A WHERE INSERTTIME IS NOT NULL]]></Query>
+</TableData>
 </TableDataMap>
 <ReportFitAttr fitStateInPC="2" fitFont="false"/>
 <Parameters/>
@@ -4237,7 +4247,7 @@ qp/&85huhACSN-5n<bXjOO.bBoT[R+K'4512Q$1.o(`$uSkYfK\dF7.4/b2%Im8"qNoYJbX-
 <C c="1" r="0" s="1">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="ITSM工单系统看板  " + format(now(), "yyyy-MM-dd HH:mm:ss")]]></Attributes>
+<![CDATA[="ITSM工单看板   最后更新时间: "+工单数据最后更新时间.select(LAST_UPDATETIME)]]></Attributes>
 </O>
 <PrivilegeControl/>
 <Expand/>
