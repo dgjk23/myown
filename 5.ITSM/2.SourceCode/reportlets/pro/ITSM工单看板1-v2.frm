@@ -1095,7 +1095,7 @@ GROUP  BY  times_type)  A]]></Query>
 <CategoryName value="Address"/>
 <ChartSummaryColumn name="工单量" function="com.fr.data.util.function.SumFunction" customName="工单量"/>
 </MoreNameCDDefinition>
-<attr useAreaName="true"/>
+<attr longitude="" latitude="" endLongitude="" endLatitude="" useAreaName="true" endAreaName=""/>
 </pointDefinition>
 </VanMapDefinition>
 </ChartDefinition>
@@ -1118,7 +1118,7 @@ GROUP  BY  times_type)  A]]></Query>
 </refreshMoreLabel>
 </Chart>
 </InnerWidget>
-<BoundsAttr x="0" y="36" width="480" height="325"/>
+<BoundsAttr x="0" y="36" width="480" height="317"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
@@ -1630,7 +1630,7 @@ GROUP  BY  times_type)  A]]></Query>
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="0" y="0" width="480" height="361"/>
+<BoundsAttr x="0" y="0" width="480" height="353"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -2030,7 +2030,7 @@ GROUP  BY  times_type)  A]]></Query>
 </refreshMoreLabel>
 </Chart>
 </InnerWidget>
-<BoundsAttr x="480" y="36" width="480" height="82"/>
+<BoundsAttr x="480" y="36" width="467" height="130"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
@@ -2047,7 +2047,7 @@ GROUP  BY  times_type)  A]]></Query>
 <Background name="ColorBackground" color="-3084584"/>
 <border style="1" color="-723724"/>
 </InnerWidget>
-<BoundsAttr x="0" y="0" width="480" height="36"/>
+<BoundsAttr x="0" y="0" width="467" height="36"/>
 </Widget>
 <title class="com.fr.form.ui.Label">
 <WidgetName name="Title_chart1"/>
@@ -2431,7 +2431,7 @@ GROUP  BY  times_type)  A]]></Query>
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="480" y="0" width="480" height="118"/>
+<BoundsAttr x="480" y="0" width="467" height="166"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -3463,7 +3463,7 @@ GROUP  BY  times_type)  A]]></Query>
 <DefinitionMapList>
 <DefinitionMap key="line">
 <MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<Top topCate="5" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
 <![CDATA[工单地区分析]]></Name>
@@ -3474,7 +3474,7 @@ GROUP  BY  times_type)  A]]></Query>
 </DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<Top topCate="5" topValue="5" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
 <![CDATA[工单地区分析]]></Name>
@@ -3505,7 +3505,7 @@ GROUP  BY  times_type)  A]]></Query>
 </refreshMoreLabel>
 </Chart>
 </InnerWidget>
-<BoundsAttr x="0" y="36" width="480" height="143"/>
+<BoundsAttr x="0" y="36" width="480" height="135"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
@@ -4564,11 +4564,11 @@ GROUP  BY  times_type)  A]]></Query>
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="0" y="361" width="480" height="179"/>
+<BoundsAttr x="0" y="353" width="480" height="171"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
-<WidgetName name="chart3"/>
+<WidgetName name="chart4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -4586,7 +4586,7 @@ GROUP  BY  times_type)  A]]></Query>
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.ChartEditor">
-<WidgetName name="chart3"/>
+<WidgetName name="chart4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -4595,7 +4595,7 @@ GROUP  BY  times_type)  A]]></Query>
 <border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
-<![CDATA[工单分类]]></O>
+<![CDATA[故障原因分类]]></O>
 <FRFont name="宋体" style="0" size="72"/>
 <Position pos="2"/>
 <Background name="ColorBackground" color="-3084584"/>
@@ -4818,7 +4818,7 @@ GROUP  BY  times_type)  A]]></Query>
 </AttrFillStyle>
 </newPlotFillStyle>
 <VanChartPlotAttr isAxisRotation="false"/>
-<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
+<VanChartRectanglePlotAttr vanChartPlotType="stack" isDefaultIntervalBackground="true"/>
 <XAxisList>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -4924,6 +4924,20 @@ GROUP  BY  times_type)  A]]></Query>
 <VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="20.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="true"/>
 </Plot>
 <DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
+<ChartDefinition>
+<MoreNameCDDefinition>
+<Top topCate="5" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类分析-故障]]></Name>
+</TableData>
+<CategoryName value="故障原因"/>
+<ChartSummaryColumn name="请求" function="com.fr.data.util.function.SumFunction" customName="请求"/>
+<ChartSummaryColumn name="故障" function="com.fr.data.util.function.SumFunction" customName="故障"/>
+<ChartSummaryColumn name="事件" function="com.fr.data.util.function.SumFunction" customName="事件"/>
+<ChartSummaryColumn name="未分类" function="com.fr.data.util.function.SumFunction" customName="未分类"/>
+</MoreNameCDDefinition>
+</ChartDefinition>
 </Chart>
 <tools hidden="true" sort="true" export="true" fullScreen="true"/>
 <VanChartZoom>
@@ -4943,33 +4957,33 @@ GROUP  BY  times_type)  A]]></Query>
 </refreshMoreLabel>
 </Chart>
 </InnerWidget>
-<BoundsAttr x="480" y="36" width="238" height="143"/>
+<BoundsAttr x="480" y="36" width="467" height="135"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="Title_chart3"/>
+<WidgetName name="Title_chart4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
 <O>
-<![CDATA[工单分类]]></O>
+<![CDATA[故障原因分类]]></O>
 </widgetValue>
 <LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
 <FRFont name="宋体" style="0" size="72"/>
 <Background name="ColorBackground" color="-3084584"/>
 <border style="1" color="-723724"/>
 </InnerWidget>
-<BoundsAttr x="0" y="0" width="238" height="36"/>
+<BoundsAttr x="0" y="0" width="467" height="36"/>
 </Widget>
 <title class="com.fr.form.ui.Label">
-<WidgetName name="Title_chart3"/>
+<WidgetName name="Title_chart4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
 <widgetValue>
 <O>
-<![CDATA[工单分类]]></O>
+<![CDATA[故障原因分类]]></O>
 </widgetValue>
 <LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
 <FRFont name="宋体" style="0" size="72"/>
@@ -4977,7 +4991,7 @@ GROUP  BY  times_type)  A]]></Query>
 <border style="1" color="-723724"/>
 </title>
 <body class="com.fr.form.ui.ChartEditor">
-<WidgetName name="chart3"/>
+<WidgetName name="chart4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -4986,7 +5000,7 @@ GROUP  BY  times_type)  A]]></Query>
 <border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
 <WidgetTitle>
 <O>
-<![CDATA[工单分类]]></O>
+<![CDATA[故障原因分类]]></O>
 <FRFont name="宋体" style="0" size="72"/>
 <Position pos="2"/>
 <Background name="ColorBackground" color="-3084584"/>
@@ -5335,7 +5349,693 @@ GROUP  BY  times_type)  A]]></Query>
 </Chart>
 </body>
 </InnerWidget>
-<BoundsAttr x="480" y="361" width="238" height="179"/>
+<BoundsAttr x="480" y="353" width="467" height="171"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.container.WTitleLayout">
+<WidgetName name="report3"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="0" left="0" bottom="0" right="0"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report3"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,228600,723900,76200,792000,1152000,876300,1219200,381000,432000,432000,190500,800100,0,792000,1152000,1152000,876300,723900,432000,432000,360000,723900,381000,38100,792000,304800,1152000,1296000,800100,432000,432000,360000,266700,914400,38100,792000,1152000,1152000,1296000,762000,432000,432000,266700,432000,723900,0,792000,1152000,571500,1104900,1028700,647700,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="21" cs="10" s="0">
+<O>
+<![CDATA[  这一年]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
+<O>
+<![CDATA[本年]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="26" r="22" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="bngdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="25" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="28" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbngdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="29" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA23 - AC26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="32" r="25" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AC26 = 0, 0, AD26 / AC26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="26" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="28" cs="10" s="9">
+<O>
+<![CDATA[  P1]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="29" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="32" cs="2" s="10">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="28" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP1"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="29" r="32" cs="3" s="11">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA30 - AC33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="32" r="32" cs="4" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AC33 = 0, 0, AD33 / AC33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="26" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="33">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="27" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="28" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="29" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="30" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="31" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="32" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="33" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="34" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="35" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="35" cs="10" s="9">
+<O>
+<![CDATA[  解决情况]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="36" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="解决"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="26" r="39" cs="2" s="10">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="28" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="S解决"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="29" r="39" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AA37 - AC40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="32" r="39" cs="4" s="12">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AC40 = 0, 0, AD40 / AC40)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AG40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</InnerWidget>
+<BoundsAttr x="480" y="0" width="93" height="187"/>
+</Widget>
+<body class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report3"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList/>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList/>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</body>
+</InnerWidget>
+<BoundsAttr x="480" y="166" width="93" height="187"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
@@ -5384,36 +6084,13 @@ GROUP  BY  times_type)  A]]></Query>
 <RowHeight defaultValue="723900">
 <![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,228600,723900,76200,792000,1152000,876300,1219200,381000,432000,432000,360000,190500,800100,0,792000,1152000,1152000,876300,723900,432000,432000,0,0,0,0,0,0,0,0,0,0,0,360000,266700,914400,38100,792000,1152000,1152000,1296000,762000,432000,432000,266700,432000,723900,0,792000,1152000,571500,1104900,1028700,647700,2743200]]></ColumnWidth>
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,190500,800100,0,792000,1152000,1152000,876300,723900,432000,432000,432000,723900,0,792000,1152000,571500,1104900,1028700,647700,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="26" r="21" cs="10" s="0">
-<O>
-<![CDATA[  这一年]]></O>
-<PrivilegeControl/>
-<NameJavaScriptGroup>
-<NameJavaScript name="动态参数1">
-<JavaScript class="com.fr.js.ParameterJavaScript">
-<Parameters>
-<Parameter>
-<Attributes name="times_type"/>
-<O>
-<![CDATA[本年]]></O>
-</Parameter>
-</Parameters>
-</JavaScript>
-</NameJavaScript>
-</NameJavaScriptGroup>
-<Expand/>
-</C>
-<C c="36" r="21" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="21" cs="10" s="2">
+<C c="48" r="21" cs="10" s="0">
 <O>
 <![CDATA[  上个月]]></O>
 <PrivilegeControl/>
@@ -5432,93 +6109,7 @@ GROUP  BY  times_type)  A]]></Query>
 </NameJavaScriptGroup>
 <Expand/>
 </C>
-<C c="47" r="21" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="21" cs="10" s="2">
-<O>
-<![CDATA[  这个月]]></O>
-<PrivilegeControl/>
-<NameJavaScriptGroup>
-<NameJavaScript name="动态参数1">
-<JavaScript class="com.fr.js.ParameterJavaScript">
-<Parameters>
-<Parameter>
-<Attributes name="times_type"/>
-<O>
-<![CDATA[本月]]></O>
-</Parameter>
-</Parameters>
-</JavaScript>
-</NameJavaScript>
-</NameJavaScriptGroup>
-<Expand/>
-</C>
-<C c="58" r="21" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="59" r="21" cs="10" s="2">
-<O>
-<![CDATA[  本周]]></O>
-<PrivilegeControl/>
-<NameJavaScriptGroup>
-<NameJavaScript name="动态参数1">
-<JavaScript class="com.fr.js.ParameterJavaScript">
-<Parameters>
-<Parameter>
-<Attributes name="times_type"/>
-<O>
-<![CDATA[本周]]></O>
-</Parameter>
-</Parameters>
-</JavaScript>
-</NameJavaScript>
-</NameJavaScriptGroup>
-<Expand/>
-</C>
-<C c="69" r="21" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="21" cs="9" s="2">
-<O>
-<![CDATA[  今天]]></O>
-<PrivilegeControl/>
-<NameJavaScriptGroup>
-<NameJavaScript name="动态参数1">
-<JavaScript class="com.fr.js.ParameterJavaScript">
-<Parameters>
-<Parameter>
-<Attributes name="times_type"/>
-<O>
-<![CDATA[本日]]></O>
-</Parameter>
-</Parameters>
-</JavaScript>
-</NameJavaScript>
-</NameJavaScriptGroup>
-<Expand/>
-</C>
-<C c="26" r="22" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="bngdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="22" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="22" cs="10" rs="3" s="3">
+<C c="48" r="22" cs="10" rs="3" s="1">
 <O t="DSColumn">
 <Attributes dsName="工单时间类型" columnName="sygdl"/>
 <Complex/>
@@ -5531,185 +6122,7 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="47" r="22" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="22" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="bygdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="22" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="59" r="22" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="bzgdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="22" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="22" cs="9" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="brgdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="23" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="23" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="23" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="23" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="24" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="24" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="24" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="24" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="25" cs="2" s="6">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="28" r="25" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="sbngdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="29" r="25" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=AA23 - AC26]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="32" r="25" cs="4" s="9">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(AC26 = 0, 0, AD26 / AC26)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="36" r="25" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="25" cs="2" s="10">
+<C c="48" r="25" cs="2" s="2">
 <O>
 <![CDATA[▼]]></O>
 <PrivilegeControl/>
@@ -5732,7 +6145,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="39" r="25" s="7">
+<C c="50" r="25" s="3">
 <O t="DSColumn">
 <Attributes dsName="工单时间类型" columnName="ssygdl"/>
 <Complex/>
@@ -5745,7 +6158,7 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="40" r="25" cs="3" s="8">
+<C c="51" r="25" cs="3" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=AL23 - AN26]]></Attributes>
@@ -5766,7 +6179,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="43" r="25" cs="4" s="11">
+<C c="54" r="25" cs="4" s="5">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=IF(AN26 = 0, 0, AO26 / AN26)]]></Attributes>
@@ -5787,11 +6200,106 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="47" r="25" s="1">
+<C c="48" r="26" s="6">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="48" r="25" cs="2" s="10">
+<C c="49" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="26" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="27" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="28" cs="10" s="9">
+<O>
+<![CDATA[  P2]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="29" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="32" cs="2" s="2">
 <O>
 <![CDATA[▼]]></O>
 <PrivilegeControl/>
@@ -5801,7 +6309,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[BC26 >= 0]]></Formula>
+<![CDATA[AR33 > 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
 <O>
@@ -5814,9 +6322,186 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="50" r="25" s="7">
+<C c="50" r="32" s="3">
 <O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="sbygdl"/>
+<Attributes dsName="工单等级数量" columnName="SP2"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="32" cs="3" s="10">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AL30 - AN33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AR33 > 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="32" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AN33 = 0, 0, AO33 / AN33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AR33 > 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="48" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="33" s="8">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="33">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="35" cs="10" s="9">
+<O>
+<![CDATA[  电话]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="36" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="电话"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="39" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AR40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="S电话"/>
 <Complex/>
 <RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
 <FN>
@@ -5831,7 +6516,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[BC26 >= 0]]></Formula>
+<![CDATA[AR40 >= 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -5840,10 +6525,10 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="51" r="25" cs="3" s="8">
+<C c="51" r="39" cs="3" s="11">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=AW23 - AY26]]></Attributes>
+<![CDATA[=AL37 - AN40]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -5852,7 +6537,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[BC26 >= 0]]></Formula>
+<![CDATA[AR40 >= 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -5861,10 +6546,10 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="54" r="25" cs="4" s="11">
+<C c="54" r="39" cs="4" s="5">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=IF(AY26 = 0, 0, AZ26 / AY26)]]></Attributes>
+<![CDATA[=IF(AN40 = 0, 0, AO40 / AN40)]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -5873,7 +6558,245 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[BC26 >= 0]]></Formula>
+<![CDATA[AR40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="宋体" style="0" size="80"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</InnerWidget>
+<BoundsAttr x="573" y="0" width="93" height="187"/>
+</Widget>
+<body class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report0"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,190500,800100,0,792000,1152000,1152000,876300,723900,432000,432000,360000,432000,723900,0,792000,1152000,571500,1104900,1028700,647700,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="21" cs="10" s="0">
+<O>
+<![CDATA[  上个月]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
+<O>
+<![CDATA[上月]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="58" r="21" s="1">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="22" cs="10" rs="3" s="2">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sygdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="58" r="22" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="58" r="23" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="58" r="24" s="3">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="25" cs="2" s="4">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AR26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="25" s="5">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="ssygdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="25" cs="3" s="6">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AL23-AN26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AR26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="25" cs="4" s="7">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AN26=0,0,AO26/AN26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AR26>0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -5883,280 +6806,6 @@ GROUP  BY  times_type)  A]]></Query>
 <Expand/>
 </C>
 <C c="58" r="25" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="59" r="25" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="61" r="25" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="sbzgdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="62" r="25" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=BH23 - BJ26]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="65" r="25" cs="4" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(BJ26 = 0, 0, BK26 / BJ26)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="69" r="25" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="25" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="72" r="25" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单时间类型" columnName="sbrgdl"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="73" r="25" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=BS23 - BU26]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="76" r="25" cs="3" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(BU26 = 0, 0, BV26 / BU26)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY26 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="26" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="27" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="28" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="29" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="30" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="31" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="32" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="33" r="26" s="12">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="34" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="35" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="38" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="39" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="40" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="41" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="42" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="43" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="44" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="45" r="26" s="13">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="46" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="26" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6192,7 +6841,7 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="56" r="26" s="1">
+<C c="56" r="26" s="8">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6204,211 +6853,43 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="26" s="1">
+<C c="48" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="60" r="26" s="1">
+<C c="49" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="61" r="26" s="1">
+<C c="50" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="62" r="26" s="1">
+<C c="51" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="63" r="26" s="1">
+<C c="52" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="64" r="26" s="1">
+<C c="53" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="65" r="26" s="1">
+<C c="54" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="66" r="26" s="1">
+<C c="55" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="67" r="26" s="1">
+<C c="56" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="68" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="71" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="72" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="73" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="74" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="75" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="76" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="77" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="78" r="26" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="27" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="28" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="29" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="30" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="31" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="32" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="33" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="34" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="35" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="27" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="38" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="39" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="40" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="41" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="42" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="43" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="44" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="45" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="46" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="27" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="49" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="50" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="51" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="52" r="27" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="53" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="54" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="55" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="56" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="57" r="27" s="14">
+<C c="57" r="27" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6416,109 +6897,9 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="60" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="61" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="62" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="63" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="64" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="65" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="66" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="67" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="68" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="27" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="71" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="72" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="73" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="74" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="75" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="76" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="77" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="78" r="27" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="28" cs="10" s="15">
-<O>
-<![CDATA[  P1]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="28" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="28" cs="10" s="15">
+<C c="48" r="28" cs="10" s="10">
 <O>
 <![CDATA[  P2]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="28" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="28" cs="10" s="15">
-<O>
-<![CDATA[  P3]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6526,40 +6907,7 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="28" cs="10" s="15">
-<O>
-<![CDATA[  P4]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="28" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="28" cs="9" s="15">
-<O>
-<![CDATA[  P5]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="29" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="P1"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="29" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="29" cs="10" rs="3" s="3">
+<C c="48" r="29" cs="10" rs="3" s="2">
 <O t="DSColumn">
 <Attributes dsName="工单等级数量" columnName="P2"/>
 <Complex/>
@@ -6572,90 +6920,19 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="47" r="29" s="5">
+<C c="58" r="29" s="11">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="48" r="29" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="P3"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
+<C c="58" r="30" s="11">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="58" r="29" s="4">
+<C c="58" r="31" s="11">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="29" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="P4"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="29" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="29" cs="9" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="P5"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="30" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="30" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="30" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="30" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="31" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="31" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="31" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="31" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="32" cs="2" s="10">
+<C c="48" r="32" cs="2" s="4">
 <O>
 <![CDATA[▼]]></O>
 <PrivilegeControl/>
@@ -6665,7 +6942,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AG33 >= 0]]></Formula>
+<![CDATA[AR33>0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
 <O>
@@ -6678,102 +6955,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="28" r="32" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="SP1"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="29" r="32" cs="3" s="16">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=AA30 - AC33]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="32" r="32" cs="4" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(AC33 = 0, 0, AD33 / AC33)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="36" r="32" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="32" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AR33 > 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="39" r="32" s="7">
+<C c="50" r="32" s="5">
 <O t="DSColumn">
 <Attributes dsName="工单等级数量" columnName="SP2"/>
 <Complex/>
@@ -6786,10 +6968,10 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="40" r="32" cs="3" s="16">
+<C c="51" r="32" cs="3" s="12">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=AL30 - AN33]]></Attributes>
+<![CDATA[=AL30-AN33]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -6798,7 +6980,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AR33 > 0]]></Formula>
+<![CDATA[AR33>0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -6807,10 +6989,10 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="43" r="32" cs="4" s="11">
+<C c="54" r="32" cs="4" s="7">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=IF(AN33 = 0, 0, AO33 / AN33)]]></Attributes>
+<![CDATA[=IF(AN33=0,0,AO33/AN33)]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -6819,102 +7001,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AR33 > 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="47" r="32" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="32" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BC33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="50" r="32" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="SP3"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BC33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="51" r="32" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=AW30 - AY33]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BC33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="54" r="32" cs="4" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(AY33 = 0, 0, AZ33 / AY33)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BC33 >= 0]]></Formula>
+<![CDATA[AR33>0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -6927,313 +7014,39 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="32" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="61" r="32" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="SP4"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="62" r="32" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=BH30 - BJ33]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="65" r="32" cs="4" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(BJ33 = 0, 0, BK33 / BJ33)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="69" r="32" s="1">
+<C c="48" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="70" r="32" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="72" r="32" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="SP5"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="73" r="32" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=BS30 - BU33]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="76" r="32" cs="3" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(BU33 = 0, 0, BV33 / BU33)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY33 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="26" r="33" s="14">
+<C c="49" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="27" r="33" s="14">
+<C c="50" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="28" r="33" s="14">
+<C c="51" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="29" r="33" s="14">
+<C c="52" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="30" r="33" s="14">
+<C c="53" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="31" r="33" s="14">
+<C c="54" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="32" r="33" s="14">
+<C c="55" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="33" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="34" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="35" r="33">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="33" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="38" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="39" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="40" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="41" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="42" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="43" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="44" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="45" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="46" r="33">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="33" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="49" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="50" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="51" r="33" s="17">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="52" r="33" s="18">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="53" r="33" s="17">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="54" r="33" s="17">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="55" r="33" s="17">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="56" r="33" s="17">
+<C c="56" r="33" s="9">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -7242,174 +7055,6 @@ GROUP  BY  times_type)  A]]></Query>
 <Expand/>
 </C>
 <C c="58" r="33" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="59" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="60" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="61" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="62" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="63" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="64" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="65" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="66" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="67" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="68" r="33">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="33" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="71" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="72" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="73" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="74" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="75" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="76" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="77" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="78" r="33" s="14">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="27" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="28" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="29" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="30" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="31" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="32" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="33" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="34" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="35" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="38" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="39" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="40" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="41" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="42" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="43" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="44" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="45" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="46" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="34" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -7457,109 +7102,9 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="60" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="61" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="62" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="63" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="64" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="65" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="66" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="67" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="68" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="71" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="72" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="73" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="74" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="75" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="76" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="77" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="78" r="34" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="35" cs="10" s="15">
-<O>
-<![CDATA[  解决情况]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="35" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="35" cs="10" s="15">
+<C c="48" r="35" cs="10" s="10">
 <O>
 <![CDATA[  电话]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="35" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="48" r="35" cs="10" s="15">
-<O>
-<![CDATA[  Sametime]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -7567,40 +7112,7 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="35" cs="10" s="15">
-<O>
-<![CDATA[  微信]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="35" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="35" cs="9" s="15">
-<O>
-<![CDATA[ 现场]]></O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="36" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="解决"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="36" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="36" cs="10" rs="3" s="3">
+<C c="48" r="36" cs="10" rs="3" s="2">
 <O t="DSColumn">
 <Attributes dsName="工单等级数量" columnName="电话"/>
 <Complex/>
@@ -7613,90 +7125,19 @@ GROUP  BY  times_type)  A]]></Query>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="47" r="36" s="5">
+<C c="58" r="36" s="11">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="48" r="36" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="SAMETIME"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
+<C c="58" r="37" s="11">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="58" r="36" s="4">
+<C c="58" r="38" s="11">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="36" cs="10" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="微信"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="36" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="36" cs="9" rs="3" s="3">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="现场"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="37" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="37" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="37" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="37" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="36" r="38" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="47" r="38" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="58" r="38" s="4">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="69" r="38" s="5">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="26" r="39" cs="2" s="10">
+<C c="48" r="39" cs="2" s="4">
 <O>
 <![CDATA[▼]]></O>
 <PrivilegeControl/>
@@ -7706,7 +7147,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AG40 >= 0]]></Formula>
+<![CDATA[AR40>=0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
 <O>
@@ -7719,102 +7160,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="28" r="39" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="S解决"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="29" r="39" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=AA37 - AC40]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="32" r="39" cs="4" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(AC40 = 0, 0, AD40 / AC40)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AG40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="36" r="39" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="37" r="39" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[AR40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="39" r="39" s="7">
+<C c="50" r="39" s="5">
 <O t="DSColumn">
 <Attributes dsName="工单等级数量" columnName="S电话"/>
 <Complex/>
@@ -7831,7 +7177,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AR40 >= 0]]></Formula>
+<![CDATA[AR40>=0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -7840,10 +7186,10 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="40" r="39" cs="3" s="19">
+<C c="51" r="39" cs="3" s="13">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=AL37 - AN40]]></Attributes>
+<![CDATA[=AL37-AN40]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -7852,7 +7198,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AR40 >= 0]]></Formula>
+<![CDATA[AR40>=0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -7861,10 +7207,10 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="43" r="39" cs="4" s="11">
+<C c="54" r="39" cs="4" s="7">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=IF(AN40 = 0, 0, AO40 / AN40)]]></Attributes>
+<![CDATA[=IF(AN40=0,0,AO40/AN40)]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -7873,7 +7219,7 @@ GROUP  BY  times_type)  A]]></Query>
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AR40 >= 0]]></Formula>
+<![CDATA[AR40>=0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-11813788"/>
@@ -7882,11 +7228,565 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="47" r="39" s="1">
+<C c="58" r="39" s="1">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="48" r="39" cs="2" s="10">
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="144"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="2" imageLayout="1">
+<FRFont name="宋体" style="0" size="80"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="144"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border/>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</body>
+</InnerWidget>
+<BoundsAttr x="573" y="166" width="93" height="187"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.container.WTitleLayout">
+<WidgetName name="report1"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="0" left="0" bottom="0" right="0"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report1"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,723900,381000,38100,792000,304800,1152000,1296000,800100,432000,432000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="21" cs="10" s="0">
+<O>
+<![CDATA[  这个月]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
+<O>
+<![CDATA[本月]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="48" r="22" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="bygdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="25" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbygdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="51" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AW23 - AY26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="25" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AY26 = 0, 0, AZ26 / AY26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="48" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="27" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="28" cs="10" s="8">
+<O>
+<![CDATA[  P3]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="29" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="32" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="51" r="32" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AW30 - AY33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="32" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AY33 = 0, 0, AZ33 / AY33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="48" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="33" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="33">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="35" cs="10" s="8">
+<O>
+<![CDATA[  Sametime]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="36" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SAMETIME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="39" cs="2" s="2">
 <O>
 <![CDATA[▼]]></O>
 <PrivilegeControl/>
@@ -7909,7 +7809,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="50" r="39" s="7">
+<C c="50" r="39" s="3">
 <O t="DSColumn">
 <Attributes dsName="工单等级数量" columnName="SSAMETIME"/>
 <Complex/>
@@ -7935,7 +7835,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="51" r="39" cs="3" s="8">
+<C c="51" r="39" cs="3" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=AW37 - AY40]]></Attributes>
@@ -7956,7 +7856,7 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="54" r="39" cs="4" s="11">
+<C c="54" r="39" cs="4" s="5">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=IF(AX40 = 0, 0, AZ40 / AY40)]]></Attributes>
@@ -7977,196 +7877,6 @@ GROUP  BY  times_type)  A]]></Query>
 </HighlightList>
 <Expand/>
 </C>
-<C c="58" r="39" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="59" r="39" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="61" r="39" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="S微信"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="62" r="39" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=BH37 - BJ40]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="65" r="39" cs="4" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(BJ40 = 0, 0, BK40 / BJ40)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BN40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="69" r="39" s="1">
-<PrivilegeControl/>
-<Expand/>
-</C>
-<C c="70" r="39" cs="2" s="10">
-<O>
-<![CDATA[▼]]></O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
-<O>
-<![CDATA[▲]]></O>
-</HighlightAction>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="72" r="39" s="7">
-<O t="DSColumn">
-<Attributes dsName="工单等级数量" columnName="S现场"/>
-<Complex/>
-<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
-<FN>
-<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
-</RG>
-<Parameters/>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="73" r="39" cs="3" s="8">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=BS37 - BT40]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
-<C c="76" r="39" cs="3" s="11">
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=IF(BU40 = 0, 0, BV40 / BU40)]]></Attributes>
-</O>
-<PrivilegeControl/>
-<HighlightList>
-<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
-<Name>
-<![CDATA[条件属性1]]></Name>
-<Condition class="com.fr.data.condition.FormulaCondition">
-<Formula>
-<![CDATA[BY40 >= 0]]></Formula>
-</Condition>
-<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
-<Background name="ColorBackground" color="-11813788"/>
-</HighlightAction>
-</Highlight>
-</HighlightList>
-<Expand/>
-</C>
 </CellElementList>
 <ReportAttrSet>
 <ReportSettings headerHeight="0" footerHeight="0">
@@ -8175,26 +7885,6 @@ GROUP  BY  times_type)  A]]></Query>
 </ReportAttrSet>
 </FormElementCase>
 <StyleList>
-<Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="96" foreground="-13421773"/>
-<Background name="ColorBackground" color="-1"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
-<Style imageLayout="1">
-<FRFont name="SimSun" style="0" size="72"/>
-<Background name="ColorBackground" color="-526345"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
 <Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="微软雅黑" style="1" size="96"/>
 <Background name="ColorBackground" color="-1"/>
@@ -8215,28 +7905,8 @@ GROUP  BY  times_type)  A]]></Query>
 <Right color="-16777216"/>
 </Border>
 </Style>
-<Style imageLayout="1">
-<FRFont name="SimSun" style="0" size="144"/>
-<Background name="ColorBackground" color="-526345"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
-<Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="SimSun" style="0" size="144"/>
-<Background name="ColorBackground" color="-526345"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
 <Style horizontal_alignment="4" imageLayout="1">
-<FRFont name="SimSun" style="1" size="96" foreground="-1"/>
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
 <Background name="ColorBackground" color="-1215354"/>
 <Border>
 <Top color="-16777216"/>
@@ -8266,26 +7936,6 @@ GROUP  BY  times_type)  A]]></Query>
 </Border>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
-<Background name="ColorBackground" color="-1215354"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
-<Style horizontal_alignment="4" imageLayout="1">
-<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
-<Background name="ColorBackground" color="-1215354"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
-<Style horizontal_alignment="0" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
 <FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
@@ -8298,19 +7948,7 @@ GROUP  BY  times_type)  A]]></Query>
 </Border>
 </Style>
 <Style imageLayout="1">
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0%]]></Format>
 <FRFont name="SimSun" style="0" size="72"/>
-<Background name="ColorBackground" color="-526345"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
-<Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="宋体" style="0" size="80"/>
 <Background name="ColorBackground" color="-526345"/>
 <Border>
 <Top color="-16777216"/>
@@ -8339,9 +7977,664 @@ GROUP  BY  times_type)  A]]></Query>
 <Right color="-16777216"/>
 </Border>
 </Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="96"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</InnerWidget>
+<BoundsAttr x="666" y="0" width="94" height="187"/>
+</Widget>
+<body class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report1"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,723900,381000,38100,792000,304800,1152000,1296000,800100,432000,432000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="21" cs="10" s="0">
+<O>
+<![CDATA[  这个月]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
+<O>
+<![CDATA[本月]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="48" r="22" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="bygdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="25" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbygdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="51" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AW23 - AY26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="25" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AY26 = 0, 0, AZ26 / AY26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC26 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="48" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="27" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="28" cs="10" s="8">
+<O>
+<![CDATA[  P3]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="29" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="32" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP3"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="51" r="32" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AW30 - AY33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="32" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AY33 = 0, 0, AZ33 / AY33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC33 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="48" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="33" s="10">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="33" s="9">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="33">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="49" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="50" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="51" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="52" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="53" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="54" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="55" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="56" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="57" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="35" cs="10" s="8">
+<O>
+<![CDATA[  Sametime]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="36" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SAMETIME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="48" r="39" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="50" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SSAMETIME"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="51" r="39" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=AW37 - AY40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="54" r="39" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(AX40 = 0, 0, AZ40 / AY40)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BC40 >= 0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
 <Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
 <FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
 <Border>
 <Top color="-16777216"/>
 <Bottom color="-16777216"/>
@@ -8369,26 +8662,36 @@ GROUP  BY  times_type)  A]]></Query>
 <Right color="-16777216"/>
 </Border>
 </Style>
-<Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
-<Background name="ColorBackground" color="-1215354"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
-</Style>
 </StyleList>
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</body>
 </InnerWidget>
-<BoundsAttr x="480" y="0" width="480" height="243"/>
+<BoundsAttr x="666" y="166" width="94" height="187"/>
 </Widget>
-<body class="com.fr.form.ui.ElementCaseEditor">
-<WidgetName name="report0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.container.WTitleLayout">
+<WidgetName name="report2"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="0" left="0" bottom="0" right="0"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<LCAttr vgap="0" hgap="0" compInterval="0"/>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report2"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -8413,28 +8716,1274 @@ GROUP  BY  times_type)  A]]></Query>
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
-<CellElementList/>
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,266700,914400,38100,792000,1152000,1152000,1296000,762000,432000,432000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="21" cs="10" s="0">
+<O>
+<![CDATA[  本周]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
+<O>
+<![CDATA[本周]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="60" r="22" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="bzgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="25" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="62" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbzgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="63" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BH23-BJ26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="66" r="25" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BJ26=0,0,BK26/BJ26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="60" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="28" cs="10" s="8">
+<O>
+<![CDATA[  P4]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="29" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P4"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="32" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="62" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP4"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="63" r="32" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BH30-BJ33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="66" r="32" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BJ33=0,0,BK33/BJ33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="60" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="33">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="35" cs="10" s="8">
+<O>
+<![CDATA[  微信]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="36" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="微信"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="39" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="62" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="S微信"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="63" r="39" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BH37-BJ40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="66" r="39" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BJ40=0,0,BK40/BJ40)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
 <ReportAttrSet>
 <ReportSettings headerHeight="0" footerHeight="0">
 <PaperSetting/>
 </ReportSettings>
 </ReportAttrSet>
 </FormElementCase>
-<StyleList/>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</InnerWidget>
+<BoundsAttr x="760" y="0" width="93" height="187"/>
+</Widget>
+<body class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report2"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
+<WidgetTitle>
+<O>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
+</WidgetTitle>
+<Alpha alpha="1.0"/>
+</Border>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,266700,914400,38100,792000,1152000,1152000,1296000,762000,432000,432000,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="21" cs="10" s="0">
+<O>
+<![CDATA[  本周]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
+<O>
+<![CDATA[本周]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="60" r="22" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="bzgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="25" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="62" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbzgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="63" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BH23-BJ26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="66" r="25" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BJ26=0,0,BK26/BJ26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="60" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="28" cs="10" s="8">
+<O>
+<![CDATA[  P4]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="29" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P4"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="32" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="62" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP4"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="63" r="32" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BH30-BJ33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="66" r="32" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BJ33=0,0,BK33/BJ33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="60" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="33">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="61" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="62" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="63" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="64" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="65" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="66" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="67" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="68" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="69" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="35" cs="10" s="8">
+<O>
+<![CDATA[  微信]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="36" cs="10" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="微信"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="60" r="39" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="62" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="S微信"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="63" r="39" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BH37-BJ40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="66" r="39" cs="4" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BJ40=0,0,BK40/BJ40)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BN40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+</StyleList>
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
-<BoundsAttr x="480" y="118" width="480" height="243"/>
+<BoundsAttr x="760" y="166" width="93" height="187"/>
 </Widget>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
 <InnerWidget class="com.fr.form.ui.container.WTitleLayout">
-<WidgetName name="chart4"/>
+<WidgetName name="report4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
@@ -8451,765 +10000,1279 @@ GROUP  BY  times_type)  A]]></Query>
 </Border>
 <LCAttr vgap="0" hgap="0" compInterval="0"/>
 <Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
-<InnerWidget class="com.fr.form.ui.ChartEditor">
-<WidgetName name="chart4"/>
+<InnerWidget class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report4"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
 </WidgetAttr>
-<Margin top="0" left="0" bottom="0" right="0"/>
+<Margin top="1" left="1" bottom="1" right="1"/>
 <Border>
-<border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
-<![CDATA[故障原因分类]]></O>
-<FRFont name="宋体" style="0" size="72"/>
-<Position pos="2"/>
-<Background name="ColorBackground" color="-3084584"/>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
 </WidgetTitle>
 <Alpha alpha="1.0"/>
 </Border>
-<LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
-<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
-<Chart class="com.fr.plugin.chart.vanchart.VanChart">
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-1118482"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
-<Title4VanChart>
-<Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-6908266"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<O>
-<![CDATA[新建图表标题]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="Microsoft YaHei" style="0" size="128" foreground="-13421773"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="true" position="0"/>
-</Title>
-<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
-</Title4VanChart>
-<Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
-<VanChartPlotVersion version="20170104"/>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
-<newHotTooltipStyle>
-<AttrContents>
-<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-<PercentFormat>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0.##%]]></Format>
-</PercentFormat>
-</AttrContents>
-</newHotTooltipStyle>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name="">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrTooltip">
-<AttrTooltip>
-<Attr enable="true" followMouse="false" showMutiSeries="false" isCustom="false"/>
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-<AttrToolTipContent>
-<Attr isCommon="true"/>
-<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
-<AttrTooltipValueFormat>
-<Attr enable="true"/>
-</AttrTooltipValueFormat>
-</value>
-<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
-<AttrTooltipPercentFormat>
-<Attr enable="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##%]]></Format>
-</AttrTooltipPercentFormat>
-</percent>
-<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
-<AttrToolTipCategoryFormat>
-<Attr enable="true"/>
-</AttrToolTipCategoryFormat>
-</category>
-<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
-<AttrTooltipSeriesFormat>
-<Attr enable="true"/>
-</AttrTooltipSeriesFormat>
-</series>
-<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-</AttrToolTipContent>
-<GI>
-<AttrBackground>
-<Background name="ColorBackground" color="-16777216"/>
-<Attr shadow="true"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="0.5"/>
-</AttrAlpha>
-</GI>
-</AttrTooltip>
-</Attr>
-<Attr class="com.fr.chart.base.AttrBorder">
-<AttrBorder>
-<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-1"/>
-</AttrBorder>
-</Attr>
-</AttrList>
-</ConditionAttr>
-</DefaultAttr>
-</ConditionCollection>
-<Legend4VanChart>
-<Legend>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-3355444"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr position="4" visible="true"/>
-<FRFont name="Microsoft YaHei" style="0" size="88" foreground="-10066330"/>
-</Legend>
-<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="true"/>
-</Legend4VanChart>
-<DataSheet>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isVisible="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-</DataSheet>
-<newPlotFillStyle>
-<AttrFillStyle>
-<AFStyle colorStyle="1"/>
-<FillStyleName fillStyleName="新特性"/>
-<isCustomFillStyle isCustomFillStyle="false"/>
-<ColorList>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-<OColor colvalue="-472193"/>
-<OColor colvalue="-486008"/>
-<OColor colvalue="-8595761"/>
-<OColor colvalue="-7236949"/>
-<OColor colvalue="-8873759"/>
-<OColor colvalue="-1071514"/>
-<OColor colvalue="-1188474"/>
-<OColor colvalue="-6715442"/>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-<OColor colvalue="-472193"/>
-<OColor colvalue="-486008"/>
-<OColor colvalue="-8595761"/>
-<OColor colvalue="-7236949"/>
-<OColor colvalue="-8873759"/>
-<OColor colvalue="-1071514"/>
-<OColor colvalue="-1188474"/>
-<OColor colvalue="-6715442"/>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-<OColor colvalue="-472193"/>
-<OColor colvalue="-486008"/>
-<OColor colvalue="-8595761"/>
-<OColor colvalue="-7236949"/>
-<OColor colvalue="-8873759"/>
-<OColor colvalue="-1071514"/>
-<OColor colvalue="-1188474"/>
-<OColor colvalue="-6715442"/>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-</ColorList>
-</AttrFillStyle>
-</newPlotFillStyle>
-<VanChartPlotAttr isAxisRotation="false"/>
-<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
-<XAxisList>
-<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
-<Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<O>
-<![CDATA[]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="true" position="0"/>
-</Title>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
-<newLineColor mainGridColor="-3881788" lineColor="-5197648"/>
-<AxisPosition value="3"/>
-<TickLine201106 type="2" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=1"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="X轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
-<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-<alertList/>
-<customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
-</VanChartAxis>
-</XAxisList>
-<YAxisList>
-<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartAxis">
-<Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<O>
-<![CDATA[]]></O>
-<TextAttr>
-<Attr rotation="-90" alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="true" position="0"/>
-</Title>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
-<newLineColor lineColor="-5197648"/>
-<AxisPosition value="2"/>
-<TickLine201106 type="2" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=1"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-<VanChartAxisAttr mainTickLine="2" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
-<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-<alertList/>
-<customBackgroundList/>
-</VanChartAxis>
-</YAxisList>
-<stackAndAxisCondition>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name=""/>
-</DefaultAttr>
-</ConditionCollection>
-</stackAndAxisCondition>
-<VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="20.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="true"/>
-</Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
-</Chart>
-<tools hidden="true" sort="true" export="true" fullScreen="true"/>
-<VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
-<from>
-<![CDATA[]]></from>
-<to>
-<![CDATA[]]></to>
-</VanChartZoom>
-<refreshMoreLabel>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="Microsoft YaHei" style="0" size="72"/>
-</Attr>
-</TextAttr>
-<attr moreLabel="true" plusColor="-11349576" minusColor="-741051"/>
-</refreshMoreLabel>
-</Chart>
-</InnerWidget>
-<BoundsAttr x="718" y="36" width="242" height="143"/>
-</Widget>
-<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
-<InnerWidget class="com.fr.form.ui.Label">
-<WidgetName name="Title_chart4"/>
-<WidgetAttr description="">
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,432000,723900,0,792000,1152000,571500,1104900,1028700,647700,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
 <PrivilegeControl/>
-</WidgetAttr>
-<widgetValue>
+<Expand/>
+</C>
+<C c="71" r="21" cs="9" s="0">
 <O>
-<![CDATA[故障原因分类]]></O>
-</widgetValue>
-<LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
-<FRFont name="宋体" style="0" size="72"/>
-<Background name="ColorBackground" color="-3084584"/>
-<border style="1" color="-723724"/>
-</InnerWidget>
-<BoundsAttr x="0" y="0" width="242" height="36"/>
-</Widget>
-<title class="com.fr.form.ui.Label">
-<WidgetName name="Title_chart4"/>
-<WidgetAttr description="">
+<![CDATA[  今天]]></O>
 <PrivilegeControl/>
-</WidgetAttr>
-<widgetValue>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
 <O>
-<![CDATA[故障原因分类]]></O>
-</widgetValue>
-<LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
-<FRFont name="宋体" style="0" size="72"/>
-<Background name="ColorBackground" color="-3084584"/>
-<border style="1" color="-723724"/>
-</title>
-<body class="com.fr.form.ui.ChartEditor">
-<WidgetName name="chart4"/>
-<WidgetAttr description="">
+<![CDATA[本日]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="71" r="22" cs="9" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="brgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
 <PrivilegeControl/>
-</WidgetAttr>
-<Margin top="0" left="0" bottom="0" right="0"/>
+<Expand/>
+</C>
+<C c="71" r="25" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="73" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbrgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="74" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BS23-BU26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="77" r="25" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BU26=0,0,BV26/BU26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="71" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="28" cs="9" s="8">
+<O>
+<![CDATA[  P5]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="29" cs="9" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P5"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="32" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="73" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP5"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="74" r="32" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BS30-BU33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="77" r="32" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BU33=0,0,BV33/BU33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="71" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="35" cs="9" s="8">
+<O>
+<![CDATA[ 现场]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="36" cs="9" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="现场"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="39" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="73" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="S现场"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="74" r="39" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BS37-BT40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="77" r="39" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BU40=0,0,BV40/BU40)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
 <Border>
-<border style="1" color="-723724" borderRadius="0" type="1" borderStyle="0"/>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+</InnerWidget>
+<BoundsAttr x="853" y="0" width="94" height="187"/>
+</Widget>
+<body class="com.fr.form.ui.ElementCaseEditor">
+<WidgetName name="report4"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<Margin top="1" left="1" bottom="1" right="1"/>
+<Border>
+<border style="0" color="-723724" borderRadius="0" type="0" borderStyle="0"/>
 <WidgetTitle>
 <O>
-<![CDATA[故障原因分类]]></O>
-<FRFont name="宋体" style="0" size="72"/>
-<Position pos="2"/>
-<Background name="ColorBackground" color="-3084584"/>
+<![CDATA[新建标题]]></O>
+<FRFont name="SimSun" style="0" size="72"/>
+<Position pos="0"/>
 </WidgetTitle>
 <Alpha alpha="1.0"/>
 </Border>
-<LayoutAttr selectedIndex="0"/>
-<ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-</ChangeAttr>
-<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
-<Chart class="com.fr.plugin.chart.vanchart.VanChart">
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-1118482"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
-<Title4VanChart>
-<Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-6908266"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
+<FormElementCase>
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,800100,419100,0,495300,950400,190500,0,685800,266700,114300,685800,950400,38100,304800,800100,432000,38100,432000,950400,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,432000,723900,0,792000,1152000,571500,1104900,1028700,647700,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="21" cs="9" s="0">
 <O>
-<![CDATA[新建图表标题]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="Microsoft YaHei" style="0" size="128" foreground="-13421773"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="true" position="0"/>
-</Title>
-<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
-</Title4VanChart>
-<Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
-<VanChartPlotVersion version="20170104"/>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
-<newHotTooltipStyle>
-<AttrContents>
-<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-<PercentFormat>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0.##%]]></Format>
-</PercentFormat>
-</AttrContents>
-</newHotTooltipStyle>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name="">
-<AttrList>
-<Attr class="com.fr.plugin.chart.base.AttrTooltip">
-<AttrTooltip>
-<Attr enable="true" followMouse="false" showMutiSeries="false" isCustom="false"/>
-<TextAttr>
-<Attr alignText="0"/>
-</TextAttr>
-<AttrToolTipContent>
-<Attr isCommon="true"/>
-<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
-<AttrTooltipValueFormat>
-<Attr enable="true"/>
-</AttrTooltipValueFormat>
-</value>
-<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
-<AttrTooltipPercentFormat>
-<Attr enable="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##%]]></Format>
-</AttrTooltipPercentFormat>
-</percent>
-<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
-<AttrToolTipCategoryFormat>
-<Attr enable="true"/>
-</AttrToolTipCategoryFormat>
-</category>
-<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
-<AttrTooltipSeriesFormat>
-<Attr enable="true"/>
-</AttrTooltipSeriesFormat>
-</series>
-<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-</AttrToolTipContent>
-<GI>
-<AttrBackground>
-<Background name="ColorBackground" color="-16777216"/>
-<Attr shadow="true"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="0.5"/>
-</AttrAlpha>
-</GI>
-</AttrTooltip>
-</Attr>
-<Attr class="com.fr.chart.base.AttrBorder">
-<AttrBorder>
-<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-1"/>
-</AttrBorder>
-</Attr>
-</AttrList>
-</ConditionAttr>
-</DefaultAttr>
-</ConditionCollection>
-<Legend4VanChart>
-<Legend>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-3355444"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr position="4" visible="true"/>
-<FRFont name="Microsoft YaHei" style="0" size="88" foreground="-10066330"/>
-</Legend>
-<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="true"/>
-</Legend4VanChart>
-<DataSheet>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isVisible="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-</DataSheet>
-<newPlotFillStyle>
-<AttrFillStyle>
-<AFStyle colorStyle="1"/>
-<FillStyleName fillStyleName="新特性"/>
-<isCustomFillStyle isCustomFillStyle="false"/>
-<ColorList>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-<OColor colvalue="-472193"/>
-<OColor colvalue="-486008"/>
-<OColor colvalue="-8595761"/>
-<OColor colvalue="-7236949"/>
-<OColor colvalue="-8873759"/>
-<OColor colvalue="-1071514"/>
-<OColor colvalue="-1188474"/>
-<OColor colvalue="-6715442"/>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-<OColor colvalue="-472193"/>
-<OColor colvalue="-486008"/>
-<OColor colvalue="-8595761"/>
-<OColor colvalue="-7236949"/>
-<OColor colvalue="-8873759"/>
-<OColor colvalue="-1071514"/>
-<OColor colvalue="-1188474"/>
-<OColor colvalue="-6715442"/>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-<OColor colvalue="-472193"/>
-<OColor colvalue="-486008"/>
-<OColor colvalue="-8595761"/>
-<OColor colvalue="-7236949"/>
-<OColor colvalue="-8873759"/>
-<OColor colvalue="-1071514"/>
-<OColor colvalue="-1188474"/>
-<OColor colvalue="-6715442"/>
-<OColor colvalue="-10243346"/>
-<OColor colvalue="-8988015"/>
-</ColorList>
-</AttrFillStyle>
-</newPlotFillStyle>
-<VanChartPlotAttr isAxisRotation="false"/>
-<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
-<XAxisList>
-<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
-<Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
+<![CDATA[  今天]]></O>
+<PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="动态参数1">
+<JavaScript class="com.fr.js.ParameterJavaScript">
+<Parameters>
+<Parameter>
+<Attributes name="times_type"/>
 <O>
-<![CDATA[]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="true" position="0"/>
-</Title>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
-<newLineColor mainGridColor="-3881788" lineColor="-5197648"/>
-<AxisPosition value="3"/>
-<TickLine201106 type="2" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=1"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="X轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
-<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-<alertList/>
-<customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
-</VanChartAxis>
-</XAxisList>
-<YAxisList>
-<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartAxis">
-<Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
+<![CDATA[本日]]></O>
+</Parameter>
+</Parameters>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
+<Expand/>
+</C>
+<C c="71" r="22" cs="9" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="brgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="25" cs="2" s="2">
 <O>
-<![CDATA[]]></O>
-<TextAttr>
-<Attr rotation="-90" alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="true" position="0"/>
-</Title>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
-<newLineColor lineColor="-5197648"/>
-<AxisPosition value="2"/>
-<TickLine201106 type="2" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="verdana" style="0" size="88" foreground="-10066330"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=1"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-<VanChartAxisAttr mainTickLine="2" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
-<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-<alertList/>
-<customBackgroundList/>
-</VanChartAxis>
-</YAxisList>
-<stackAndAxisCondition>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name=""/>
-</DefaultAttr>
-</ConditionCollection>
-</stackAndAxisCondition>
-<VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="20.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="true"/>
-</Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
-</Chart>
-<tools hidden="true" sort="true" export="true" fullScreen="true"/>
-<VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
-<from>
-<![CDATA[]]></from>
-<to>
-<![CDATA[]]></to>
-</VanChartZoom>
-<refreshMoreLabel>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="Microsoft YaHei" style="0" size="72"/>
-</Attr>
-</TextAttr>
-<attr moreLabel="true" plusColor="-11349576" minusColor="-741051"/>
-</refreshMoreLabel>
-</Chart>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="73" r="25" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单时间类型" columnName="sbrgdl"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="74" r="25" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BS23-BU26]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="77" r="25" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BU26=0,0,BV26/BU26)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY26>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="71" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="26" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="27" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="28" cs="9" s="8">
+<O>
+<![CDATA[  P5]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="29" cs="9" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="P5"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="32" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="73" r="32" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="SP5"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="74" r="32" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BS30-BU33]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="77" r="32" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BU33=0,0,BV33/BU33)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY33>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="71" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="33" s="7">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="72" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="73" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="74" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="75" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="76" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="77" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="78" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="79" r="34" s="6">
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="35" cs="9" s="8">
+<O>
+<![CDATA[ 现场]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="36" cs="9" rs="3" s="1">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="现场"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="71" r="39" cs="2" s="2">
+<O>
+<![CDATA[▼]]></O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="73" r="39" s="3">
+<O t="DSColumn">
+<Attributes dsName="工单等级数量" columnName="S现场"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.SummaryGrouper">
+<FN>
+<![CDATA[com.fr.data.util.function.SumFunction]]></FN>
+</RG>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="74" r="39" cs="3" s="4">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=BS37-BT40]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+<C c="77" r="39" cs="3" s="5">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[=IF(BU40=0,0,BV40/BU40)]]></Attributes>
+</O>
+<PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[BY40>=0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11813788"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
+<Expand/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+</FormElementCase>
+<StyleList>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="144" foreground="-20626"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="4" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style textStyle="1" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-1215354"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0%]]></Format>
+<FRFont name="微软雅黑" style="0" size="72" foreground="-1"/>
+<Background name="ColorBackground" color="-1215354"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-526345"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style imageLayout="1">
+<FRFont name="SimSun" style="0" size="72"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top color="-16777216"/>
+<Bottom color="-16777216"/>
+<Left color="-16777216"/>
+<Right color="-16777216"/>
+</Border>
+</Style>
+</StyleList>
+<showToolbar showtoolbar="false"/>
+<heightRestrict heightrestrict="false"/>
+<heightPercent heightpercent="0.75"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
-<BoundsAttr x="718" y="361" width="242" height="179"/>
+<BoundsAttr x="853" y="166" width="94" height="187"/>
 </Widget>
 <Sorted sorted="false"/>
+<MobileWidgetList>
+<Widget widgetName="chart0"/>
+<Widget widgetName="chart1"/>
+<Widget widgetName="report3"/>
+<Widget widgetName="report0"/>
+<Widget widgetName="chart2"/>
+<Widget widgetName="chart4"/>
+</MobileWidgetList>
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
-<Size width="960" height="540"/>
+<Size width="947" height="524"/>
 <ResolutionScalingAttr percent="0.9"/>
 <BodyLayoutType type="0"/>
-<MobileWidgetList/>
 </Center>
 </Layout>
 <DesignerVersion DesignerVersion="IAA"/>
