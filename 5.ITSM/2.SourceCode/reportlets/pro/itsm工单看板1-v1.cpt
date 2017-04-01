@@ -1,243 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
 <TableDataMap>
-<TableData name="本月及上月每日工单对比" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[月份,,.,,日期,,.,,工单]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.String,java.lang.Integer]]></ColumnTypes>
-<RowData>
-<![CDATA[9p!1'"<e$RheY+ZY-)A]A6!SdRa5I@\^Fj8?UeuTuO$NPqQW,XYX46EZMb_<YJM%l9jE([WEJ
-asp#S;qg6RbrT'fU--9W'nY@SgZK7LLsDWoef<k-!RZFK9T-;m-\"e%N.ko`]A0De&b2apT<(
-k]A2QnHou6Qcl==J8j*^lWE#T+)X0K.hSdb:[gG<a>c$^d&m>2@RZ4eIheAeYjNJO'XRlsh(Z
-Rr]AKP@djVT8.Rp4[5"E-+<gS~
-]]></RowData>
-</TableData>
-<TableData name="出借金额业绩完成率" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[item,,.,,precent]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.String]]></ColumnTypes>
-<RowData>
-<![CDATA[HeQ4"BuBk8m1WhZR`fE@B4bT3C'ak~
-]]></RowData>
-</TableData>
-<TableData name="借款金额业绩完成率" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[KPI_item,,.,,current_value]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.Double]]></ColumnTypes>
-<RowData>
-<![CDATA[HeL1Rfp[=BgF'^?1mc\4bQ%tM~
-]]></RowData>
-</TableData>
-<TableData name="File1" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[pid,,.,,市,,.,,建筑面积]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
-<RowData>
-<![CDATA[<RP#f_CuN$cu4<#,i4^E'oE+q$4&+H@;/_=o`Jl*p8#K8Qn5_FD4G(Lm-&$#iu,b7%d-bOIO
-[X]AQBgWP.$l?j/WSaAWse9l;QrNeKqLH97LT%j^Op,tEboR(./dsL*6BnF]A7i6b;cB>HJE'f
-?_2`$!Zp2dW'd_Bqa&#GlgQ6N!b'Q2j6Q+$)>OgmY]AR'PuWH5:4>Z7ZGe/p$R7YSA]AF-QU(7
-F<UDC^mEc7*k.-Y%q/E_XEu4p4nO$fWc1"']At[`0%+nkpC'VOIQh#o8g0Fl4RV@p;%h/Rc<^
-s3IM..0!soa6I.6Hq!pr6";jf?P5'kK9(PuU`!tiBfI1V3Y=tgNt5U'F`B^7SB3Je,Oa-:X8
-hgf\4R?CjQf;P/Y^2J(&e2+@,9U$16\04FlTuD(5'1H_q>:#JEnHp+G[NTA?K'Gg$e/$BqGe
-"m8.V9d>=LA0VU5O4,]A:o;nR37g^7=e+a".X`E6P[FB%tX2eI\P,dFn3\S31^$L~
-]]></RowData>
-</TableData>
-<TableData name="ds3" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[省份,,.,,销售额,,.,,利润额,,.,,运营费用,,.,,pid,,.,,税费]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double]]></ColumnTypes>
-<RowData>
-<![CDATA[V4$";>=TH`YE'aEX6/C2C]A]A0@aUU5Ui2M@bc=!*gAdIl]Ae<0A=rU4#<SKm-#;;pUE=fS[&4n
-#+.IQRCOA%;QG;(`c&RmpPU$pLM1dcj%*i56Q;-;(8+7_9f4@@[(3O:G@?m0sR6D,eIB;+-B
-SU#M_.3DHR/1b(4]A$;=K(R&7,<pd'9&.]Aqg[TX:!Z=[_MY[9"[`mOqpWo5sN(O\T=+jr.s+L
-^*`Ih/ilX>"MkT&%?^OcPCbH*MUQAN&8[eo-bU(G5cW)2W]AS1E3N7#g.I3p#AJ7)o]AuZuVMo
-N"Z!%Kqc&?dO2k<pD$aGj9?U#Ximc(nWMptos)o4q*W\d0P(0hG%ehNtZ?l[Ij]Ap)qZ]A"L[j
-:O-%Zm6-;1`dkC*2`"!kGP;pNGutAA]A(/=@nj8_[nDd!L^<35!#$O+J+%C\.KCQ;>n]AiT>,_
-d^X@j+O/Yq]A:IVPd7eNNK!rV>I;X6)W6`9F*sA:n.r]A&=a6TFM%prQq-1jbtoH#^-,2G?ddI
-8H.Y45327d#MDF+_;_(o*qarpJooA6q?^[dLdWN5'Y-_0&cWfVAQD^ohMXW\2++e;Rg^nYhT
-RiGRm1*>A=`n6acr.)0dA5$Pp<@c#M)r*BRb8+7Z0-V5(TZs!Do7i5(4Yrd3f1^8XQG.f2l3
-@id>QhfEA77Zp\*[:<9WiKpW`[6ms05IQ`9k?Q2@V3jg>8@oi>497B_)lE2RRa_bbLFpm3Yu
-lg&A++aBs13jM4$TgLeM3nQuMDqaT<mX3a`nE>/T*m/9ZadHp_:WM4^d`Gf/i;TISf76N`.#
-E<HO4!jTG3b.l$KQO]A4rh_'Ph?6<r38CkiN%=i@Heq'^,eSudmZ83Ks"mYQ?Ho+=mQp?)G(F
-=/A?4o5XWmulu;]ARZph&R7^Kci:,.P)9eW>FB4N;_mWYt[1n5Ub%Q9EUSW9]Ad.h1=<L:t?(8
-/k&5-@k-.NWY0\!<igu8N4_UiXmupiEc<VAqCC_]AiO4D.sgH>All8)a`9rqNcdN!i4Chd6+h
-r+I*uS</Qj;T_j6:0X@:U75ZA*%%W9Vd-E"(7ZbWYf_NReXFhsLLWbUecGN5h"9VYj5n0Fb4
-LW'P$[*qVWM`=R*dj5T%5Vknl3j):9mbFIGJ/b:k%qe4gohKqU`,?1V,%You(QXHi=H*q-EX
-mtCh':Tr:':U..WfN*%p0O($;P92@LKYnl/3DPMB/7Yis>""6-)<FYVZ($W3ieWm:JAOn`6_
-rI*X=RcsM[1ME87Qq6RjtOpJ$@l)_7iDA$n?NC9*@'$[hJJJ]Ae'Z<?nLTVRa_P"l8^);XD<G
-Z:Fu4_4FUE9NRmYZjsrPAcak>3]A7Ta!ZS0J7?'1>_BjB2Z9qONjd[-:Q-6u!n+cZBVV*JZOp
-)m(`t[A=1u@phHp,HjsXn'Z4JD#ZopiLb0BSm`XC,9XXW'tW]Ab_T',)c<HLV6[>K*JYcbmGe
-p?7HT=B0l53).u)Tc2[-DM%d\`II9.dFo3J-U^>rT$rKJ/QM/f"4[;"d`=c8pK*c[oL_8^/i
-B<"hE`tZU+5lr@Nn*PQ-1t(I$t?e$MCEtV2p[1V1QS*;o`Q#<2$-Xa#O-'eq.No0',\R0sbY
-@>-!\'cBE_*8npiC:.oIoE=PBhWD0/TUQ,`UK(_S]A16]AC7PeNuVNEiGUmHBDC#sY*TOAcO@-
-V2)F+^c,2q"5!tOrU/F_!W.o);u1[DgSlpH7maP]A/3fk%!.gA)6H(qRqoR!p\]AaYAe:2gF!/
-Bd[Bt1E.pWQ]A0i2=8oc+Wb>)LN=B`%DDB_,.li;jWQaa;DK+k&c0UR;<R;r^\;j5H%]AY=p?[
-T!))3^st>j>bc6aDa?]AYbj?s<%%rKss$uBkZM>fb4(u&9.k8ehOQ"2@b"l93ErSOY\O3<5Qi
-h%U(.WTGN4;-T3/kPS@Q>O9^GW!SS[C"s;g_D"4`;_2XFo!<mqJ>"b.OS)5,r::`0uC6etNY
-OjE#d;C[aS45ahVZB_+6Gp2[@LjQ0E>=jpH:EH<;Q_HbsG2s23,\^jO))jj%DEI[LWefsji(
-9K_<2"#=aKfM$>EVAr5cYS.RN6SuaB*q_ailmORl=kPcJ)!K`r`eD&&I]AaCn(U4B7[]AdWdF4
-`9gNC6)nMucrnp!4UCcS';^ed[->fa.pYg'U*TsJG;:a,[-Gl6T*\ltPY*Yfh]AnaJhH.$IM]A
-6h=D>PF9N[:]At['LX9)<f!Oh4*^(1\J^?PQVrHr`'pn<C&Y%Zlrs<CX%]A9TEJ^f)NS'Q`Bhs
-?Wgg)Q'5ResolWHjU!p#jFd%Q:$=F]A<R"l@-<DjQI>h#6";U"Qeo77b;j+H8hE#=a2mm$gCG
-(MOsBc88rVnbF@OG)n$=`[47DAm,l=:bJhsh^!j!=9aAG@B-3"B_W&gmc<r\n;O^mIa7:*#e
-7<OY#dnRg6r>URbRTF)W!f;4b@;"8IQ^I'Vn'R<J8*N7#GCd[!u^RAS@lS`b8`[DdpHdQd@N
-D8[)pX;RPGr4Sggj6BOJHbUl5\U%YjeE?3(7%Ih7fW@NS^h59jEsY2jI)Ynm!`.1!@rRdOAC
-/a!AZJ*`-gIOLkCkB_T3dK6gm:]A<tRW9W;aB;s]AiT6*R6E]Ab!.j>i?#Hk"hYA[Xj8S`?($i2
-lQFSAG.t*Td5^aS>.h[!8$6>u=')1Q"G#0Fr2R\N2p"g?sG/hf+")hDj+`:\(9)e%Rj]A^02F
-]AT;Be:FR`XfbKg4H3W8u<niD&Mo'UJqV3m.9>_$d]A*RH!hoSc4*:,VD<!!~
-]]></RowData>
-</TableData>
-<TableData name="ds4" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[省份,,.,,销售额,,.,,利润额,,.,,运营费用,,.,,pid,,.,,税费]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.Double,java.lang.Double,java.lang.Double,java.lang.String,java.lang.Double]]></ColumnTypes>
-<RowData>
-<![CDATA[m8iOV'2&o74nCKlpR0&("Gm0dMA#!EIY%eXE4?5X+YU`LG2M:YpMOA[SfrTJA1Baue^`36#H
-QD7;8-<M8mCVFE(1R.=Qb;Kq6ZJ1+!u=B6M[!Z4rrgU"2]Ae[Hm+HW%f]A^<FHG5/6C*\!p%EC
->fG-.!ZZ+IqKUB"Uc.Sn:QWJZ:?e<H&EF'Rj%tMl>gJ=U%\:D:b0c#Jib,?__2c2]A0MAWI\P
-OJH.)rkD$Kb!lbR-:ZFU\bX7@rWdcqKBTb,c#XK!Ko`,.+&_LW52Ih0;#X<SZtcFbGYTm7a.
-uC[CF.?X1b%i4Oij"E&,^B6SY.POiQ?4;!#>iI/iF4#K:Z`VMti"#0D[K2m/1\q:fVoh61/b
-/2-FjFr.dqh7`[NLjfP'6*rP(N@<6n;-dHPc%bXS=eAB2LZR2(K2G_b(6eu2cm[L7UCnrHDL
-50S:Rlb]AS/&kS(IZUnTf^jb8=-P'=\JVDs2H=*40/NY<.NL>W.GYHS:&&pVgn:$'u<fWh?fF
-I6rK\]A]AXUB0RN+YUq<o-:2PCf77mR4lWR.+Eg8REi9:Kd"[#9e/G9I8u`5'GPM*`.a?L?=]A[
-ag'\QoRga;7[.3r+1>lRa8FbqdV5hm=7MjN(-5&_/Xn<=[2>=kF\7%.2<tC.JM.::-/QJ[H2
-1]AfcSR?aR\D=H/<&*K*hV!R&GYbM=U)p[),cZ=fnmS^i6J3-9PIdV_E7d#caDr5E*dD*KJ:R
-E"O;7!%#n:VF4'Slc&1UNJ(%W*^_<VFkV#3<'h7@a@;6u]A(L>Z1#.CfH-esumn(gl*'t''6f
-\aDC>ocC=)[th,UR)O*41.#J^Q>R&<K)!TqiB*N=VUMS)s%PbQ5FLS6)ICf0Lq09B&;X=bZ(
-m?oYH_8V5rp$bbFrUI[4j,gGTK^L.M1VTcNY;l(q@I2`b&0H2rkh!HcfelUE@26@m:aMQ6@`
-C4T/j`$3+L1$r3>,>?G$p>Lb'S@p.me6/[=,*s5O;*r>esd/8,ctU&Yr\.3$`rBSe`-a*V]AB
-:uoAMp,Qq7Q%DV97h6k:bRTHFn'c^TFU]A=%5+#FRE\";-BPi)-)d5in9mlJ55'*t"'iP+;#R
-^N&ClTu;>qK![l)aS68BH1t^dhi&"AP4(9:80%^nTS)_c;=D8P[kpecYb2F\:o;O%_7LNf,_
-mT7q>&M,?3:>Pe\[gRH%XeSTp^5E`6BEML@X<L]AYQ-(7oPq"Z=L(4&[^Y%'aBgLpU6r'cTB1
-c=k:P#PQXN&k5fe[&/9B4q[p,YJSGSg2oYM0^U@JD!p`l5m&kZt6OUgZPPP2R$WD!me4"frp
-[b6a<%]A#4di1('Ap<6Xe8KX*3`%&m:O/OB\N6[U*dBA%PcJ*+901EHhq^^S.4d*&8`#Hunl!
-B)BfL67^%*2>L-i[irsV*16$Z$9NcI!j/XbbW,MRgZ8_1Y2p$SlhG"CB8]Ar$;e3_3Q/K^0.u
-PZL@l<=!AQ/Gf/VB_(?WD6Fit2gu,rE'.lK!qn1DWb)s$eHjGqW"2Q=RZPV^>/R>Sn%an]As%
-8t&^kAl@(CT?]AEW%S!7PR>Z(ON#-5FtS5Y"\8eo&(,WjlK*`Mj2,EEk!h]AqAJ8.s/+r']A%]AH
-;5".T`XF9Sq>Uj4Q::CXjg;qD7H="=#WfBf3f\VJqd#klhYLiAZAL\;e!)5*nK^52#iKr1$j
-ir)-]A50SC;F3LA995?]AMB$dk8Y]A!6,fYp63uA54Io[MIM0Kp>'0HKs"bRgFoDAnUItGt<T^s
-Ppr!>E6K$L!]Ao-`c"#s*Qf]A)Ma~
-]]></RowData>
-</TableData>
-<TableData name="map" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[工程名称,,.,,经度,,.,,维度,,.,,项目个数]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
-<RowData>
-<![CDATA[AQ%9#g-?3t?@PD>]AW\saYBU#,90lr^+9Bu2.1MD)H"]Am?<5gR.InVu5pF3l(0r@jF8sUQ2kK
-Gr!c9T$pVur$F?&(,66gFscU,;:NMsl2R5).lSJ*IWc)>/A%Hqh,E=pqJN@7!&!3_A?d2VNG
-WkhX,!!;\EY9Mo4\WJN=YE$L_s9ZjZQ==4ZOm&&#1%!Hgj=:C7pGfdto[e=*1n+f*D4ET#M>
-A<mqFKa!V;Yup[6nlc[ek0AuFl4mXpM\\em'_2Lb(jj/=bC+=Q#(k6)3RVS.S7.CN!\N;X9f
-+YmHiFEU.2EQBB(7sSfqh1qZ@6g(!NSG\]A/-UHm[5uifnePT.fJB'A_+'o-Tr#nc(7G;O;__
-=+kY[8YuA`XE%_K)aQp+T16.<W+Cl=ic"q.]AHTI<9.*8gP(fru>>Z]A2@#1-(.J[";\4P-/W+
-`i@LKjZK[7H#`4Mc@GMtd\q_@tXf;!g(!HA$#,@eYB31Vti@Kd&ikWZ&9T;*,SD;$3#eUO!j
-/0WR<2b"$32p,qDtP\ZUAK6Q66[Pl<t%sGV%,7rHK[CX"GNroYl\.TV]A3%']A3`Gl"MkR-p8i
-!k8QFP9a;=R&qn\b%mHch8[&i(Es7[GPfl@2&(@q<!oi_pE!1f%rRPqbag"o(Q,2']A,J%PJ]A
-+A\AmGDO8f4~
-]]></RowData>
-</TableData>
-<TableData name="ds1" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[省份,,.,,销售额,,.,,利润额,,.,,运营费用,,.,,pid,,.,,税费]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.Double,java.lang.Double,java.lang.Double,com.fr.stable.Primitive,java.lang.Double]]></ColumnTypes>
-<RowData>
-<![CDATA[F]A[6s)bCHdY5XmDQd5a<JePq]A+i+R[OqYoIK)l#[QiK?<[G?<e=6d6+D90gZN_Nl[<79<^3h
-Q-:rS;.:6"ju6:*Ma^K!7fn,D;=C'mXkC]AQfsM(PU;gqBVS.&eO5Y&UA,pHj'08+oaSKCl$2
-+@C11PZs%X7g/qLBpHP[Kc_K>k?Mue]AYZ>X+jL(\;!RHG*"pXQ=V%=^*)g#D9R4n9*!Bon1/
-b@]AAj7#-!P[]AkTBOt-Wd@2OPN7PE;13nIcbo&Y?eBbTk^91EfC([6L&a@.s+[S_S+a"-NMc'
-p'n@p[)>L?VY4=]Apu:;6Ni8FPaX\.EP2]AGfIS)FRM_[Kkj3,sKr!A?<#l+Zc[*%RR*>I44[W
-=`^f'2CTIe5,8GH:9@A"?]A90sWkX&SSXd*Bc?11h4MH"LEo*f?h`O#-n(.e+Q_[.j_;\?P*s
-]AD#9i54MO!");+0MF\mV30CC0\J12`aP$eq=kR4E(`]An\M17'K!^mnU#Z]AO?]A>&48n]A-YN<_
-Tf/+X_+H-O-%HUp+i&0]AgFFeN/"S',P2B-"0+Wrtu+ph*Ld+EpDhSQU]Ag-fnk=+(p+?9r<5=
-5on`83gsn%8*7Z:I]A\`o'DNXBRN.:^nMq[$sa[/Wjne9qLu/C)[@WqBkC:cb%Mq`L1lIble^
-[k+$SN$Qpbm3q%#NZ(9I\#;mX7<8'XDn**<I6:aW:35iEZ)/MDR'gADmP#!db8`#2ei.Fg-e
-UN\rnl-DKiMjjqf"IlJi+t6?g[FZRPHb\GO[Q^8I.I#W<<\h0a([[IJ_jb&87P9AaOr35$8g
-'BRhA+Sh<^RU_M^Q#U+[Mo5&05g+W$j=nWWBR@-j:k:Di)t9GG17UU:T0\mWZkGGBGIY.ZY@
-rg7V]A-'Mhki!;#*Kq/![UrQNkZVe]A)IO+:pgreqdB'<(kS]Ap/D,FC%<Kc@D1]AG-_AuLIHL[G
-#A;g0/A6UUC/VdK*%F5<%Q1U:ZZk_*MTl&eL2%$^sLXPI:\<+q?lIs,:/Xuf<@Z@%MT-ua!W
-f+E?Uu99#1b$;'og@W1[uYW]A(IM`GXM21#QJn@R3jWK%Af,dFI5VPCCrK\u3qA.&QAs.2NJh
-UfSW.DpK;iC,g=,bkTi,ET:jNd+U5f\K&BLErnJ@1<>(m1">td'I7&.)q'F0^EEm$9'8GID=
-Ft+5c$('rFSDV+Q:.5p?6ki66eHjN#rNOLKim5Ip<nd38^q-2:k,E$GXB;$'iU]A?&Cf"R35$
-u6&XUoBb^1ZanM!ecsdT[!DBW"-\>./)[ks0)8D=4m_#a35I>lT$du@!^Gnc)C6'HOD(o:30
-E\ZuPR5DDA1]A(LCH5L,J!P0iR\1@XO8`q>%A"8p2[B+Nbp;P@R`[?"9a=;XWf$?F*E9[PWSf
-HQ0G_KLV\MBmBFK?Ga(iLN1I%sFo6R\arJO:uUS"HDYGWr>fRYLr>*2mPa00]A.s/6qLM2R4G
-!?-M7U+JMlMnJ^E^KrFo^<jSk9B.#[)/$?'-IbmWmiB[^,"`bNLXN+9ES&in%`F2&Fheld#<
-_IQ[Q8XBWTOb4OuT-:W.l`(YLjG#%Q7g;mW!#5\9r`h)9.bJe13!e%p1t/WtQ`Zj(<q@/eu6
-$58cupC'B1/gn3:>%n;Np?KQGNPI8bW[1.1b#0QLih\5]ALStS*=^/SMt)X-?0G#4FsCYl!]A'
-bo^831A(-d3?t!^f1?*pU@%P74mnO-Yes-(/%q)Pf]ACglc<oEg0!3=OfK7u/R"jHG2Gu01#9
-[I+;7`\RYmY0>LTC[=#2NRIpQSq<XB,j)IkKQo'Oa0:6K-tqnTprM<@S<$+Zp]Ai$HWghXW'<
-=Q!j1G"ArIrFlkVjZERO%N(c2p->sq&Y)6]A4B=FV4LDi\l@ks;h5lq1l>4oPcmSs01C]ADr*l
-2UJn<TDUW-=(Km3pX)/M0q3rBmD905p:E8K9%^D*:`*b9O0LDHF2pp<PG*3*Pqi%4gZk2$V=
-Vg-a+_;10B_Hb?G57,isW%sS0W#p#t12Bg;>0BM<c+/V.!7MC3-i?is[lhV_dW\g;M<JbV;2
-A?kIU4j5N;j=J3j3;mN5=*Nj@"[an/nW@l=!]Aat1a/@!_]A"4!T+LC]A7Jst8R?_^:7W2?t\!M
-C3*kP2eJjP^SO!mUAa.e$.H+[:\/f)V.cdghuQY.B57u+MJE3%Y#r0%<hBrGkR/*106?3TI'
-X`Y)dR]A]A\BhE!>=]AV6R+P^@^(.h>B%mpu$?f!\%CJ'o8C^QU+<^Z[:?6[*XaSsM)XY:qb_es
-;HKMtK2;WF$Yj39Z2UL'r\=e[<`6#'5mWR'?Sm~
-]]></RowData>
-</TableData>
-<TableData name="故障原因分类" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[原因,,.,,类别,,.,,数量]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
-<RowData>
-<![CDATA[D3%s0Jj:$(T63#T)7@6+,*7\X&gfr'&rVl-'H3k!Gir]AU>p"Z+I%B_RB?ldLJ9e(7gl\tjf+
-Wh&1[k]Aj<Lh6X,<&IMW7`nhm2]Al3^P(2b.^&Qo@\'T-(K`R2)NKU]A6/D,!s!-[b*TMWQPV''
-jbNg^Fi>Qhh2>b17AnS>9*i:8efiq<T@]Aan$)/,E\;M&%bJpfJ-71)V(_(djFpV*anq#U~
-]]></RowData>
-</TableData>
-<TableData name="工单分类" class="com.fr.data.impl.EmbeddedTableData">
-<Parameters/>
-<DSName>
-<![CDATA[]]></DSName>
-<ColumnNames>
-<![CDATA[名称,,.,,类别,,.,,数量]]></ColumnNames>
-<ColumnTypes>
-<![CDATA[java.lang.String,java.lang.String,java.lang.String]]></ColumnTypes>
-<RowData>
-<![CDATA[F]A$se!^RO7hKbGq=5BTDM(XH,EI4@;/2\1nf?>4*,tLEDQZRp%QX4:dbj8OjjDOAr>n)12kF
-?IlEp`)'?5$[Fd!#rqc0u0X7R>XgQ!u#lJpX7-'ldAOX&"m\Ul,?#lIE8OPTpg_]A]Ah0I&k`T
-;,gmM:OTAn?9=c`*<@bD*)ND,$NhC$k!9_=K3JH$b"AaX/#`bKT*AQI7SWV^_K)`p+-dX!H[
-f4nVD2p)Id('?Sq"%1BBhTN8l`dZXR9BG!,USF;"!nV7c;5,T%l7nn1r+1h\e?\r<?nbfjDk
-EKZ1l27%D6Yaeqtf+9ilePpi%"0/ZLG7/&(<Np=#Vs:R%d5j0m,&1Q7drgRi:A\J>VfaXn*b
-bPVmTV`D)p.WgtcoG[/;0YYkp#(fUB#;2eC$rcp%~
-]]></RowData>
-</TableData>
 <TableData name="工单时间类型" class="com.fr.data.impl.DBTableData">
 <Parameters/>
 <Attributes maxMemRowCount="-1"/>
@@ -8047,17 +7810,6 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
-<DefinitionMap key="column">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="true" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单地区分析]]></Name>
-</TableData>
-<CategoryName value="Address"/>
-<ChartSummaryColumn name="工单量" function="com.fr.data.util.function.SumFunction" customName="工单量"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
 <DefinitionMap key="line">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="true" isDiscardNullSeries="false"/>
@@ -8067,6 +7819,17 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </TableData>
 <CategoryName value="Address"/>
 <ChartSummaryColumn name="达标" function="com.fr.data.util.function.SumFunction" customName="达标"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
+<DefinitionMap key="column">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="true" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单地区分析]]></Name>
+</TableData>
+<CategoryName value="Address"/>
+<ChartSummaryColumn name="工单量" function="com.fr.data.util.function.SumFunction" customName="工单量"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
