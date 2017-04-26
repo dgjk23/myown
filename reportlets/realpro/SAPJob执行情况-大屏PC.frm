@@ -264,6 +264,16 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
   GROUP  BY  convert(datetime,LEFT(CONVERT(NVARCHAR(25),a.stime,20),13) + ':00:00')
   ORDER  BY  convert(datetime,LEFT(CONVERT(NVARCHAR(25),a.stime,20),13) + ':00:00')]]></Query>
 </TableData>
+<TableData name="数据最后时间" class="com.fr.data.impl.DBTableData">
+<Parameters/>
+<Attributes maxMemRowCount="-1"/>
+<Connection class="com.fr.data.impl.NameDatabaseConnection">
+<DatabaseName>
+<![CDATA[JDBC2]]></DatabaseName>
+</Connection>
+<Query>
+<![CDATA[select CONVERT(varchar(100), MAX(PTIME),20) as LASTUPDATETIME from SAPJob_sync]]></Query>
+</TableData>
 </TableDataMap>
 <ReportFitAttr fitStateInPC="2" fitFont="false"/>
 <FormMobileAttr>
@@ -345,10 +355,8 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <![CDATA[false]]></DirectEdit>
 <DateAttr/>
 <widgetValue>
-<O t="Formula" class="Formula">
-<Attributes>
-<![CDATA[=today()-1]]></Attributes>
-</O>
+<databinding>
+<![CDATA[{Name:数据最后时间,Key:LASTUPDATETIME}]]></databinding>
 </widgetValue>
 </InnerWidget>
 <BoundsAttr x="353" y="26" width="105" height="21"/>
@@ -367,7 +375,39 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <FRFont name="微软雅黑" style="0" size="128"/>
 <border style="0" color="-723724"/>
 </InnerWidget>
-<BoundsAttr x="3" y="0" width="236" height="36"/>
+<BoundsAttr x="3" y="0" width="164" height="26"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="label1"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<databinding>
+<![CDATA[{Name:数据最后时间,Key:LASTUPDATETIME}]]></databinding>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="2" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</InnerWidget>
+<BoundsAttr x="226" y="5" width="195" height="21"/>
+</Widget>
+<Widget class="com.fr.form.ui.container.WAbsoluteLayout$BoundsWidget">
+<InnerWidget class="com.fr.form.ui.Label">
+<WidgetName name="label2"/>
+<WidgetAttr description="">
+<PrivilegeControl/>
+</WidgetAttr>
+<widgetValue>
+<O>
+<![CDATA[数据时间:]]></O>
+</widgetValue>
+<LabelAttr verticalcenter="true" textalign="4" autoline="true"/>
+<FRFont name="SimSun" style="0" size="72"/>
+<border style="0" color="-723724"/>
+</InnerWidget>
+<BoundsAttr x="167" y="5" width="59" height="21"/>
 </Widget>
 <Sorted sorted="false"/>
 <MobileWidgetList>
@@ -1853,13 +1893,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="40" r="5" cs="12" s="3">
+<C c="40" r="5" cs="12" s="5">
 <O>
 <![CDATA[失败总次数]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="5" cs="6" s="4">
+<C c="52" r="5" cs="6" s="6">
 <O t="DSColumn">
 <Attributes dsName="任务高频时长服务器" columnName="失败总次数"/>
 <Complex/>
@@ -1877,7 +1917,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="0" r="6" cs="18" s="5">
+<C c="0" r="6" cs="18" s="7">
 <O>
 <![CDATA[任务数]]></O>
 <PrivilegeControl/>
@@ -1891,7 +1931,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="20" r="6" cs="18" s="5">
+<C c="20" r="6" cs="18" s="7">
 <O>
 <![CDATA[总时长]]></O>
 <PrivilegeControl/>
@@ -1905,7 +1945,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="40" r="6" cs="18" s="5">
+<C c="40" r="6" cs="18" s="7">
 <O>
 <![CDATA[最长执行时间]]></O>
 <PrivilegeControl/>
@@ -1959,6 +1999,20 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="SimSun" style="0" size="72" foreground="-13408513"/>
+<Background name="NullBackground"/>
+<Border>
+<Right style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
+<Background name="NullBackground"/>
+<Border>
+<Left style="1" color="-4144960"/>
+</Border>
+</Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
 <Background name="NullBackground"/>
 <Border>
 <Right style="1" color="-4144960"/>
@@ -3299,6 +3353,10 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Expand/>
 </C>
 <C c="15" r="0" cs="43" s="1">
+<O t="Formula" class="Formula">
+<Attributes>
+<![CDATA[="数据时间："+数据最后时间.select(LASTUPDATETIME)]]></Attributes>
+</O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6322,6 +6380,17 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[程序top10]]></Name>
+</TableData>
+<CategoryName value="PROGNAME"/>
+<ChartSummaryColumn name="times_long" function="com.fr.data.util.function.NoneFunction" customName="总执行时长"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -6332,17 +6401,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <CategoryName value="PROGNAME"/>
 <ChartSummaryColumn name="avg_long" function="com.fr.data.util.function.SumFunction" customName="平均执行时长"/>
 <ChartSummaryColumn name="maxrtime" function="com.fr.data.util.function.SumFunction" customName="最大执行时长"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[程序top10]]></Name>
-</TableData>
-<CategoryName value="PROGNAME"/>
-<ChartSummaryColumn name="times_long" function="com.fr.data.util.function.NoneFunction" customName="总执行时长"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -7421,8 +7479,8 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
-<DefinitionMap key="column">
-<OneValueCDDefinition valueName="总时长" function="com.fr.data.util.function.NoneFunction">
+<DefinitionMap key="line">
+<OneValueCDDefinition valueName="平均执行时长" function="com.fr.data.util.function.NoneFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
@@ -7431,8 +7489,8 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <CategoryName value="程序名"/>
 </OneValueCDDefinition>
 </DefinitionMap>
-<DefinitionMap key="line">
-<OneValueCDDefinition valueName="平均执行时长" function="com.fr.data.util.function.NoneFunction">
+<DefinitionMap key="column">
+<OneValueCDDefinition valueName="总时长" function="com.fr.data.util.function.NoneFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
