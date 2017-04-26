@@ -1509,7 +1509,7 @@ setInterval(function() {
 <C c="4" r="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=IF(F1>0,"环比： "+(E1-F1)/F1,"")]]></Attributes>
+<![CDATA[=IF(F1>0,"环比："+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%"),"")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -2704,7 +2704,7 @@ setInterval(function() {
 <C c="4" r="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="环比： "IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%")]]></Attributes>
+<![CDATA[="环比："+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -4317,6 +4317,17 @@ setInterval(function() {
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类分析-系统]]></Name>
+</TableData>
+<CategoryName value="工单分类"/>
+<ChartSummaryColumn name="解决率" function="com.fr.data.util.function.SumFunction" customName="解决率"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -4327,17 +4338,6 @@ setInterval(function() {
 <CategoryName value="工单分类"/>
 <ChartSummaryColumn name="解决" function="com.fr.data.util.function.SumFunction" customName="解决"/>
 <ChartSummaryColumn name="未解决" function="com.fr.data.util.function.SumFunction" customName="未解决"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单分类分析-系统]]></Name>
-</TableData>
-<CategoryName value="工单分类"/>
-<ChartSummaryColumn name="解决率" function="com.fr.data.util.function.SumFunction" customName="解决率"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -5380,6 +5380,17 @@ setInterval(function() {
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类TOP8服务完成情况]]></Name>
+</TableData>
+<CategoryName value="type"/>
+<ChartSummaryColumn name="完成率" function="com.fr.data.util.function.NoneFunction" customName="完成率"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -5390,17 +5401,6 @@ setInterval(function() {
 <CategoryName value="type"/>
 <ChartSummaryColumn name="达标量" function="com.fr.data.util.function.NoneFunction" customName="达标量"/>
 <ChartSummaryColumn name="未完成" function="com.fr.data.util.function.NoneFunction" customName="未完成"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单分类TOP8服务完成情况]]></Name>
-</TableData>
-<CategoryName value="type"/>
-<ChartSummaryColumn name="完成率" function="com.fr.data.util.function.NoneFunction" customName="完成率"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -5591,45 +5591,6 @@ setInterval(function() {
 </GI>
 </AttrTooltip>
 </Attr>
-<Attr class="com.fr.plugin.chart.base.AttrLabel">
-<AttrLabel>
-<labelAttr enable="true"/>
-<labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
-<Attr showLine="false" autoAdjust="true" position="1" isCustom="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="宋体" style="0" size="72"/>
-</Attr>
-</TextAttr>
-<AttrToolTipContent>
-<Attr isCommon="true"/>
-<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
-<AttrTooltipValueFormat>
-<Attr enable="true"/>
-</AttrTooltipValueFormat>
-</value>
-<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
-<AttrTooltipPercentFormat>
-<Attr enable="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##%]]></Format>
-</AttrTooltipPercentFormat>
-</percent>
-<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
-<AttrToolTipCategoryFormat>
-<Attr enable="false"/>
-</AttrToolTipCategoryFormat>
-</category>
-<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
-<AttrTooltipSeriesFormat>
-<Attr enable="false"/>
-</AttrTooltipSeriesFormat>
-</series>
-<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
-</AttrToolTipContent>
-</labelDetail>
-</AttrLabel>
-</Attr>
 <Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
 <TrendLine>
 <Attr trendLineName="" trendLineType="exponential" prePeriod="0" afterPeriod="0"/>
@@ -5665,6 +5626,45 @@ setInterval(function() {
 <AttrAreaSeriesFillColorBackground>
 <Attr alpha="0.15"/>
 </AttrAreaSeriesFillColorBackground>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.AttrLabel">
+<AttrLabel>
+<labelAttr enable="true"/>
+<labelDetail class="com.fr.plugin.chart.base.AttrLabelDetail">
+<Attr showLine="false" autoAdjust="true" position="1" isCustom="true"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="false"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="false"/>
+</AttrTooltipSeriesFormat>
+</series>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+</labelDetail>
+</AttrLabel>
 </Attr>
 </AttrList>
 </ConditionAttr>
@@ -8354,6 +8354,8 @@ setInterval(function() {
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
@@ -8374,6 +8376,8 @@ setInterval(function() {
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列序号]]></CNAME>
 <Compare op="0">
