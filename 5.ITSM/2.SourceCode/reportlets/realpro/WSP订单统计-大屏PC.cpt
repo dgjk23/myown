@@ -760,7 +760,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="2" r="2" cs="23" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=if(len(times_type) = 0, "  本年WSP订单金额分布(万元)", "  " + $times_type + "WSP订单金额分布(万元)")]]></Attributes>
+<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") + "WSP订单金额分布(万元)"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -1366,7 +1366,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </C>
 <C c="26" r="3" cs="7" s="5">
 <O>
-<![CDATA[今年]]></O>
+<![CDATA[本年]]></O>
 <PrivilegeControl/>
 <NameJavaScriptGroup>
 <NameJavaScript name="动态参数1">
@@ -1792,7 +1792,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </C>
 <C c="26" r="7" cs="31" s="4">
 <O>
-<![CDATA[近12个月WSP订单金额趋势分析                                                                            %]]></O>
+<![CDATA[近12个月WSP订单金额趋势分析]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -3576,7 +3576,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="2" r="20" cs="11" s="8">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=if(len(times_type) = 0, "  本年WSP订单数占比", "  " + $times_type + "WSP订单数占比")]]></Attributes>
+<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") +"WSP订单数占比"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -3590,7 +3590,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="14" r="20" cs="11" s="8">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=if(len(times_type) = 0, "  本年WSP订单金额占比", "  " + $times_type + "WSP订单金额占比")]]></Attributes>
+<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") + "WSP订单金额占比"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -3604,7 +3604,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="26" r="20" cs="31" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=if(len(times_type) = 0, "  本年WSP订单金额TOP5", "  " + $times_type + "WSP订单金额占比TOP5")]]></Attributes>
+<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") + "WSP订单金额TOP5"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -4781,12 +4781,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <Style vertical_alignment="3" imageLayout="1">
 <FRFont name="SimSun" style="1" size="72"/>
 <Background name="NullBackground"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
+<Border/>
 </Style>
 <Style horizontal_alignment="2" textStyle="1" imageLayout="1">
 <FRFont name="微软雅黑" style="0" size="112"/>
@@ -4839,7 +4834,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0]]></Format>
+<![CDATA[#,##0]]></Format>
 <FRFont name="SimSun" style="0" size="72" foreground="-10921383"/>
 <Background name="ColorBackground" color="-656900"/>
 <Border/>
