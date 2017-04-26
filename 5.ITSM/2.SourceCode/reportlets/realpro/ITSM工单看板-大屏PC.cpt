@@ -2321,7 +2321,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </C>
 <C c="26" r="20" cs="53" s="10">
 <O>
-<![CDATA[工单数量（环比）]]></O>
+<![CDATA[工单数量（同比）]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -7378,17 +7378,6 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
-<DefinitionMap key="column">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="true" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单地区分析]]></Name>
-</TableData>
-<CategoryName value="Address"/>
-<ChartSummaryColumn name="工单量" function="com.fr.data.util.function.SumFunction" customName="工单量"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
 <DefinitionMap key="line">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="true" isDiscardNullSeries="false"/>
@@ -7398,6 +7387,17 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </TableData>
 <CategoryName value="Address"/>
 <ChartSummaryColumn name="达标" function="com.fr.data.util.function.SumFunction" customName="达标"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
+<DefinitionMap key="column">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="true" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单地区分析]]></Name>
+</TableData>
+<CategoryName value="Address"/>
+<ChartSummaryColumn name="工单量" function="com.fr.data.util.function.SumFunction" customName="工单量"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>

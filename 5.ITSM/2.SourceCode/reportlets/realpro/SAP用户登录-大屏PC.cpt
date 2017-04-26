@@ -202,7 +202,7 @@ GROUP  BY  a.times_type
 <![CDATA[JDBC2]]></DatabaseName>
 </Connection>
 <Query>
-<![CDATA[select convert(nvarchar(18),dateadd(hour,1,max(CreateTime)),120) as lastupdate from SAPLogin_sync]]></Query>
+<![CDATA[select convert(nvarchar(20),dateadd(hour,1,max(CreateTime)),120) as lastupdate from SAPLogin_sync]]></Query>
 </TableData>
 </TableDataMap>
 <ReportWebAttr>
@@ -3071,7 +3071,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </C>
 <C c="32" r="22" cs="7" rs="2" s="9">
 <O>
-<![CDATA[过去6个月]]></O>
+<![CDATA[近6个月]]></O>
 <PrivilegeControl/>
 <NameJavaScriptGroup>
 <NameJavaScript name="动态参数1">
@@ -4469,7 +4469,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="12" r="36" cs="10" s="7">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="登录用户占比" + switch($times_type,"本年","(今年)","6个月","(近6个月)","3个月","(近3个月)","上月","(上个月)","本月","(本月)",null,"(今年)")]]></Attributes>
+<![CDATA[="登录用户占比" + switch($times_type,"本年","(今年)","6个月","(近6个月)","3个月","(近3个月)","上月","(上个月)","本月","(本月)",null,"(今年)")+"   用户总数：13000"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <Expand/>
@@ -5662,12 +5662,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <Style horizontal_alignment="2" vertical_alignment="3" imageLayout="1">
 <FRFont name="SimSun" style="1" size="72"/>
 <Background name="ColorBackground" color="-1"/>
-<Border>
-<Top color="-16777216"/>
-<Bottom color="-16777216"/>
-<Left color="-16777216"/>
-<Right color="-16777216"/>
-</Border>
+<Border/>
 </Style>
 <Style imageLayout="1">
 <FRFont name="SimSun" style="0" size="72" foreground="-6697984"/>
