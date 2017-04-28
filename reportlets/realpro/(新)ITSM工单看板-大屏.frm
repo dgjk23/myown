@@ -719,6 +719,13 @@ inner join   (select  TOP 8
 <![CDATA[
 var form = this.options.form;
 setInterval(function() { 
+     form.getWidgetByName('body').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+)
+;
+setInterval(function() { 
      form.getWidgetByName('report0').gotoPage(1,"{}",true);
     $(".loading-ec-indicator").eq(0).remove();
     $(".text-indicator").remove();
@@ -1509,7 +1516,7 @@ setInterval(function() {
 <C c="4" r="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=IF(F1>0,"环比："+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%"),"")]]></Attributes>
+<![CDATA[=IF(F1>0,"同比："+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%"),"")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -2084,7 +2091,7 @@ setInterval(function() {
 <C c="4" r="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="环比： "+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%")]]></Attributes>
+<![CDATA[="同比： "+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -2704,7 +2711,7 @@ setInterval(function() {
 <C c="4" r="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="环比："+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%")]]></Attributes>
+<![CDATA[="同比："+IF(E1-F1>=0,"▲"+CEILING((E1-F1)/F1*100)+"%","▼"+CEILING((F1-E1)/F1*100)+"%")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -3266,7 +3273,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="300" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
@@ -5528,7 +5535,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="300" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
@@ -6428,7 +6435,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="300" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
@@ -7328,7 +7335,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="300" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
@@ -8244,7 +8251,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="300" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
@@ -9427,7 +9434,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="300" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
