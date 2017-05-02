@@ -1092,7 +1092,7 @@ setInterval(function() {
 <RowHeight defaultValue="723900">
 <![CDATA[914400,1104900,723900,723900,1440000,723900,723900,1066800,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[914400,2023200,1676400,1728000,4320000,0,1676400,1828800,3733800,2743200,2743200]]></ColumnWidth>
+<![CDATA[914400,2023200,1676400,1440000,4608000,0,1676400,1828800,3733800,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="2" s="0">
 <O>
@@ -1544,7 +1544,7 @@ setInterval(function() {
 <Style horizontal_alignment="2" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#,##0]]></Format>
-<FRFont name="微软雅黑" style="1" size="192" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="144" foreground="-1"/>
 <Background name="ColorBackground" color="-13456165"/>
 <Border/>
 </Style>
@@ -1556,7 +1556,7 @@ setInterval(function() {
 <Style horizontal_alignment="4" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
-<FRFont name="微软雅黑" style="1" size="88" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="72" foreground="-1"/>
 <Background name="ColorBackground" color="-13456165"/>
 <Border/>
 </Style>
@@ -2117,7 +2117,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="208" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="176" foreground="-1"/>
 <Background name="ColorBackground" color="-15830115"/>
 <Border/>
 </Style>
@@ -2129,7 +2129,7 @@ setInterval(function() {
 <Style horizontal_alignment="4" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
-<FRFont name="微软雅黑" style="1" size="88" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="72" foreground="-1"/>
 <Background name="ColorBackground" color="-15830115"/>
 <Border/>
 </Style>
@@ -2739,7 +2739,7 @@ setInterval(function() {
 <Style horizontal_alignment="2" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#,##0]]></Format>
-<FRFont name="微软雅黑" style="1" size="208" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="176" foreground="-1"/>
 <Background name="ColorBackground" color="-1012594"/>
 <Border/>
 </Style>
@@ -2751,7 +2751,7 @@ setInterval(function() {
 <Style horizontal_alignment="4" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
-<FRFont name="微软雅黑" style="1" size="88" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="72" foreground="-1"/>
 <Background name="ColorBackground" color="-1012594"/>
 <Border/>
 </Style>
@@ -2909,9 +2909,9 @@ setInterval(function() {
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[723900,720000,720000,720000,720000,720000,720000,723900,1028700,723900,723900]]></RowHeight>
+<![CDATA[504000,432000,432000,432000,432000,432000,432000,432000,576000,576000,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[1485900,2743200,6972300,1714500,1485900,2743200,3086100,2362200,2743200,2743200,2743200]]></ColumnWidth>
+<![CDATA[1485900,2743200,6480000,1714500,1485900,2743200,3086100,2362200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="3" s="0">
 <O>
@@ -3016,7 +3016,7 @@ setInterval(function() {
 <C c="0" r="9" cs="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="总解决时长： " + 本月P1问题.select("解决时长")]]></Attributes>
+<![CDATA[="总解决时长： " + IF(isnull(本月P1问题.select("解决时长")),"暂未解决",本月P1问题.select("解决时长"))]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -3051,7 +3051,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="480" foreground="-16733531"/>
+<FRFont name="微软雅黑" style="1" size="384" foreground="-16733531"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
@@ -3061,7 +3061,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="4" imageLayout="1">
-<FRFont name="SimSun" style="0" size="72" foreground="-5197648"/>
+<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
 <Background name="NullBackground"/>
 <Border/>
 </Style>
@@ -8361,13 +8361,11 @@ setInterval(function() {
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
-<![CDATA[系列序号]]></CNAME>
+<![CDATA[系列名称]]></CNAME>
 <Compare op="0">
 <O>
-<![CDATA[1]]></O>
+<![CDATA[本月]]></O>
 </Compare>
 </Condition>
 </ConditionAttr>
@@ -8383,13 +8381,11 @@ setInterval(function() {
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
 <CNAME>
-<![CDATA[系列序号]]></CNAME>
+<![CDATA[系列名称]]></CNAME>
 <Compare op="0">
 <O>
-<![CDATA[2]]></O>
+<![CDATA[上月]]></O>
 </Compare>
 </Condition>
 </ConditionAttr>
@@ -9032,9 +9028,9 @@ setInterval(function() {
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[723900,720000,720000,720000,720000,720000,720000,723900,1028700,723900,723900]]></RowHeight>
+<![CDATA[504000,504000,504000,504000,504000,504000,504000,504000,1028700,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[1485900,2743200,6972300,1714500,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<![CDATA[1485900,2743200,5760000,1714500,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="3" s="0">
 <O>
@@ -9139,7 +9135,7 @@ setInterval(function() {
 <C c="0" r="9" cs="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="总解决时长： " + 本月P2问题.select("解决时长")]]></Attributes>
+<![CDATA[="总解决时长： " + IF(isnull(本月P2问题.select("解决时长")),"暂未解决",本月P2问题.select("解决时长"))]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -9174,7 +9170,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="480" foreground="-12210984"/>
+<FRFont name="微软雅黑" style="1" size="384" foreground="-12210984"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
