@@ -363,7 +363,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[190500,989280,1152000,1152000,1152000,1440000,288000,876300,648000,1440000,288000,432000,1008000,864000,864000,864000,864000,864000,864000,288000,1152000,1562100,152400,419100,304800,342900,304800,0,762000,288000,723900,288000,723900]]></RowHeight>
+<![CDATA[190500,1008000,1152000,1152000,1152000,1440000,288000,876300,648000,1440000,288000,432000,1008000,864000,864000,864000,864000,864000,864000,288000,1152000,1562100,152400,419100,304800,342900,304800,0,762000,288000,723900,288000,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
 <![CDATA[0,360000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,288000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,504000,720000,720000,720000,720000,720000,720000,720000,288000,720000,720000,720000,720000,720000,720000,720000,288000,720000,720000,720000,720000,720000,720000,720000,288000,720000,720000,720000,720000,720000,720000,720000,720000,720000,152400,2743200]]></ColumnWidth>
 <CellElementList>
@@ -2942,17 +2942,6 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
-<DefinitionMap key="column">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[订单近一年趋势分析]]></Name>
-</TableData>
-<CategoryName value="月份"/>
-<ChartSummaryColumn name="WSP订单" function="com.fr.data.util.function.SumFunction" customName="WSP订单"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
 <DefinitionMap key="line">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -2962,6 +2951,17 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </TableData>
 <CategoryName value="月份"/>
 <ChartSummaryColumn name="达成率" function="com.fr.data.util.function.SumFunction" customName="订单占比"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
+<DefinitionMap key="column">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[订单近一年趋势分析]]></Name>
+</TableData>
+<CategoryName value="月份"/>
+<ChartSummaryColumn name="WSP订单" function="com.fr.data.util.function.SumFunction" customName="WSP订单"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -4773,8 +4773,8 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <Background name="ColorBackground" color="-526345"/>
 <Border/>
 </Style>
-<Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="128"/>
+<Style horizontal_alignment="2" vertical_alignment="1" imageLayout="1">
+<FRFont name="微软雅黑" style="1" size="112"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
