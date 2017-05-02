@@ -163,7 +163,7 @@ from
       ,sum(a.成功) 成功
       ,sum(a.失败) 失败
       ,sum(a.总数) 总数
-	  ,case  when  convert(decimal(18,2),sum(a.总数))=0  then  0  else  convert(decimal(18,2),convert(decimal(18,2),sum(a.成功))/convert(decimal(18,2),13000)*100)  end  as  成功率
+	  ,case  when  convert(decimal(18,2),sum(a.总数))=0  then  0  else  convert(decimal(18,2),convert(decimal(18,2),sum(a.成功))/convert(decimal(18,2),15286)*100)  end  as  成功率
 FROM ETL_SAPYH_YHJCB1  a
 WHERE 1=1 ${if(len(times_type)==0,"","and times_type='"+times_type+"'")}
 GROUP  BY  a.times_type]]></Query>
@@ -287,7 +287,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[989280,0,990600,144000,432000,432000,432000,190500,228600,152400,266700,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,342900,571500,723900,1008000,1008000,360000,990600,720000,720000,720000,419100,0,720000,720000,360000,990600,360000,360000,360000,360000,720000,800100,720000,720000,720000,288000,288000,288000,288000,288000,288000,288000,288000,720000,419100,723900,914400,720000,720000,720000,720000,720000,720000,720000,720000,720000,720000,0,0,0,0,114300,0,0,0,723900,723900,723900,723900,1152000,432000,432000,533400,1485900,266700,304800,723900]]></RowHeight>
+<![CDATA[1104900,0,990600,144000,432000,432000,432000,190500,228600,152400,266700,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,342900,571500,723900,1008000,1008000,360000,990600,720000,720000,720000,419100,0,720000,720000,360000,990600,360000,360000,360000,360000,720000,800100,720000,720000,720000,288000,288000,288000,288000,288000,288000,288000,288000,720000,419100,723900,914400,720000,720000,720000,720000,720000,720000,720000,720000,720000,720000,0,0,0,0,114300,0,0,0,723900,723900,723900,723900,1152000,432000,432000,533400,1485900,266700,304800,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
 <![CDATA[0,360000,1584000,1584000,1584000,0,0,0,1584000,2628900,1584000,360000,1790700,1584000,1584000,1584000,1584000,1584000,1584000,1584000,1584000,1296000,0,266700,648000,648000,648000,648000,648000,648000,648000,288000,648000,648000,648000,648000,648000,648000,648000,288000,648000,648000,648000,648000,648000,648000,648000,288000,648000,648000,648000,648000,648000,648000,648000,288000,648000,648000,648000,648000,648000,648000,648000,304800,288000,2743200]]></ColumnWidth>
 <CellElementList>
@@ -301,7 +301,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </C>
 <C c="2" r="0" cs="10" s="2">
 <O>
-<![CDATA[SAP用户登录情况分析]]></O>
+<![CDATA[SAP-ERP用户登录情况分析]]></O>
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -2364,6 +2364,16 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[登陆趋势分析]]></Name>
+</TableData>
+<CategoryName value="times"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -2373,16 +2383,6 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </TableData>
 <CategoryName value="times"/>
 <ChartSummaryColumn name="成功" function="com.fr.data.util.function.SumFunction" customName="成功"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[登陆趋势分析]]></Name>
-</TableData>
-<CategoryName value="times"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -4469,7 +4469,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="12" r="36" cs="10" s="7">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="登录用户占比" + switch($times_type,"本年","(今年)","6个月","(近6个月)","3个月","(近3个月)","上月","(上个月)","本月","(本月)",null,"(今年)")+"   用户总数：13000"]]></Attributes>
+<![CDATA[="登录用户占比" + switch($times_type,"本年","(今年)","6个月","(近6个月)","3个月","(近3个月)","上月","(上个月)","本月","(本月)",null,"(今年)")+"   用户总数：15286"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <Expand/>
