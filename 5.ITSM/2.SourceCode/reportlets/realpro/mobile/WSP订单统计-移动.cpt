@@ -169,10 +169,10 @@ n)2$^gtp~
         CONVERT(decimal(18,2),SUM(t2.[上月金额]A)/10000) [上月金额]A,CONVERT(decimal(18,2),SUM(t2.[本月金额]A)/10000) [本月金额]A
 FROM
 (SELECT 
-      case  when  t1.times_type='本年'  then  sum(t1.TOTAL)  end as 本年金额,
-      case  when  t1.times_type='3个月'  then  sum(t1.TOTAL) end as [3个月金额]A,
-	  case  when  t1.times_type='上月'  then  sum(t1.TOTAL) end as [上月金额]A,
-	  case  when  t1.times_type='本月'  then  sum(t1.TOTAL) end as [本月金额]A
+      case  when  t1.times_type='本年'  then  sum(t1.NZWS)  end as 本年金额,
+      case  when  t1.times_type='3个月'  then  sum(t1.NZWS) end as [3个月金额]A,
+	  case  when  t1.times_type='上月'  then  sum(t1.NZWS) end as [上月金额]A,
+	  case  when  t1.times_type='本月'  then  sum(t1.NZWS) end as [本月金额]A
 FROM  ETL_SAPDD_DDJCB t1
 GROUP  BY   t1.times_type)  t2
 ]]></Query>
