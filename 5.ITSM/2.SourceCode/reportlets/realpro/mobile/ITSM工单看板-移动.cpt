@@ -2996,6 +2996,23 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AW26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="50" r="25" s="22">
@@ -3011,6 +3028,19 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AW26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="51" r="25" cs="3" s="23">
@@ -3021,6 +3051,19 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AW26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="54" r="25" cs="4" s="26">
@@ -3031,6 +3074,19 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AW26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="58" r="25" s="6">
@@ -4089,7 +4145,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </HighlightList>
 <Expand/>
 </C>
-<C c="29" r="32" cs="3" s="30">
+<C c="29" r="32" cs="3" s="23">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=AA30-AC33]]></Attributes>
@@ -4181,7 +4237,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <CellPageAttr/>
 <Expand/>
 </C>
-<C c="40" r="32" cs="3" s="30">
+<C c="40" r="32" cs="3" s="23">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=AL30-AN33]]></Attributes>
@@ -4672,27 +4728,27 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="51" r="33" s="31">
+<C c="51" r="33" s="30">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="33" s="32">
+<C c="52" r="33" s="31">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="53" r="33" s="31">
+<C c="53" r="33" s="30">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="54" r="33" s="31">
+<C c="54" r="33" s="30">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="55" r="33" s="31">
+<C c="55" r="33" s="30">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="56" r="33" s="31">
+<C c="56" r="33" s="30">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -5493,7 +5549,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 </HighlightList>
 <Expand/>
 </C>
-<C c="40" r="39" cs="3" s="30">
+<C c="40" r="39" cs="3" s="23">
 <O t="Formula" class="Formula">
 <Attributes>
 <![CDATA[=AL37-AN40]]></Attributes>
@@ -5880,39 +5936,39 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="25" r="40" s="33">
+<C c="25" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="26" r="40" s="33">
+<C c="26" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="27" r="40" s="33">
+<C c="27" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="28" r="40" s="33">
+<C c="28" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="29" r="40" s="33">
+<C c="29" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="30" r="40" s="33">
+<C c="30" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="31" r="40" s="33">
+<C c="31" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="32" r="40" s="33">
+<C c="32" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="33" r="40" s="33">
+<C c="33" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -5924,39 +5980,39 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="36" r="40" s="33">
+<C c="36" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="37" r="40" s="33">
+<C c="37" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="38" r="40" s="33">
+<C c="38" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="39" r="40" s="33">
+<C c="39" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="40" r="40" s="33">
+<C c="40" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="41" r="40" s="33">
+<C c="41" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="42" r="40" s="33">
+<C c="42" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="43" r="40" s="33">
+<C c="43" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="44" r="40" s="33">
+<C c="44" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -5968,39 +6024,39 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="47" r="40" s="33">
+<C c="47" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="48" r="40" s="33">
+<C c="48" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="49" r="40" s="33">
+<C c="49" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="50" r="40" s="33">
+<C c="50" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="51" r="40" s="33">
+<C c="51" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="40" s="34">
+<C c="52" r="40" s="33">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="53" r="40" s="33">
+<C c="53" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="54" r="40" s="33">
+<C c="54" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="55" r="40" s="33">
+<C c="55" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6012,39 +6068,39 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="58" r="40" s="33">
+<C c="58" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="59" r="40" s="33">
+<C c="59" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="60" r="40" s="33">
+<C c="60" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="61" r="40" s="33">
+<C c="61" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="62" r="40" s="33">
+<C c="62" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="63" r="40" s="33">
+<C c="63" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="64" r="40" s="33">
+<C c="64" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="65" r="40" s="33">
+<C c="65" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="66" r="40" s="33">
+<C c="66" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6056,39 +6112,39 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="69" r="40" s="34">
+<C c="69" r="40" s="33">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="70" r="40" s="33">
+<C c="70" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="71" r="40" s="33">
+<C c="71" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="72" r="40" s="33">
+<C c="72" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="73" r="40" s="33">
+<C c="73" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="74" r="40" s="33">
+<C c="74" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="75" r="40" s="33">
+<C c="75" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="76" r="40" s="33">
+<C c="76" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="77" r="40" s="33">
+<C c="77" r="40" s="32">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6456,7 +6512,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="42" s="35">
+<C c="52" r="42" s="34">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -6480,7 +6536,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="2" r="43" cs="20" rs="30" s="36">
+<C c="2" r="43" cs="20" rs="30" s="35">
 <O t="CC">
 <LayoutAttr selectedIndex="0"/>
 <ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
@@ -7625,7 +7681,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="25" r="43" cs="27" rs="30" s="37">
+<C c="25" r="43" cs="27" rs="30" s="36">
 <O t="CC">
 <LayoutAttr selectedIndex="0"/>
 <ChangeAttr enable="false" changeType="button" timeInterval="5" buttonColor="-8421505" carouselColor="-8421505">
@@ -8099,7 +8155,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="43" s="38">
+<C c="52" r="43" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8557,7 +8613,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="44" s="38">
+<C c="52" r="44" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8585,7 +8641,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="45" s="38">
+<C c="52" r="45" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8613,7 +8669,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="46" s="38">
+<C c="52" r="46" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8641,7 +8697,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="47" s="38">
+<C c="52" r="47" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8669,7 +8725,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="48" s="38">
+<C c="52" r="48" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8697,7 +8753,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="49" s="38">
+<C c="52" r="49" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8725,7 +8781,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="50" s="38">
+<C c="52" r="50" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8753,7 +8809,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="51" s="38">
+<C c="52" r="51" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8781,7 +8837,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="52" s="38">
+<C c="52" r="52" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8809,7 +8865,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="53" s="38">
+<C c="52" r="53" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8837,7 +8893,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="54" s="38">
+<C c="52" r="54" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8865,7 +8921,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="55" s="38">
+<C c="52" r="55" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8893,7 +8949,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="56" s="38">
+<C c="52" r="56" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8921,7 +8977,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="57" s="38">
+<C c="52" r="57" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8949,7 +9005,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="58" s="38">
+<C c="52" r="58" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -8977,7 +9033,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="59" s="38">
+<C c="52" r="59" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9005,7 +9061,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="60" s="38">
+<C c="52" r="60" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9033,7 +9089,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="61" s="38">
+<C c="52" r="61" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9061,7 +9117,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="62" s="38">
+<C c="52" r="62" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9089,7 +9145,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="63" s="38">
+<C c="52" r="63" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9117,7 +9173,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="64" s="38">
+<C c="52" r="64" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9145,7 +9201,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="65" s="38">
+<C c="52" r="65" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9173,7 +9229,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="66" s="38">
+<C c="52" r="66" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9201,7 +9257,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="67" s="38">
+<C c="52" r="67" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9229,7 +9285,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="68" s="38">
+<C c="52" r="68" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9257,7 +9313,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="69" s="38">
+<C c="52" r="69" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9285,7 +9341,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="70" s="38">
+<C c="52" r="70" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9313,7 +9369,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="71" s="38">
+<C c="52" r="71" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9341,7 +9397,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <PrivilegeControl/>
 <Expand/>
 </C>
-<C c="52" r="72" s="38">
+<C c="52" r="72" s="37">
 <PrivilegeControl/>
 <Expand/>
 </C>
@@ -9852,7 +9908,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <Background name="ColorBackground" color="-1215354"/>
 <Border/>
 </Style>
-<Style imageLayout="1">
+<Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
 <Background name="ColorBackground" color="-1215354"/>
 <Border/>
@@ -9889,11 +9945,6 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <Style horizontal_alignment="0" imageLayout="1">
 <FRFont name="微软雅黑" style="0" size="96" foreground="-13421773"/>
 <Background name="ColorBackground" color="-1"/>
-<Border/>
-</Style>
-<Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="96" foreground="-1"/>
-<Background name="ColorBackground" color="-1215354"/>
 <Border/>
 </Style>
 <Style imageLayout="1">
