@@ -710,12 +710,111 @@ inner join   (select  TOP 8
 	]]></Query>
 </TableData>
 </TableDataMap>
-<ReportFitAttr fitStateInPC="1" fitFont="true"/>
 <FormMobileAttr>
-<FormMobileAttr refresh="true" isUseHTML="true"/>
+<FormMobileAttr refresh="false" isUseHTML="false"/>
 </FormMobileAttr>
 <Parameters/>
 <Layout class="com.fr.form.ui.container.WBorderLayout">
+<Listener event="afterinit">
+<JavaScript class="com.fr.js.JavaScriptImpl">
+<Parameters/>
+<Content>
+<![CDATA[
+var form = this.options.form;
+setInterval(function() { 
+     form.getWidgetByName('body').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+)
+;
+setInterval(function() { 
+     form.getWidgetByName('report0').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+)
+;
+setInterval(function() { 
+     form.getWidgetByName('report2').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('report5').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('report6').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('report7').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('report8').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('chart0').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('chart1').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('chart2').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('chart3').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('chart4').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+setInterval(function() { 
+     form.getWidgetByName('chart5').gotoPage(1,"{}",true);
+    $(".loading-ec-indicator").eq(0).remove();
+    $(".text-indicator").remove();
+    }, 300000
+);
+;
+]]></Content>
+</JavaScript>
+</Listener>
 <WidgetName name="form"/>
 <WidgetAttr description="">
 <PrivilegeControl/>
@@ -829,7 +928,7 @@ setInterval(function() {
 <RowHeight defaultValue="723900">
 <![CDATA[1485900,0,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[5905500,6591300,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<![CDATA[12344400,57600000,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" s="0">
 <O t="Formula" class="Formula">
@@ -837,7 +936,7 @@ setInterval(function() {
 <![CDATA[="蒙牛ITSM工单看板"]]></Attributes>
 </O>
 <PrivilegeControl/>
-<CellGUIAttr adjustmode="2"/>
+<CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 <Expand/>
 </C>
@@ -847,7 +946,7 @@ setInterval(function() {
 <![CDATA[="数据时间: " + 工单数据最后更新时间.select(LAST_UPDATETIME) + " （更新频率:1小时）"]]></Attributes>
 </O>
 <PrivilegeControl/>
-<CellGUIAttr adjustmode="2"/>
+<CellGUIAttr adjustmode="0"/>
 <CellPageAttr/>
 <Expand/>
 </C>
@@ -860,12 +959,12 @@ setInterval(function() {
 </FormElementCase>
 <StyleList>
 <Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="96"/>
+<FRFont name="微软雅黑" style="1" size="128"/>
 <Background name="NullBackground"/>
 <Border/>
 </Style>
 <Style horizontal_alignment="2" vertical_alignment="3" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="48"/>
+<FRFont name="微软雅黑" style="1" size="88"/>
 <Background name="NullBackground"/>
 <Border/>
 </Style>
@@ -873,7 +972,7 @@ setInterval(function() {
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
-<ElementCaseMobileAttrProvider horizontal="2" vertical="1" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="0" y="0" width="1301" height="43"/>
 </Widget>
@@ -996,7 +1095,7 @@ setInterval(function() {
 <RowHeight defaultValue="723900">
 <![CDATA[914400,1104900,723900,723900,1440000,723900,723900,1066800,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[914400,2023200,1676400,1728000,4608000,0,1676400,1828800,3733800,2743200,2743200]]></ColumnWidth>
+<![CDATA[914400,2023200,1676400,1728000,4320000,0,1676400,1828800,3733800,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="2" s="0">
 <O>
@@ -1042,8 +1141,8 @@ setInterval(function() {
 <Attr alignText="0"/>
 </TextAttr>
 </ChangeAttr>
-<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
-<Chart class="com.fr.chart.chartattr.Chart">
+<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
+<Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1051,93 +1150,15 @@ setInterval(function() {
 </AttrBackground>
 <AttrBorder>
 <Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
+<newColor borderColor="-1118482"/>
 </AttrBorder>
 <AttrAlpha>
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title4VanChart>
 <Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<O>
-<![CDATA[新建图表标题]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="微软雅黑" style="1" size="128" foreground="-16764058"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="false" position="0"/>
-</Title>
-<Plot class="com.fr.chart.chartattr.Bar2DPlot">
-<CategoryPlot>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
-<newHotTooltipStyle>
-<AttrContents>
-<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-<PercentFormat>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0.##%]]></Format>
-</PercentFormat>
-</AttrContents>
-</newHotTooltipStyle>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name=""/>
-</DefaultAttr>
-<ConditionAttrList>
-<List index="0">
-<ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.chart.base.AttrBackground">
-<AttrBackground>
-<Background name="ColorBackground" color="-1"/>
-<Attr shadow="false"/>
-</AttrBackground>
-</Attr>
-</AttrList>
-<Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
-<CNAME>
-<![CDATA[系列序号]]></CNAME>
-<Compare op="0">
-<O>
-<![CDATA[1]]></O>
-</Compare>
-</Condition>
-</ConditionAttr>
-</List>
-</ConditionAttrList>
-</ConditionCollection>
-<Legend>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1151,9 +1172,150 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr position="3" visible="false"/>
-<FRFont name="宋体" style="0" size="72" foreground="-8355712"/>
+<O>
+<![CDATA[新建图表标题]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-13421773"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="false" position="0"/>
+</Title>
+<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Title4VanChart>
+<Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
+<VanChartPlotVersion version="20170104"/>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.plugin.chart.base.AttrTooltip">
+<AttrTooltip>
+<Attr enable="true" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="true"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="true"/>
+</AttrTooltipSeriesFormat>
+</series>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="true"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+<Attr class="com.fr.chart.base.AttrAlpha">
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
+<TrendLine>
+<Attr trendLineName="" trendLineType="exponential" prePeriod="0" afterPeriod="0"/>
+<LineStyleInfo>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+<AttrColor>
+<Attr/>
+</AttrColor>
+<AttrLineStyle>
+<newAttr lineStyle="0"/>
+</AttrLineStyle>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+</LineStyleInfo>
+</TrendLine>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend4VanChart>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-3355444"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
 </Legend>
+<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="true"/>
+</Legend4VanChart>
 <DataSheet>
 <GI>
 <AttrBackground>
@@ -1169,6 +1331,8 @@ setInterval(function() {
 </AttrAlpha>
 </GI>
 <Attr isVisible="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
 </DataSheet>
 <newPlotFillStyle>
 <AttrFillStyle>
@@ -1211,87 +1375,140 @@ setInterval(function() {
 </ColorList>
 </AttrFillStyle>
 </newPlotFillStyle>
-<RectanglePlotAttr interactiveAxisTooltip="false"/>
-<xAxis>
-<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
-<newAxisAttr isShowAxisLabel="false"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
-<newLineColor mainGridColor="-4144960" lineColor="-11967371"/>
-<AxisPosition value="3"/>
-<TickLine201106 type="0" secType="0"/>
-<ArrowShow arrowShow="false"/>
+<VanChartPlotAttr isAxisRotation="false"/>
+<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
+<XAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-8355712"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
-<AxisLabelCount value="=0"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-</CategoryAxis>
-</xAxis>
-<yAxis>
-<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
-<ValueAxisAttr201108 alignZeroValue="false"/>
+<TitleVisible value="true" position="0"/>
+</Title>
 <newAxisAttr isShowAxisLabel="false"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
 <newLineColor lineColor="-5197648"/>
-<AxisPosition value="2"/>
-<TickLine201106 type="0" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="宋体" style="0" size="80" foreground="-8355712"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=0"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-</ValueAxis>
-</yAxis>
-<secondAxis>
-<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
-<ValueAxisAttr201108 alignZeroValue="false"/>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
-<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
-<AxisPosition value="4"/>
+<AxisPosition value="3"/>
 <TickLine201106 type="2" secType="0"/>
 <ArrowShow arrowShow="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Century Gothic" style="0" size="72"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
-<AxisLabelCount value="=0"/>
+<AxisLabelCount value="=1"/>
 <AxisRange/>
 <AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
 <ZoomAxisAttr isZoom="false"/>
 <axisReversed axisReversed="false"/>
-</ValueAxis>
-</secondAxis>
-<CateAttr isStacked="false"/>
-<BarAttr isHorizontal="false" overlap="0.0" interval="0.1"/>
-<Bar2DAttr isSimulation3D="false"/>
-</CategoryPlot>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="X轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+</VanChartAxis>
+</XAxisList>
+<YAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr rotation="-90" alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
+<newLineColor lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=1"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+</VanChartAxis>
+</YAxisList>
+<stackAndAxisCondition>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+</stackAndAxisCondition>
+<VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="5.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="false"/>
 </Plot>
 <DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
-<MoreNameCDDefinition>
+<OneValueCDDefinition valueName="this_gdl" function="com.fr.data.util.function.SumFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
 <![CDATA[本年时间分布]]></Name>
 </TableData>
 <CategoryName value="times"/>
-<ChartSummaryColumn name="this_gdl" function="com.fr.data.util.function.SumFunction" customName="this_gdl"/>
-</MoreNameCDDefinition>
+</OneValueCDDefinition>
 </ChartDefinition>
 </Chart>
+<tools hidden="true" sort="false" export="false" fullScreen="false"/>
+<VanChartZoom>
+<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<from>
+<![CDATA[]]></from>
+<to>
+<![CDATA[]]></to>
+</VanChartZoom>
+<refreshMoreLabel>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<attr moreLabel="true" plusColor="-11349576" minusColor="-741051"/>
+</refreshMoreLabel>
 </Chart>
 </O>
 <PrivilegeControl/>
@@ -1330,7 +1547,7 @@ setInterval(function() {
 <Style horizontal_alignment="2" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#,##0]]></Format>
-<FRFont name="微软雅黑" style="1" size="144" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="192" foreground="-1"/>
 <Background name="ColorBackground" color="-13456165"/>
 <Border/>
 </Style>
@@ -1342,7 +1559,7 @@ setInterval(function() {
 <Style horizontal_alignment="4" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
-<FRFont name="微软雅黑" style="1" size="72" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-13456165"/>
 <Border/>
 </Style>
@@ -1350,7 +1567,7 @@ setInterval(function() {
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
-<ElementCaseMobileAttrProvider horizontal="2" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="763" y="0" width="222" height="113"/>
 </Widget>
@@ -1499,8 +1716,8 @@ setInterval(function() {
 <Attr alignText="0"/>
 </TextAttr>
 </ChangeAttr>
-<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
-<Chart class="com.fr.chart.chartattr.Chart">
+<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
+<Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1508,93 +1725,15 @@ setInterval(function() {
 </AttrBackground>
 <AttrBorder>
 <Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
+<newColor borderColor="-1118482"/>
 </AttrBorder>
 <AttrAlpha>
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title4VanChart>
 <Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<O>
-<![CDATA[新建图表标题]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="微软雅黑" style="1" size="128" foreground="-16764058"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="false" position="0"/>
-</Title>
-<Plot class="com.fr.chart.chartattr.Bar2DPlot">
-<CategoryPlot>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
-<newHotTooltipStyle>
-<AttrContents>
-<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-<PercentFormat>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0.##%]]></Format>
-</PercentFormat>
-</AttrContents>
-</newHotTooltipStyle>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name=""/>
-</DefaultAttr>
-<ConditionAttrList>
-<List index="0">
-<ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.chart.base.AttrBackground">
-<AttrBackground>
-<Background name="ColorBackground" color="-1"/>
-<Attr shadow="false"/>
-</AttrBackground>
-</Attr>
-</AttrList>
-<Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
-<CNAME>
-<![CDATA[系列序号]]></CNAME>
-<Compare op="0">
-<O>
-<![CDATA[1]]></O>
-</Compare>
-</Condition>
-</ConditionAttr>
-</List>
-</ConditionAttrList>
-</ConditionCollection>
-<Legend>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -1608,9 +1747,150 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr position="3" visible="false"/>
-<FRFont name="宋体" style="0" size="72" foreground="-8355712"/>
+<O>
+<![CDATA[新建图表标题]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-13421773"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="false" position="0"/>
+</Title>
+<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Title4VanChart>
+<Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
+<VanChartPlotVersion version="20170104"/>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.plugin.chart.base.AttrTooltip">
+<AttrTooltip>
+<Attr enable="true" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="true"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="true"/>
+</AttrTooltipSeriesFormat>
+</series>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="true"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+<Attr class="com.fr.chart.base.AttrAlpha">
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
+<TrendLine>
+<Attr trendLineName="" trendLineType="exponential" prePeriod="0" afterPeriod="0"/>
+<LineStyleInfo>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+<AttrColor>
+<Attr/>
+</AttrColor>
+<AttrLineStyle>
+<newAttr lineStyle="0"/>
+</AttrLineStyle>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+</LineStyleInfo>
+</TrendLine>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend4VanChart>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-3355444"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
 </Legend>
+<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="true"/>
+</Legend4VanChart>
 <DataSheet>
 <GI>
 <AttrBackground>
@@ -1626,6 +1906,8 @@ setInterval(function() {
 </AttrAlpha>
 </GI>
 <Attr isVisible="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
 </DataSheet>
 <newPlotFillStyle>
 <AttrFillStyle>
@@ -1668,87 +1950,140 @@ setInterval(function() {
 </ColorList>
 </AttrFillStyle>
 </newPlotFillStyle>
-<RectanglePlotAttr interactiveAxisTooltip="false"/>
-<xAxis>
-<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
-<newAxisAttr isShowAxisLabel="false"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
-<newLineColor mainGridColor="-4144960" lineColor="-11967371"/>
-<AxisPosition value="3"/>
-<TickLine201106 type="0" secType="0"/>
-<ArrowShow arrowShow="false"/>
+<VanChartPlotAttr isAxisRotation="false"/>
+<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
+<XAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-8355712"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
-<AxisLabelCount value="=0"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-</CategoryAxis>
-</xAxis>
-<yAxis>
-<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
-<ValueAxisAttr201108 alignZeroValue="false"/>
+<TitleVisible value="true" position="0"/>
+</Title>
 <newAxisAttr isShowAxisLabel="false"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
 <newLineColor lineColor="-5197648"/>
-<AxisPosition value="2"/>
-<TickLine201106 type="0" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="宋体" style="0" size="80" foreground="-8355712"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=0"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-</ValueAxis>
-</yAxis>
-<secondAxis>
-<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
-<ValueAxisAttr201108 alignZeroValue="false"/>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
-<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
-<AxisPosition value="4"/>
+<AxisPosition value="3"/>
 <TickLine201106 type="2" secType="0"/>
 <ArrowShow arrowShow="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Century Gothic" style="0" size="72"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
-<AxisLabelCount value="=0"/>
+<AxisLabelCount value="=1"/>
 <AxisRange/>
 <AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
 <ZoomAxisAttr isZoom="false"/>
 <axisReversed axisReversed="false"/>
-</ValueAxis>
-</secondAxis>
-<CateAttr isStacked="false"/>
-<BarAttr isHorizontal="false" overlap="0.0" interval="0.1"/>
-<Bar2DAttr isSimulation3D="false"/>
-</CategoryPlot>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="X轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="1.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+</VanChartAxis>
+</XAxisList>
+<YAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr rotation="-90" alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
+<newLineColor lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=1"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+</VanChartAxis>
+</YAxisList>
+<stackAndAxisCondition>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+</stackAndAxisCondition>
+<VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="5.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="false"/>
 </Plot>
 <DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
-<MoreNameCDDefinition>
+<OneValueCDDefinition valueName="this_gdl" function="com.fr.data.util.function.SumFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
 <![CDATA[本日时间分布]]></Name>
 </TableData>
 <CategoryName value="times"/>
-<ChartSummaryColumn name="this_gdl" function="com.fr.data.util.function.SumFunction" customName="工单量"/>
-</MoreNameCDDefinition>
+</OneValueCDDefinition>
 </ChartDefinition>
 </Chart>
+<tools hidden="true" sort="false" export="false" fullScreen="false"/>
+<VanChartZoom>
+<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<from>
+<![CDATA[]]></from>
+<to>
+<![CDATA[]]></to>
+</VanChartZoom>
+<refreshMoreLabel>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<attr moreLabel="true" plusColor="-11349576" minusColor="-741051"/>
+</refreshMoreLabel>
 </Chart>
 </O>
 <PrivilegeControl/>
@@ -1785,7 +2120,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="176" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="208" foreground="-1"/>
 <Background name="ColorBackground" color="-15830115"/>
 <Border/>
 </Style>
@@ -1797,7 +2132,7 @@ setInterval(function() {
 <Style horizontal_alignment="4" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
-<FRFont name="微软雅黑" style="1" size="72" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-15830115"/>
 <Border/>
 </Style>
@@ -1805,7 +2140,7 @@ setInterval(function() {
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
-<ElementCaseMobileAttrProvider horizontal="2" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="331" y="0" width="220" height="113"/>
 </Widget>
@@ -1955,7 +2290,7 @@ setInterval(function() {
 <RowHeight defaultValue="723900">
 <![CDATA[914400,1104900,723900,723900,1440000,0,723900,1066800,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[914400,2023200,1676400,1728000,4320000,0,2023200,1676400,1828800,3733800,2743200]]></ColumnWidth>
+<![CDATA[914400,2552700,1333500,1728000,4320000,0,2023200,1676400,1828800,3733800,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="2" s="0">
 <O>
@@ -2001,8 +2336,8 @@ setInterval(function() {
 <Attr alignText="0"/>
 </TextAttr>
 </ChangeAttr>
-<Chart name="默认" chartClass="com.fr.chart.chartattr.Chart">
-<Chart class="com.fr.chart.chartattr.Chart">
+<Chart name="默认" chartClass="com.fr.plugin.chart.vanchart.VanChart">
+<Chart class="com.fr.plugin.chart.vanchart.VanChart">
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -2010,93 +2345,15 @@ setInterval(function() {
 </AttrBackground>
 <AttrBorder>
 <Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
+<newColor borderColor="-1118482"/>
 </AttrBorder>
 <AttrAlpha>
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<ChartAttr isJSDraw="false" isStyleGlobal="false"/>
+<ChartAttr isJSDraw="true" isStyleGlobal="false"/>
+<Title4VanChart>
 <Title>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor borderColor="-16777216"/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<O>
-<![CDATA[新建图表标题]]></O>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="微软雅黑" style="1" size="128" foreground="-16764058"/>
-</Attr>
-</TextAttr>
-<TitleVisible value="false" position="0"/>
-</Title>
-<Plot class="com.fr.chart.chartattr.Bar2DPlot">
-<CategoryPlot>
-<GI>
-<AttrBackground>
-<Background name="NullBackground"/>
-<Attr shadow="false"/>
-</AttrBackground>
-<AttrBorder>
-<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
-<newColor/>
-</AttrBorder>
-<AttrAlpha>
-<Attr alpha="1.0"/>
-</AttrAlpha>
-</GI>
-<Attr isNullValueBreak="true" autoRefreshPerSecond="-1" seriesDragEnable="false" plotStyle="0" combinedSize="50.0"/>
-<newHotTooltipStyle>
-<AttrContents>
-<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
-<PercentFormat>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#0.##%]]></Format>
-</PercentFormat>
-</AttrContents>
-</newHotTooltipStyle>
-<ConditionCollection>
-<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
-<ConditionAttr name=""/>
-</DefaultAttr>
-<ConditionAttrList>
-<List index="0">
-<ConditionAttr name="条件属性1">
-<AttrList>
-<Attr class="com.fr.chart.base.AttrBackground">
-<AttrBackground>
-<Background name="ColorBackground" color="-1"/>
-<Attr shadow="false"/>
-</AttrBackground>
-</Attr>
-</AttrList>
-<Condition class="com.fr.data.condition.CommonCondition">
-<CNUMBER>
-<![CDATA[0]]></CNUMBER>
-<CNAME>
-<![CDATA[系列序号]]></CNAME>
-<Compare op="0">
-<O>
-<![CDATA[1]]></O>
-</Compare>
-</Condition>
-</ConditionAttr>
-</List>
-</ConditionAttrList>
-</ConditionCollection>
-<Legend>
 <GI>
 <AttrBackground>
 <Background name="NullBackground"/>
@@ -2110,9 +2367,150 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr position="3" visible="false"/>
-<FRFont name="宋体" style="0" size="72" foreground="-8355712"/>
+<O>
+<![CDATA[新建图表标题]]></O>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="128" foreground="-13421773"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="false" position="0"/>
+</Title>
+<Attr4VanChart useHtml="false" floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0"/>
+</Title4VanChart>
+<Plot class="com.fr.plugin.chart.column.VanChartColumnPlot">
+<VanChartPlotVersion version="20170104"/>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr isNullValueBreak="true" autoRefreshPerSecond="0" seriesDragEnable="false" plotStyle="4" combinedSize="50.0"/>
+<newHotTooltipStyle>
+<AttrContents>
+<Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel="${VALUE}"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
+<PercentFormat>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#0.##%]]></Format>
+</PercentFormat>
+</AttrContents>
+</newHotTooltipStyle>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name="">
+<AttrList>
+<Attr class="com.fr.plugin.chart.base.AttrTooltip">
+<AttrTooltip>
+<Attr enable="true" followMouse="false" showMutiSeries="false" isCustom="false"/>
+<TextAttr>
+<Attr alignText="0"/>
+</TextAttr>
+<AttrToolTipContent>
+<Attr isCommon="true"/>
+<value class="com.fr.plugin.chart.base.format.AttrTooltipValueFormat">
+<AttrTooltipValueFormat>
+<Attr enable="true"/>
+</AttrTooltipValueFormat>
+</value>
+<percent class="com.fr.plugin.chart.base.format.AttrTooltipPercentFormat">
+<AttrTooltipPercentFormat>
+<Attr enable="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##%]]></Format>
+</AttrTooltipPercentFormat>
+</percent>
+<category class="com.fr.plugin.chart.base.format.AttrTooltipCategoryFormat">
+<AttrToolTipCategoryFormat>
+<Attr enable="true"/>
+</AttrToolTipCategoryFormat>
+</category>
+<series class="com.fr.plugin.chart.base.format.AttrTooltipSeriesFormat">
+<AttrTooltipSeriesFormat>
+<Attr enable="true"/>
+</AttrTooltipSeriesFormat>
+</series>
+<HtmlLabel customText="" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+</AttrToolTipContent>
+<GI>
+<AttrBackground>
+<Background name="ColorBackground" color="-16777216"/>
+<Attr shadow="true"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="2"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="0.5"/>
+</AttrAlpha>
+</GI>
+</AttrTooltip>
+</Attr>
+<Attr class="com.fr.chart.base.AttrBorder">
+<AttrBorder>
+<Attr lineStyle="1" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-1"/>
+</AttrBorder>
+</Attr>
+<Attr class="com.fr.chart.base.AttrAlpha">
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</Attr>
+<Attr class="com.fr.plugin.chart.base.VanChartAttrTrendLine">
+<TrendLine>
+<Attr trendLineName="" trendLineType="exponential" prePeriod="0" afterPeriod="0"/>
+<LineStyleInfo>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+<AttrColor>
+<Attr/>
+</AttrColor>
+<AttrLineStyle>
+<newAttr lineStyle="0"/>
+</AttrLineStyle>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+</LineStyleInfo>
+</TrendLine>
+</Attr>
+</AttrList>
+</ConditionAttr>
+</DefaultAttr>
+</ConditionCollection>
+<Legend4VanChart>
+<Legend>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-3355444"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<Attr position="4" visible="false"/>
+<FRFont name="微软雅黑" style="0" size="88" foreground="-10066330"/>
 </Legend>
+<Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="true"/>
+</Legend4VanChart>
 <DataSheet>
 <GI>
 <AttrBackground>
@@ -2128,6 +2526,8 @@ setInterval(function() {
 </AttrAlpha>
 </GI>
 <Attr isVisible="false"/>
+<Format class="com.fr.base.CoreDecimalFormat">
+<![CDATA[#.##]]></Format>
 </DataSheet>
 <newPlotFillStyle>
 <AttrFillStyle>
@@ -2170,87 +2570,140 @@ setInterval(function() {
 </ColorList>
 </AttrFillStyle>
 </newPlotFillStyle>
-<RectanglePlotAttr interactiveAxisTooltip="false"/>
-<xAxis>
-<CategoryAxis class="com.fr.chart.chartattr.CategoryAxis">
-<newAxisAttr isShowAxisLabel="false"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
-<newLineColor mainGridColor="-4144960" lineColor="-11967371"/>
-<AxisPosition value="3"/>
-<TickLine201106 type="0" secType="0"/>
-<ArrowShow arrowShow="false"/>
+<VanChartPlotAttr isAxisRotation="false"/>
+<VanChartRectanglePlotAttr vanChartPlotType="normal" isDefaultIntervalBackground="true"/>
+<XAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-8355712"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
-<AxisLabelCount value="=0"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-</CategoryAxis>
-</xAxis>
-<yAxis>
-<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
-<ValueAxisAttr201108 alignZeroValue="false"/>
+<TitleVisible value="true" position="0"/>
+</Title>
 <newAxisAttr isShowAxisLabel="false"/>
-<AxisLineStyle AxisStyle="0" MainGridStyle="0"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
 <newLineColor lineColor="-5197648"/>
-<AxisPosition value="2"/>
-<TickLine201106 type="0" secType="0"/>
-<ArrowShow arrowShow="false"/>
-<TextAttr>
-<Attr alignText="0">
-<FRFont name="宋体" style="0" size="80" foreground="-8355712"/>
-</Attr>
-</TextAttr>
-<AxisLabelCount value="=0"/>
-<AxisRange/>
-<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
-<ZoomAxisAttr isZoom="false"/>
-<axisReversed axisReversed="false"/>
-</ValueAxis>
-</yAxis>
-<secondAxis>
-<ValueAxis class="com.fr.chart.chartattr.ValueAxis">
-<ValueAxisAttr201108 alignZeroValue="false"/>
-<newAxisAttr isShowAxisLabel="true"/>
-<AxisLineStyle AxisStyle="1" MainGridStyle="1"/>
-<newLineColor mainGridColor="-4144960" lineColor="-5197648"/>
-<AxisPosition value="4"/>
+<AxisPosition value="3"/>
 <TickLine201106 type="2" secType="0"/>
 <ArrowShow arrowShow="false"/>
 <TextAttr>
 <Attr alignText="0">
-<FRFont name="Century Gothic" style="0" size="72"/>
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
 </Attr>
 </TextAttr>
-<AxisLabelCount value="=0"/>
+<AxisLabelCount value="=1"/>
 <AxisRange/>
 <AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
 <ZoomAxisAttr isZoom="false"/>
 <axisReversed axisReversed="false"/>
-</ValueAxis>
-</secondAxis>
-<CateAttr isStacked="false"/>
-<BarAttr isHorizontal="false" overlap="0.0" interval="0.1"/>
-<Bar2DAttr isSimulation3D="false"/>
-</CategoryPlot>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="X轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+</VanChartAxis>
+</XAxisList>
+<YAxisList>
+<VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
+<Title>
+<GI>
+<AttrBackground>
+<Background name="NullBackground"/>
+<Attr shadow="false"/>
+</AttrBackground>
+<AttrBorder>
+<Attr lineStyle="0" isRoundBorder="false" roundRadius="0"/>
+<newColor borderColor="-16777216"/>
+</AttrBorder>
+<AttrAlpha>
+<Attr alpha="1.0"/>
+</AttrAlpha>
+</GI>
+<O>
+<![CDATA[]]></O>
+<TextAttr>
+<Attr rotation="-90" alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<TitleVisible value="true" position="0"/>
+</Title>
+<newAxisAttr isShowAxisLabel="false"/>
+<AxisLineStyle AxisStyle="0" MainGridStyle="1"/>
+<newLineColor lineColor="-5197648"/>
+<AxisPosition value="2"/>
+<TickLine201106 type="2" secType="0"/>
+<ArrowShow arrowShow="false"/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="Verdana" style="0" size="88" foreground="-10066330"/>
+</Attr>
+</TextAttr>
+<AxisLabelCount value="=1"/>
+<AxisRange/>
+<AxisUnit201106 isCustomMainUnit="false" isCustomSecUnit="false" mainUnit="=0" secUnit="=0"/>
+<ZoomAxisAttr isZoom="false"/>
+<axisReversed axisReversed="false"/>
+<VanChartAxisAttr mainTickLine="0" secTickLine="0" axisName="Y轴" titleUseHtml="false" autoLabelGap="true" limitSize="false" maxHeight="15.0" commonValueFormat="true" isRotation="false"/>
+<HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
+<alertList/>
+<customBackgroundList/>
+<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+</VanChartAxis>
+</YAxisList>
+<stackAndAxisCondition>
+<ConditionCollection>
+<DefaultAttr class="com.fr.chart.chartglyph.ConditionAttr">
+<ConditionAttr name=""/>
+</DefaultAttr>
+</ConditionCollection>
+</stackAndAxisCondition>
+<VanChartColumnPlotAttr seriesOverlapPercent="20.0" categoryIntervalPercent="5.0" fixedWidth="false" columnWidth="0" filledWithImage="false" isBar="false"/>
 </Plot>
 <DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
-<MoreNameCDDefinition>
+<OneValueCDDefinition valueName="this_gdl" function="com.fr.data.util.function.SumFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
 <TableData class="com.fr.data.impl.NameTableData">
 <Name>
 <![CDATA[本月时间分布]]></Name>
 </TableData>
 <CategoryName value="times"/>
-<ChartSummaryColumn name="this_gdl" function="com.fr.data.util.function.SumFunction" customName="this_gdl"/>
-</MoreNameCDDefinition>
+</OneValueCDDefinition>
 </ChartDefinition>
 </Chart>
+<tools hidden="true" sort="false" export="false" fullScreen="false"/>
+<VanChartZoom>
+<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<from>
+<![CDATA[]]></from>
+<to>
+<![CDATA[]]></to>
+</VanChartZoom>
+<refreshMoreLabel>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="微软雅黑" style="0" size="72"/>
+</Attr>
+</TextAttr>
+<attr moreLabel="true" plusColor="-11349576" minusColor="-741051"/>
+</refreshMoreLabel>
 </Chart>
 </O>
 <PrivilegeControl/>
@@ -2289,7 +2742,7 @@ setInterval(function() {
 <Style horizontal_alignment="2" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#,##0]]></Format>
-<FRFont name="微软雅黑" style="1" size="176" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="208" foreground="-1"/>
 <Background name="ColorBackground" color="-1012594"/>
 <Border/>
 </Style>
@@ -2301,7 +2754,7 @@ setInterval(function() {
 <Style horizontal_alignment="4" imageLayout="1">
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0%]]></Format>
-<FRFont name="微软雅黑" style="1" size="72" foreground="-1"/>
+<FRFont name="微软雅黑" style="1" size="88" foreground="-1"/>
 <Background name="ColorBackground" color="-1012594"/>
 <Border/>
 </Style>
@@ -2309,7 +2762,7 @@ setInterval(function() {
 <showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
-<ElementCaseMobileAttrProvider horizontal="2" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
+<ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="551" y="0" width="212" height="113"/>
 </Widget>
@@ -2459,9 +2912,9 @@ setInterval(function() {
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[504000,432000,432000,432000,432000,432000,432000,432000,576000,576000,723900]]></RowHeight>
+<![CDATA[723900,720000,720000,720000,720000,720000,720000,723900,1028700,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[1485900,2743200,6480000,1714500,1485900,2743200,3086100,2362200,2743200,2743200,2743200]]></ColumnWidth>
+<![CDATA[1485900,2743200,6972300,1714500,1485900,2743200,3086100,2362200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="3" s="0">
 <O>
@@ -2566,7 +3019,7 @@ setInterval(function() {
 <C c="0" r="9" cs="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="总解决时长： " + IF(isnull(本月P1问题.select("解决时长")),"暂未解决",本月P1问题.select("解决时长"))]]></Attributes>
+<![CDATA[="总解决时长： " + 本月P1问题.select("解决时长")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -2601,7 +3054,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="384" foreground="-16733531"/>
+<FRFont name="微软雅黑" style="1" size="480" foreground="-16733531"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
@@ -2611,7 +3064,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="4" imageLayout="1">
-<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
+<FRFont name="SimSun" style="0" size="72" foreground="-5197648"/>
 <Background name="NullBackground"/>
 <Border/>
 </Style>
@@ -2855,7 +3308,7 @@ setInterval(function() {
 <Attr alpha="1.0"/>
 </AttrAlpha>
 </GI>
-<Attr position="3" visible="true"/>
+<Attr position="4" visible="true"/>
 <FRFont name="微软雅黑" style="0" size="64" foreground="-10066330"/>
 </Legend>
 <Attr4VanChart floating="false" x="0.0" y="0.0" limitSize="false" maxHeight="15.0" isHighlight="true"/>
@@ -3874,6 +4327,17 @@ setInterval(function() {
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类分析-系统]]></Name>
+</TableData>
+<CategoryName value="工单分类"/>
+<ChartSummaryColumn name="解决率" function="com.fr.data.util.function.SumFunction" customName="解决率"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -3884,17 +4348,6 @@ setInterval(function() {
 <CategoryName value="工单分类"/>
 <ChartSummaryColumn name="解决" function="com.fr.data.util.function.SumFunction" customName="解决"/>
 <ChartSummaryColumn name="未解决" function="com.fr.data.util.function.SumFunction" customName="未解决"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单分类分析-系统]]></Name>
-</TableData>
-<CategoryName value="工单分类"/>
-<ChartSummaryColumn name="解决率" function="com.fr.data.util.function.SumFunction" customName="解决率"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -4937,6 +5390,17 @@ setInterval(function() {
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类TOP8服务完成情况]]></Name>
+</TableData>
+<CategoryName value="type"/>
+<ChartSummaryColumn name="完成率" function="com.fr.data.util.function.NoneFunction" customName="完成率"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -4947,17 +5411,6 @@ setInterval(function() {
 <CategoryName value="type"/>
 <ChartSummaryColumn name="达标量" function="com.fr.data.util.function.NoneFunction" customName="达标量"/>
 <ChartSummaryColumn name="未完成" function="com.fr.data.util.function.NoneFunction" customName="未完成"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单分类TOP8服务完成情况]]></Name>
-</TableData>
-<CategoryName value="type"/>
-<ChartSummaryColumn name="完成率" function="com.fr.data.util.function.NoneFunction" customName="完成率"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -7914,10 +8367,10 @@ setInterval(function() {
 <CNUMBER>
 <![CDATA[0]]></CNUMBER>
 <CNAME>
-<![CDATA[系列名称]]></CNAME>
+<![CDATA[系列序号]]></CNAME>
 <Compare op="0">
 <O>
-<![CDATA[本月]]></O>
+<![CDATA[1]]></O>
 </Compare>
 </Condition>
 </ConditionAttr>
@@ -7936,10 +8389,10 @@ setInterval(function() {
 <CNUMBER>
 <![CDATA[0]]></CNUMBER>
 <CNAME>
-<![CDATA[系列名称]]></CNAME>
+<![CDATA[系列序号]]></CNAME>
 <Compare op="0">
 <O>
-<![CDATA[上月]]></O>
+<![CDATA[2]]></O>
 </Compare>
 </Condition>
 </ConditionAttr>
@@ -8582,9 +9035,9 @@ setInterval(function() {
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[504000,504000,504000,504000,504000,504000,504000,504000,1028700,723900,723900]]></RowHeight>
+<![CDATA[723900,720000,720000,720000,720000,720000,720000,723900,1028700,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[1485900,2743200,5760000,1714500,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<![CDATA[1485900,2743200,6972300,1714500,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
 <C c="0" r="0" cs="3" s="0">
 <O>
@@ -8689,7 +9142,7 @@ setInterval(function() {
 <C c="0" r="9" cs="4" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="总解决时长： " + IF(isnull(本月P2问题.select("解决时长")),"暂未解决",本月P2问题.select("解决时长"))]]></Attributes>
+<![CDATA[="总解决时长： " + 本月P2问题.select("解决时长")]]></Attributes>
 </O>
 <PrivilegeControl/>
 <HighlightList>
@@ -8724,7 +9177,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="384" foreground="-12210984"/>
+<FRFont name="微软雅黑" style="1" size="480" foreground="-12210984"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
@@ -9626,20 +10079,20 @@ setInterval(function() {
 </InnerWidget>
 <BoundsAttr x="301" y="390" width="340" height="308"/>
 </Widget>
-<Sorted sorted="true"/>
+<Sorted sorted="false"/>
 <MobileWidgetList>
 <Widget widgetName="report2"/>
+<Widget widgetName="chart5"/>
 <Widget widgetName="report6"/>
 <Widget widgetName="report7"/>
 <Widget widgetName="report5"/>
 <Widget widgetName="chart2"/>
-<Widget widgetName="chart5"/>
 <Widget widgetName="chart0"/>
+<Widget widgetName="report8"/>
+<Widget widgetName="chart3"/>
 <Widget widgetName="chart1"/>
 <Widget widgetName="chart4"/>
-<Widget widgetName="report8"/>
 <Widget widgetName="report0"/>
-<Widget widgetName="chart3"/>
 </MobileWidgetList>
 <WidgetZoomAttr compState="0"/>
 <AppRelayout appRelayout="true"/>
