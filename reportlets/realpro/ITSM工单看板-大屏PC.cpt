@@ -2960,6 +2960,23 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <O>
 <![CDATA[▼]]></O>
 <PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AZ26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.ValueHighlightAction">
+<O>
+<![CDATA[▲]]></O>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="50" r="25" s="22">
@@ -2973,6 +2990,19 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AZ26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="51" r="25" cs="3" s="23">
@@ -2981,6 +3011,19 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[=AW23-AY26]]></Attributes>
 </O>
 <PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AZ26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="54" r="25" cs="4" s="26">
@@ -2989,6 +3032,19 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[=IF(AY26=0,0,AZ26/AY26)]]></Attributes>
 </O>
 <PrivilegeControl/>
+<HighlightList>
+<Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
+<Name>
+<![CDATA[条件属性1]]></Name>
+<Condition class="com.fr.data.condition.FormulaCondition">
+<Formula>
+<![CDATA[AZ26>0]]></Formula>
+</Condition>
+<HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
+<Background name="ColorBackground" color="-11549335"/>
+</HighlightAction>
+</Highlight>
+</HighlightList>
 <Expand/>
 </C>
 <C c="58" r="25" s="6">

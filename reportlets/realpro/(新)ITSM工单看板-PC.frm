@@ -710,6 +710,7 @@ inner join   (select  TOP 8
 	]]></Query>
 </TableData>
 </TableDataMap>
+<ReportFitAttr fitStateInPC="2" fitFont="false"/>
 <Parameters/>
 <Layout class="com.fr.form.ui.container.WBorderLayout">
 <Listener event="afterinit">
@@ -2909,7 +2910,7 @@ setInterval(function() {
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[504000,432000,432000,432000,432000,432000,432000,432000,576000,576000,723900]]></RowHeight>
+<![CDATA[504000,504000,504000,504000,504000,504000,504000,504000,576000,576000,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
 <![CDATA[1485900,2743200,6480000,1714500,1485900,2743200,3086100,2362200,2743200,2743200,2743200]]></ColumnWidth>
 <CellElementList>
@@ -2994,6 +2995,18 @@ setInterval(function() {
 <PrivilegeControl/>
 <Expand/>
 </C>
+<C c="0" r="7">
+<PrivilegeControl/>
+</C>
+<C c="1" r="7">
+<PrivilegeControl/>
+</C>
+<C c="2" r="7">
+<PrivilegeControl/>
+</C>
+<C c="3" r="7">
+<PrivilegeControl/>
+</C>
 <C c="0" r="8" cs="4" s="3">
 <O t="Formula" class="Formula">
 <Attributes>
@@ -3041,7 +3054,7 @@ setInterval(function() {
 </FormElementCase>
 <StyleList>
 <Style horizontal_alignment="2" imageLayout="1">
-<FRFont name="微软雅黑" style="0" size="80" foreground="-13421773"/>
+<FRFont name="微软雅黑" style="0" size="80"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
@@ -3051,7 +3064,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="384" foreground="-16733531"/>
+<FRFont name="微软雅黑" style="1" size="384" foreground="-12210984"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
@@ -3060,9 +3073,9 @@ setInterval(function() {
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
-<Style horizontal_alignment="4" imageLayout="1">
+<Style horizontal_alignment="4" imageLayout="1" paddingRight="15">
 <FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
-<Background name="NullBackground"/>
+<Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
 </StyleList>
@@ -8361,6 +8374,8 @@ setInterval(function() {
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列名称]]></CNAME>
 <Compare op="0">
@@ -8381,6 +8396,8 @@ setInterval(function() {
 </Attr>
 </AttrList>
 <Condition class="com.fr.data.condition.CommonCondition">
+<CNUMBER>
+<![CDATA[0]]></CNUMBER>
 <CNAME>
 <![CDATA[系列名称]]></CNAME>
 <Compare op="0">
@@ -9036,14 +9053,17 @@ setInterval(function() {
 <O>
 <![CDATA[本月P2工单发生次数]]></O>
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="3" r="0" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="1" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="1" r="1" cs="2" rs="6" s="2">
@@ -9054,6 +9074,7 @@ setInterval(function() {
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<CellPageAttr/>
 <HighlightList>
 <Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
 <Name>
@@ -9071,47 +9092,74 @@ setInterval(function() {
 </C>
 <C c="3" r="1" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="2" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="3" r="2" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="3" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="3" r="3" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="4" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="3" r="4" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="5" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="3" r="5" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="6" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="3" r="6" s="1">
 <PrivilegeControl/>
+<CellPageAttr/>
 <Expand/>
+</C>
+<C c="0" r="7">
+<PrivilegeControl/>
+<CellPageAttr/>
+</C>
+<C c="1" r="7">
+<PrivilegeControl/>
+<CellPageAttr/>
+</C>
+<C c="2" r="7">
+<PrivilegeControl/>
+<CellPageAttr/>
+</C>
+<C c="3" r="7">
+<PrivilegeControl/>
+<CellPageAttr/>
 </C>
 <C c="0" r="8" cs="4" s="3">
 <O t="Formula" class="Formula">
@@ -9119,6 +9167,7 @@ setInterval(function() {
 <![CDATA[="距上次发生P2工单已有" + 本月P2问题.select("距离发生") + "天"]]></Attributes>
 </O>
 <PrivilegeControl/>
+<CellPageAttr/>
 <HighlightList>
 <Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
 <Name>
@@ -9138,6 +9187,7 @@ setInterval(function() {
 <![CDATA[="总解决时长： " + IF(isnull(本月P2问题.select("解决时长")),"暂未解决",本月P2问题.select("解决时长"))]]></Attributes>
 </O>
 <PrivilegeControl/>
+<CellPageAttr/>
 <HighlightList>
 <Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
 <Name>
@@ -9180,7 +9230,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="4" imageLayout="1" paddingRight="15">
-<FRFont name="SimSun" style="0" size="72" foreground="-5197648"/>
+<FRFont name="SimSun" style="0" size="72" foreground="-65536"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
