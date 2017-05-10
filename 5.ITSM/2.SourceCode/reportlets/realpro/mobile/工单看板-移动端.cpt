@@ -231,7 +231,7 @@ GROUP  BY  times_type)  A]]></Query>
 <Parameter>
 <Attributes name="times_type"/>
 <O>
-<![CDATA[本月]]></O>
+<![CDATA[本日]]></O>
 </Parameter>
 </Parameters>
 <Attributes maxMemRowCount="-1"/>
@@ -1535,8 +1535,6 @@ order by TTT.REPORT_DATE desc]]></Query>
 <newHotTooltipStyle>
 <AttrContents>
 <Attr showLine="false" position="1" isWhiteBackground="true" isShowMutiSeries="false"/>
-<Format class="com.fr.base.CoreDecimalFormat">
-<![CDATA[#.##]]></Format>
 <PercentFormat>
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#0.##%]]></Format>
@@ -1564,6 +1562,32 @@ order by TTT.REPORT_DATE desc]]></Query>
 </AttrList>
 </ConditionAttr>
 </DefaultAttr>
+<ConditionAttrList>
+<List index="0">
+<ConditionAttr name="条件属性1">
+<AttrList>
+<Attr class="com.fr.chart.base.AttrContents">
+<AttrContents>
+<Attr showLine="false" position="6" isWhiteBackground="true" isShowMutiSeries="false" seriesLabel=""/>
+<TextAttr>
+<Attr alignText="0">
+<FRFont name="宋体" style="0" size="72"/>
+</Attr>
+</TextAttr>
+</AttrContents>
+</Attr>
+</AttrList>
+<Condition class="com.fr.data.condition.CommonCondition">
+<CNAME>
+<![CDATA[值]]></CNAME>
+<Compare op="0">
+<O>
+<![CDATA[0]]></O>
+</Compare>
+</Condition>
+</ConditionAttr>
+</List>
+</ConditionAttrList>
 </ConditionCollection>
 <Legend>
 <GI>
