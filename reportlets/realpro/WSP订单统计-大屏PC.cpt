@@ -363,7 +363,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <ColumnPrivilegeControl/>
 <RowPrivilegeControl/>
 <RowHeight defaultValue="723900">
-<![CDATA[190500,1008000,1152000,1152000,1152000,1440000,288000,876300,648000,1440000,288000,432000,1008000,864000,864000,864000,864000,864000,864000,288000,1152000,1562100,152400,419100,304800,342900,304800,0,762000,288000,723900,288000,723900]]></RowHeight>
+<![CDATA[190500,1008000,1152000,1152000,1152000,1440000,288000,876300,648000,1440000,288000,432000,1008000,864000,864000,864000,864000,864000,864000,288000,1152000,1562100,152400,419100,304800,342900,304800,0,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
 <![CDATA[0,360000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,288000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,1008000,504000,720000,720000,720000,720000,720000,720000,720000,288000,720000,720000,720000,720000,720000,720000,720000,288000,720000,720000,720000,720000,720000,720000,720000,288000,720000,720000,720000,720000,720000,720000,720000,720000,720000,152400,2743200]]></ColumnWidth>
 <CellElementList>
@@ -738,7 +738,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="8" r="1" cs="49" s="3">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="数据时间："+数据时间.select(lastupdate)]]></Attributes>
+<![CDATA[="数据时间：" + 数据时间.select(lastupdate)]]></Attributes>
 </O>
 <PrivilegeControl/>
 </C>
@@ -760,7 +760,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="2" r="2" cs="23" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") + "WSP订单金额分布(万元)"]]></Attributes>
+<![CDATA[=switch($times_type, "本月", "本月", "3个月", "近3个月", "本年", "本年", "上月", "上个月", null, "本年") + "WSP订单金额分布(万元)"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -1389,7 +1389,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <JoinCondition join="0">
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[$times_type='本年']]></Formula>
+<![CDATA[$times_type = "本年"]]></Formula>
 </Condition>
 </JoinCondition>
 <JoinCondition join="1">
@@ -1433,7 +1433,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[$times_type='3个月']]></Formula>
+<![CDATA[$times_type = "3个月"]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3084584"/>
@@ -1469,7 +1469,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[$times_type='上月']]></Formula>
+<![CDATA[$times_type = "上月"]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3084584"/>
@@ -1505,7 +1505,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[$times_type='本月']]></Formula>
+<![CDATA[$times_type = "本月"]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3084584"/>
@@ -3576,7 +3576,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="2" r="20" cs="11" s="8">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") +"WSP订单数占比"]]></Attributes>
+<![CDATA[=switch($times_type, "本月", "本月", "3个月", "近3个月", "本年", "本年", "上月", "上个月", null, "本年") + "WSP订单数占比"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -3590,7 +3590,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="14" r="20" cs="11" s="8">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") + "WSP订单金额占比"]]></Attributes>
+<![CDATA[=switch($times_type, "本月", "本月", "3个月", "近3个月", "本年", "本年", "上月", "上个月", null, "本年") + "WSP订单金额占比"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -3604,7 +3604,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <C c="26" r="20" cs="31" s="4">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=switch($times_type,"本月","本月","3个月","近3个月","本年","本年","上月","上个月",null,"本年") + "WSP订单金额TOP5"]]></Attributes>
+<![CDATA[=switch($times_type, "本月", "本月", "3个月", "近3个月", "本年", "本年", "上月", "上个月", null, "本年") + "WSP订单金额TOP5"]]></Attributes>
 </O>
 <PrivilegeControl/>
 <CellGUIAttr adjustmode="0"/>
@@ -4331,7 +4331,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AA23%2==0]]></Formula>
+<![CDATA[AA23 % 2 = 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3342388"/>
@@ -4358,7 +4358,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AA23%2==0]]></Formula>
+<![CDATA[AA23 % 2 = 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3342388"/>
@@ -4385,7 +4385,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AA23%2==0]]></Formula>
+<![CDATA[AA23 % 2 = 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3342388"/>
@@ -4412,7 +4412,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AA23%2==0]]></Formula>
+<![CDATA[AA23 % 2 = 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3342388"/>
@@ -4439,7 +4439,7 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <![CDATA[条件属性1]]></Name>
 <Condition class="com.fr.data.condition.FormulaCondition">
 <Formula>
-<![CDATA[AA23%2==0]]></Formula>
+<![CDATA[AA23 % 2 = 0]]></Formula>
 </Condition>
 <HighlightAction class="com.fr.report.cell.cellattr.highlight.BackgroundHighlightAction">
 <Background name="ColorBackground" color="-3342388"/>
