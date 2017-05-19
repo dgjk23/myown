@@ -2936,6 +2936,26 @@ setInterval(function() {
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表3">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters>
+<Parameter>
+<Attributes name="lvl"/>
+<O>
+<![CDATA[P1 危急]]></O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_dialog]]></TargetFrame>
+<Features width="1000" height="400"/>
+<ReportletName>
+<![CDATA[/rpro/public/ticketdetail.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
 <HighlightList>
 <Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
 <Name>
@@ -2997,15 +3017,19 @@ setInterval(function() {
 </C>
 <C c="0" r="7">
 <PrivilegeControl/>
+<Expand/>
 </C>
 <C c="1" r="7">
 <PrivilegeControl/>
+<Expand/>
 </C>
 <C c="2" r="7">
 <PrivilegeControl/>
+<Expand/>
 </C>
 <C c="3" r="7">
 <PrivilegeControl/>
+<Expand/>
 </C>
 <C c="0" r="8" cs="4" s="3">
 <O t="Formula" class="Formula">
@@ -3064,7 +3088,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="384" foreground="-12210984"/>
+<FRFont name="微软雅黑" style="1" size="384" foreground="-16776961" underline="1"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>
@@ -4337,17 +4361,6 @@ setInterval(function() {
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单分类分析-系统]]></Name>
-</TableData>
-<CategoryName value="工单分类"/>
-<ChartSummaryColumn name="解决率" function="com.fr.data.util.function.SumFunction" customName="解决率"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -4358,6 +4371,17 @@ setInterval(function() {
 <CategoryName value="工单分类"/>
 <ChartSummaryColumn name="解决" function="com.fr.data.util.function.SumFunction" customName="解决"/>
 <ChartSummaryColumn name="未解决" function="com.fr.data.util.function.SumFunction" customName="未解决"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类分析-系统]]></Name>
+</TableData>
+<CategoryName value="工单分类"/>
+<ChartSummaryColumn name="解决率" function="com.fr.data.util.function.SumFunction" customName="解决率"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -5400,17 +5424,6 @@ setInterval(function() {
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
-<DefinitionMap key="line">
-<MoreNameCDDefinition>
-<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
-<TableData class="com.fr.data.impl.NameTableData">
-<Name>
-<![CDATA[工单分类TOP8服务完成情况]]></Name>
-</TableData>
-<CategoryName value="type"/>
-<ChartSummaryColumn name="完成率" function="com.fr.data.util.function.NoneFunction" customName="完成率"/>
-</MoreNameCDDefinition>
-</DefinitionMap>
 <DefinitionMap key="column">
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -5421,6 +5434,17 @@ setInterval(function() {
 <CategoryName value="type"/>
 <ChartSummaryColumn name="达标量" function="com.fr.data.util.function.NoneFunction" customName="达标量"/>
 <ChartSummaryColumn name="未完成" function="com.fr.data.util.function.NoneFunction" customName="未完成"/>
+</MoreNameCDDefinition>
+</DefinitionMap>
+<DefinitionMap key="line">
+<MoreNameCDDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<TableData class="com.fr.data.impl.NameTableData">
+<Name>
+<![CDATA[工单分类TOP8服务完成情况]]></Name>
+</TableData>
+<CategoryName value="type"/>
+<ChartSummaryColumn name="完成率" function="com.fr.data.util.function.NoneFunction" customName="完成率"/>
 </MoreNameCDDefinition>
 </DefinitionMap>
 </DefinitionMapList>
@@ -9074,6 +9098,26 @@ setInterval(function() {
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<NameJavaScriptGroup>
+<NameJavaScript name="网络报表1">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<JavaScript class="com.fr.js.ReportletHyperlink">
+<Parameters>
+<Parameter>
+<Attributes name="lvl"/>
+<O>
+<![CDATA[P2 高]]></O>
+</Parameter>
+</Parameters>
+<TargetFrame>
+<![CDATA[_dialog]]></TargetFrame>
+<Features width="1000" height="400"/>
+<ReportletName showPI="true">
+<![CDATA[/rpro/public/ticketdetail.cpt]]></ReportletName>
+</JavaScript>
+</JavaScript>
+</NameJavaScript>
+</NameJavaScriptGroup>
 <CellPageAttr/>
 <HighlightList>
 <Highlight class="com.fr.report.cell.cellattr.highlight.DefaultHighlight">
@@ -9148,18 +9192,22 @@ setInterval(function() {
 <C c="0" r="7">
 <PrivilegeControl/>
 <CellPageAttr/>
+<Expand/>
 </C>
 <C c="1" r="7">
 <PrivilegeControl/>
 <CellPageAttr/>
+<Expand/>
 </C>
 <C c="2" r="7">
 <PrivilegeControl/>
 <CellPageAttr/>
+<Expand/>
 </C>
 <C c="3" r="7">
 <PrivilegeControl/>
 <CellPageAttr/>
+<Expand/>
 </C>
 <C c="0" r="8" cs="4" s="3">
 <O t="Formula" class="Formula">
@@ -9220,7 +9268,7 @@ setInterval(function() {
 <Border/>
 </Style>
 <Style horizontal_alignment="0" imageLayout="1">
-<FRFont name="微软雅黑" style="1" size="384" foreground="-12210984"/>
+<FRFont name="微软雅黑" style="1" size="384" foreground="-16776961" underline="1"/>
 <Background name="ColorBackground" color="-1"/>
 <Border/>
 </Style>

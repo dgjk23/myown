@@ -328,12 +328,12 @@ $(".parameter-container-collapseimg-up").css("background","#07273b");]]></Conten
 <SelectedColor/>
 <WebWrite SheetPosition="3"/>
 <RptLocation isShowAtLeft="true"/>
-<UnloadCheck/>
-<ShowWidgets/>
+<UnloadCheck check="false"/>
+<ShowWidgets show="true"/>
 <OtherAttr isAutoStash="false"/>
 </WebWriteContent>
 </ReportWebAttr>
-<ReportFitAttr fitStateInPC="2" fitFont="true"/>
+<ReportFitAttr fitStateInPC="2" fitFont="false"/>
 <ElementCaseMobileAttr>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="true"/>
 </ElementCaseMobileAttr>
