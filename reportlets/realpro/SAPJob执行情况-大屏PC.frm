@@ -159,12 +159,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Parameter>
 <Attributes name="sdate"/>
 <O>
-<![CDATA[]]></O>
-</Parameter>
-<Parameter>
-<Attributes name="edate"/>
-<O>
-<![CDATA[]]></O>
+<![CDATA[2017-05-18]]></O>
 </Parameter>
 </Parameters>
 <Attributes maxMemRowCount="-1"/>
@@ -175,7 +170,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Query>
 <![CDATA[SELECT TOP  10
         RANK()  OVER (ORDER BY sum(case  when [status]A<>'F'  then loads_frequency else 0  end ) desc )  排名,
-       a.PROGNAME,
+       a.PROGNAME,a.demo1  AS 描述,
        sum(a.times_long) times_long,
        sum(a.loads_frequency)  loads_frequency, 
        case  when sum(a.loads_frequency)=0  then 0 else sum(a.times_long)/sum(a.loads_frequency)  end   as  avg_long,
@@ -185,7 +180,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 WHERE 1=1 AND [status]A<>'F'
           ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
            ${if(len(sdate)==0,"","and dateadd(day,-1,stime)<='"+sdate+"'")}
-  GROUP  BY  a.PROGNAME
+  GROUP  BY  a.PROGNAME,a.demo1 
   ORDER  BY   sum(case  when [status]A<>'F'  then loads_frequency else 0  end )  DESC,sum(a.times_long) DESC ]]></Query>
 </TableData>
 <TableData name="任务高频时长服务器" class="com.fr.data.impl.DBTableData">
@@ -418,6 +413,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <DelayDisplayContent delay="false"/>
 <Position position="0"/>
 <Design_Width design_width="960"/>
+<NameTagModified/>
 <WidgetNameTagMap>
 <NameTag name="formSubmit0" tag="日期:"/>
 <NameTag name="sdate" tag="日期:"/>
@@ -719,6 +715,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -856,7 +853,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -902,7 +905,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -957,7 +966,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </ConditionCollection>
 </stackAndAxisCondition>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <MoreNameCDDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -973,7 +981,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="true" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -1251,6 +1259,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -1386,7 +1395,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -1397,7 +1412,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </ConditionCollection>
 </stackAndAxisCondition>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <OneValueCDDefinition seriesName="指标" valueName="访问量" function="com.fr.data.util.function.NoneFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -1411,7 +1425,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="true" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -2028,9 +2042,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Border>
 </Style>
 </StyleList>
-<showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
+<isShared isshared="false"/>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="0" y="0" width="364" height="134"/>
@@ -3289,9 +3303,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Border>
 </Style>
 </StyleList>
-<showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
+<isShared isshared="false"/>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
@@ -3344,56 +3358,80 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <RowHeight defaultValue="723900">
 <![CDATA[1181100,792000,792000,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
 <ColumnWidth defaultValue="2743200">
-<![CDATA[432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,288000,288000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,288000,288000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,432000,2743200]]></ColumnWidth>
+<![CDATA[432000,432000,432000,76200,0,0,38100,5029200,15621000,3238500,432000,432000,432000,432000,432000,432000,3314700,2933700,2743200]]></ColumnWidth>
 <CellElementList>
-<C c="0" r="0" cs="15" s="0">
+<C c="0" r="0" cs="9" s="0">
 <O>
 <![CDATA[执行失败情况]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
-<C c="15" r="0" cs="43" s="1">
+<C c="9" r="0" cs="9" s="1">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[="数据时间："+数据最后时间.select(LASTUPDATETIME)]]></Attributes>
+<![CDATA[="数据时间：" + 数据最后时间.select(LASTUPDATETIME)]]></Attributes>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="1" cs="7" s="2">
 <O>
 <![CDATA[排名]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
-<C c="7" r="1" cs="13" s="2">
+<C c="7" r="1" s="2">
 <O>
 <![CDATA[程序名]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
-<C c="20" r="1" cs="8" s="2">
+<C c="8" r="1" s="2">
+<O>
+<![CDATA[描述]]></O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand/>
+</C>
+<C c="9" r="1" s="2">
 <O>
 <![CDATA[执行任务次数]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
-<C c="28" r="1" cs="6" s="2">
+<C c="10" r="1" cs="6" s="2">
 <O>
 <![CDATA[失败次数]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
-<C c="34" r="1" cs="10" s="2">
+<C c="16" r="1" s="2">
 <O>
 <![CDATA[平均时长（S）]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
-<C c="44" r="1" cs="14" s="2">
+<C c="17" r="1" s="2">
 <O>
 <![CDATA[总时长（S）]]></O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand/>
 </C>
 <C c="0" r="2" cs="7" s="3">
@@ -3404,9 +3442,11 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand dir="0"/>
 </C>
-<C c="7" r="2" cs="13" s="3">
+<C c="7" r="2" s="3">
 <O t="DSColumn">
 <Attributes dsName="失败" columnName="PROGNAME"/>
 <Complex/>
@@ -3414,9 +3454,23 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand dir="0"/>
 </C>
-<C c="20" r="2" cs="8" s="3">
+<C c="8" r="2" s="4">
+<O t="DSColumn">
+<Attributes dsName="失败" columnName="描述"/>
+<Complex/>
+<RG class="com.fr.report.cell.cellattr.core.group.FunctionGrouper"/>
+<Parameters/>
+</O>
+<PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
+<Expand dir="0"/>
+</C>
+<C c="9" r="2" s="3">
 <O t="DSColumn">
 <Attributes dsName="失败" columnName="loads_frequency"/>
 <Complex/>
@@ -3424,9 +3478,11 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand dir="0"/>
 </C>
-<C c="28" r="2" cs="6" s="3">
+<C c="10" r="2" cs="6" s="3">
 <O t="DSColumn">
 <Attributes dsName="失败" columnName="fail"/>
 <Complex/>
@@ -3434,9 +3490,11 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand dir="0"/>
 </C>
-<C c="34" r="2" cs="10" s="3">
+<C c="16" r="2" s="3">
 <O t="DSColumn">
 <Attributes dsName="失败" columnName="avg_long"/>
 <Complex/>
@@ -3444,14 +3502,18 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Parameters/>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand dir="0"/>
 </C>
-<C c="44" r="2" cs="14" s="3">
+<C c="17" r="2" s="3">
 <O t="Formula" class="Formula">
 <Attributes>
-<![CDATA[=AC3*AI3]]></Attributes>
+<![CDATA[=K3 * Q3]]></Attributes>
 </O>
 <PrivilegeControl/>
+<CellGUIAttr adjustmode="1"/>
+<CellPageAttr/>
 <Expand dir="0"/>
 </C>
 </CellElementList>
@@ -3500,10 +3562,20 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Right style="1" color="-2171170"/>
 </Border>
 </Style>
+<Style horizontal_alignment="0" imageLayout="1">
+<FRFont name="SimSun" style="0" size="48"/>
+<Background name="ColorBackground" color="-1"/>
+<Border>
+<Top style="1" color="-2171170"/>
+<Bottom style="1" color="-2171170"/>
+<Left style="1" color="-2171170"/>
+<Right style="1" color="-2171170"/>
+</Border>
+</Style>
 </StyleList>
-<showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
+<isShared isshared="false"/>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </InnerWidget>
 <BoundsAttr x="525" y="0" width="426" height="222"/>
@@ -3957,9 +4029,9 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Border>
 </Style>
 </StyleList>
-<showToolbar showtoolbar="false"/>
 <heightRestrict heightrestrict="false"/>
 <heightPercent heightpercent="0.75"/>
+<isShared isshared="false"/>
 <ElementCaseMobileAttrProvider horizontal="1" vertical="0" zoom="true" refresh="false" isUseHTML="false"/>
 </body>
 </InnerWidget>
@@ -4219,6 +4291,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </GI>
 <Attr isVisible="false"/>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -4329,12 +4402,17 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 <VanChartGaugeAxisAttr mainTickColor="-4539718" secTickColor="-1907998"/>
 </gaugeAxis>
 <VanChartRadius radiusType="auto" radius="100"/>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <MeterTableDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -4348,7 +4426,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="true" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -4607,6 +4685,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </GI>
 <Attr isVisible="false"/>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -4700,12 +4779,17 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 <VanChartGaugeAxisAttr mainTickColor="-4539718" secTickColor="-1907998"/>
 </gaugeAxis>
 <VanChartRadius radiusType="auto" radius="100"/>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <MeterTableDefinition>
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -4719,7 +4803,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="true" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -4947,6 +5031,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </GI>
 <Attr isVisible="false"/>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -4993,7 +5078,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <VanChartRadius radiusType="auto" radius="100"/>
 <VanChartMultiPie isLight="true" isDrill="true"/>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <MultiPieValueDefinition>
 <OneValueCDDefinition valueName="loads_frequency" function="com.fr.data.util.function.NoneFunction">
@@ -5015,7 +5099,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="false" export="false" fullScreen="false"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -5223,6 +5307,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </GI>
 <Attr isVisible="false"/>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -5268,7 +5353,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <PieAttr4VanChart roseType="normal" startAngle="0.0" endAngle="360.0" innerRadius="0.0" supportRotation="false"/>
 <VanChartRadius radiusType="auto" radius="100"/>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <OneValueCDDefinition seriesName="服务器" valueName="任务数" function="com.fr.data.util.function.NoneFunction">
 <Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
@@ -5282,7 +5366,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="true" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -5455,6 +5539,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -5591,7 +5676,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -5637,7 +5728,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -5804,6 +5901,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -5940,7 +6038,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -5986,7 +6090,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -6167,6 +6277,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -6303,7 +6414,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -6349,7 +6466,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText=" function timeToStr(time) {     var h = 0,         m = 0,         s = 0,         _h = &apos;00&apos;,         _m = &apos;00&apos;,         _s = &apos;00&apos;;     h = Math.floor(time / 3600);     time = Math.floor(time % 3600);     m = Math.floor(time / 60);     s = Math.floor(time % 60);     _s = s &lt; 10 ? &apos;0&apos; + s : s + &apos;&apos;;     _m = m &lt; 10 ? &apos;0&apos; + m : m + &apos;&apos;;     _h = h &lt; 10 ? &apos;0&apos; + h : h + &apos;&apos;;     return _h + &quot;:&quot; + _m + &quot;:&quot; + _s; } " useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -6376,7 +6499,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </VanChartPlot>
 </CustomPlotList>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
@@ -6409,7 +6531,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="false" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -6561,6 +6683,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -6696,7 +6819,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -6742,7 +6871,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -6907,6 +7042,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -7042,7 +7178,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -7088,7 +7230,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -7267,6 +7415,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <Format class="com.fr.base.CoreDecimalFormat">
 <![CDATA[#.##]]></Format>
 </DataSheet>
+<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <newPlotFillStyle>
 <AttrFillStyle>
 <AFStyle colorStyle="1"/>
@@ -7402,7 +7551,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 <VanChartAxis class="com.fr.plugin.chart.attr.axis.VanChartValueAxis">
 <Title>
@@ -7448,7 +7603,13 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 <HtmlLabel customText="function(){ return this; }" useHtml="false" isCustomWidth="false" isCustomHeight="false" width="50" height="50"/>
 <alertList/>
 <customBackgroundList/>
-<VanChartValueAxisAttr isLog="false" baseLog="=10"/>
+<VanChartValueAxisAttr isLog="false" valueStyle="false" baseLog="=10"/>
+<ds>
+<RadarYAxisTableDefinition>
+<Top topCate="-1" topValue="-1" isDiscardOtherCate="false" isDiscardOtherSeries="false" isDiscardNullCate="false" isDiscardNullSeries="false"/>
+<attr/>
+</RadarYAxisTableDefinition>
+</ds>
 </VanChartAxis>
 </YAxisList>
 <stackAndAxisCondition>
@@ -7475,7 +7636,6 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </VanChartPlot>
 </CustomPlotList>
 </Plot>
-<DataProcessor class="com.fr.base.chart.chartdata.model.NormalDataModel"/>
 <ChartDefinition>
 <CustomDefinition>
 <DefinitionMapList>
@@ -7505,7 +7665,7 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Chart>
 <tools hidden="true" sort="false" export="true" fullScreen="true"/>
 <VanChartZoom>
-<zoomAttr zoomVisible="false" zoomResize="true" zoomType="xy"/>
+<zoomAttr zoomVisible="false" zoomGesture="true" zoomResize="true" zoomType="xy"/>
 <from>
 <![CDATA[]]></from>
 <to>
@@ -7542,4 +7702,5 @@ WHERE 1=1 ${if(len(sdate)==0,"","and stime>='"+sdate+"'")}
 </Layout>
 <DesignerVersion DesignerVersion="IAA"/>
 <PreviewType PreviewType="0"/>
+<TemplateID/>
 </Form>
