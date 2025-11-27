@@ -1101,7 +1101,7 @@
         <mxCell id="t8zqSxgieid5Vbx73p7E-30" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;基础能力支撑&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="40" width="120" x="1000" y="1810" as="geometry" />
         </mxCell>
-        <mxCell id="t8zqSxgieid5Vbx73p7E-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="防资损审计文档" vertex="1">
+        <mxCell id="t8zqSxgieid5Vbx73p7E-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="防资损审计文档、离线风险策略、通用告警规则" vertex="1">
           <mxGeometry height="50" width="800" x="1090" y="1860" as="geometry" />
         </mxCell>
         <mxCell id="t8zqSxgieid5Vbx73p7E-32" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;沉淀机制&lt;/span&gt;&lt;/div&gt;" vertex="1">
