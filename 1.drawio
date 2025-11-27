@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.1.1">
   <diagram name="第 1 页" id="B1IgeOVlkVg-dGD6r4Pr">
-    <mxGraphModel dx="1825" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1845" dy="655" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1016,6 +1016,108 @@
         </mxCell>
         <mxCell id="JHJ6aNwNDWI9SEG1gzzm-380" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="产生pope-fs查询开销" vertex="1">
           <mxGeometry height="60" width="120" x="522" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="1090" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" value="呼返" vertex="1">
+          <mxGeometry height="35" width="90" x="1110" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" value="pope" vertex="1">
+          <mxGeometry height="35" width="90" x="1225" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" value="滴滴联盟" vertex="1">
+          <mxGeometry height="35" width="90" x="1340" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="整合营销" vertex="1">
+          <mxGeometry height="35" width="90" x="1450" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8CECC;" value="裂变" vertex="1">
+          <mxGeometry height="35" width="90" x="1560" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6FFCC;" value="商城" vertex="1">
+          <mxGeometry height="35" width="90" x="1675" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" value="..." vertex="1">
+          <mxGeometry height="35" width="90" x="1780" y="1477.5" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-9" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;乘客增长技术各系统方向&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="960" y="1475" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="事前" vertex="1">
+          <mxGeometry height="250" width="210" x="1090" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;fontColor=#FFFFFF;" value="意识提升&lt;div&gt;checklist规范&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1135" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" value="风险梳理&lt;br&gt;&lt;div&gt;防资损审计&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1135" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="事中" vertex="1">
+          <mxGeometry height="250" width="345" x="1315" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#E6FFCC;" value="在线监控" vertex="1">
+          <mxGeometry height="165" width="140" x="1340" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=bottom;" value="事后" vertex="1">
+          <mxGeometry height="250" width="210" x="1680" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="熔断能力" vertex="1">
+          <mxGeometry height="60" width="120" x="1725" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" value="善后能力" vertex="1">
+          <mxGeometry height="60" width="120" x="1725" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" value="活动质检、自动化..." vertex="1">
+          <mxGeometry height="26" width="185" x="1102.5" y="1724" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#CCFFE6;" value="离线监控" vertex="1">
+          <mxGeometry height="165" width="140" x="1500" y="1545" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF3333;fontColor=#FFFFFF;" value="&lt;font style=&quot;&quot;&gt;活动通过率&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1350" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#FFFFFF;fillColor=#FF3333;" value="风险策略挖掘" vertex="1">
+          <mxGeometry height="60" width="120" x="1510" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCFFE6;" value="兜底规则" vertex="1">
+          <mxGeometry height="60" width="120" x="1350" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" value="监控告警建设" vertex="1">
+          <mxGeometry height="26" width="300" x="1340" y="1724" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="50" width="800" x="1090" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" value="资损复盘" vertex="1">
+          <mxGeometry height="26" width="190" x="1690" y="1724" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFF2CC;" value="对账能力建设" vertex="1">
+          <mxGeometry height="60" width="120" x="1510" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;防资损手段&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1010" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-30" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;基础能力支撑&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1000" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFE6CC;" value="防资损审计文档" vertex="1">
+          <mxGeometry height="50" width="800" x="1090" y="1860" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-32" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;沉淀机制&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="120" x="1000" y="1870" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" value="数据统一采集" vertex="1">
+          <mxGeometry height="30" width="130" x="1130" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" value="实时数据链路" vertex="1">
+          <mxGeometry height="30" width="130" x="1330" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" value="监控规则维护" vertex="1">
+          <mxGeometry height="30" width="130" x="1505" y="1810" as="geometry" />
+        </mxCell>
+        <mxCell id="t8zqSxgieid5Vbx73p7E-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFCC;" value="告警能力" vertex="1">
+          <mxGeometry height="30" width="130" x="1720" y="1810" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
