@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-47" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="840" x="1280" y="3180" as="geometry" />
+        </mxCell>
         <mxCell id="8I9YEHtSKSlns9lmGcNu-13" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;dashPattern=8 8;" value="" vertex="1">
           <mxGeometry height="604" width="604" x="1059.5" y="2046" as="geometry" />
         </mxCell>
@@ -1190,6 +1193,99 @@
             <mxPoint x="1361" y="2046" as="sourcePoint" />
             <mxPoint x="1361" y="1986" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="840" x="1280" y="3250" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="tca执行引擎" vertex="1">
+          <mxGeometry height="45" width="109" x="1642" y="3257.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="840" x="1280" y="3100" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-48" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="140" width="250" x="1280" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="网约车补贴策略&lt;div&gt;泛快/专豪/战区/特区/十框...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="253" x="1280" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-50" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="呼返" vertex="1">
+          <mxGeometry height="40" width="99" x="1297.5" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-51" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进端绑" vertex="1">
+          <mxGeometry height="40" width="99" x="1411" y="2950" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="离线绑" vertex="1">
+          <mxGeometry height="40" width="99" x="1297.5" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="智能触达" vertex="1">
+          <mxGeometry height="40" width="99" x="1411" y="3010" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-54" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="纵向增长主题&lt;br&gt;&lt;div&gt;新流/洋流/异地/商旅....&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="253" x="1570" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="细分业务/场景支撑&lt;div&gt;香港/海外/包车/车主/POI/机酒火....&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="253" x="1860" y="2750" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;新流/&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;新召4.0/平台/业务新流&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="50" x="1570" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-57" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="洋流全感知/落地页/客服" vertex="1">
+          <mxGeometry height="140" width="50" x="1630" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-58" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="异地cross" vertex="1">
+          <mxGeometry height="140" width="50" x="1690" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-59" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="泛快商旅..." vertex="1">
+          <mxGeometry height="140" width="50" x="1750" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-60" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="..." vertex="1">
+          <mxGeometry height="140" width="25" x="1805" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-61" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="画布编排" vertex="1">
+          <mxGeometry height="45" width="109" x="1303.5" y="3186.25" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-62" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="实例管理" vertex="1">
+          <mxGeometry height="45" width="109" x="1466.5" y="3187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="动作执行" vertex="1">
+          <mxGeometry height="45" width="109" x="1823" y="3187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="原子能力" vertex="1">
+          <mxGeometry height="45" width="109" x="1980" y="3187.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="抓手模版" vertex="1">
+          <mxGeometry height="45" width="109" x="1302" y="3107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-66" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="端内感知" vertex="1">
+          <mxGeometry height="45" width="109" x="1466.5" y="3107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-67" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="开发者工作台" vertex="1">
+          <mxGeometry height="45" width="109" x="1823" y="3107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-68" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="数据能力" vertex="1">
+          <mxGeometry height="45" width="109" x="1980" y="3107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-69" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="香港版天降" vertex="1">
+          <mxGeometry height="140" width="50" x="1860" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-70" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="海外版天降" vertex="1">
+          <mxGeometry height="140" width="50" x="1920" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="定制模版..." vertex="1">
+          <mxGeometry height="140" width="50" x="1980" y="2930" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-74" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" value="" vertex="1">
+          <mxGeometry height="77" width="152.5" x="1333.75" y="2833" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-75" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" value="" vertex="1">
+          <mxGeometry height="77" width="152.5" x="1623.75" y="2833" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-76" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" value="" vertex="1">
+          <mxGeometry height="77" width="152.5" x="1910" y="2833" as="geometry" />
+        </mxCell>
+        <mxCell id="8I9YEHtSKSlns9lmGcNu-77" parent="1" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;" value="" vertex="1">
+          <mxGeometry height="257" width="32" x="2068" y="2833" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
