@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="第 1 页" id="B1IgeOVlkVg-dGD6r4Pr">
-    <mxGraphModel dx="2651" dy="631" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2970" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1402,6 +1402,69 @@
             <mxPoint x="-450" y="924" as="sourcePoint" />
             <mxPoint x="-450" y="260" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="模版开发" vertex="1">
+          <mxGeometry height="60" width="120" x="-1170" y="1445" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="赤兔产品接入" vertex="1">
+          <mxGeometry height="60" width="120" x="-990" y="1445" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="250" width="810" x="-850" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="模版配置" vertex="1">
+          <mxGeometry height="60" width="120" x="-790" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="创建物料模版" vertex="1">
+          <mxGeometry height="60" width="120" x="-640" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="初始化" vertex="1">
+          <mxGeometry height="60" width="120" x="-500" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="迭代" vertex="1">
+          <mxGeometry height="60" width="120" x="-500" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="110" x="-350" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="变量初始化" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="变量迭代" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="模版服务数据" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1485" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="绑到物料上" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="产品发布" vertex="1">
+          <mxGeometry height="60" width="120" x="-196" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="250" width="800" x="-840" y="1675" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="活动策略" vertex="1">
+          <mxGeometry height="60" width="120" x="-790" y="1755" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="端内感知配置" vertex="1">
+          <mxGeometry height="60" width="120" x="-640" y="1755" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="290" width="110" x="-350" y="1655" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="选物料" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1675" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="二次编辑" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1735" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="多物料" vertex="1">
+          <mxGeometry height="40" width="90" x="-340" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="5f_5rIZiq2_1tSoTgYML-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="产品发布" vertex="1">
+          <mxGeometry height="60" width="120" x="-196" y="1755" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
