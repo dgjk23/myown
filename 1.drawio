@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.4">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.3.8">
   <diagram name="第 1 页" id="B1IgeOVlkVg-dGD6r4Pr">
-    <mxGraphModel dx="2970" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2672" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1465,6 +1465,42 @@
         </mxCell>
         <mxCell id="5f_5rIZiq2_1tSoTgYML-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="产品发布" vertex="1">
           <mxGeometry height="60" width="120" x="-196" y="1755" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-1" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1600" y="340" as="sourcePoint" />
+            <mxPoint x="-1060" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-2" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="-1330" y="580" as="sourcePoint" />
+            <mxPoint x="-1330" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="主动" vertex="1">
+          <mxGeometry height="30" width="60" x="-1326" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="被动" vertex="1">
+          <mxGeometry height="30" width="60" x="-1326" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="奖励" vertex="1">
+          <mxGeometry height="30" width="60" x="-1100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="履约" vertex="1">
+          <mxGeometry height="30" width="60" x="-1610" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="pope&lt;div&gt;主动营销&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1230" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="会员&lt;br&gt;&lt;div&gt;根据身份获得权益&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="套餐&lt;div&gt;付费锁定长期需求&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1540" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="RzNsAYa4nnjOwiJrm67O-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="任务/裂变&lt;div&gt;完成任务获得奖励&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="-1230" y="430" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
