@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="Rebhvt4i4fNJRl2rUR9-">
-    <mxGraphModel dx="874" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="838" dy="646" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -100,7 +100,7 @@
         <mxCell id="gczzw71T3OeXZzrooJVm-64" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="补贴动作(发券)" vertex="1">
           <mxGeometry height="40" width="110" x="820" y="520" as="geometry" />
         </mxCell>
-        <mxCell id="gczzw71T3OeXZzrooJVm-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="组3策略调整补贴动作(发券)" vertex="1">
+        <mxCell id="gczzw71T3OeXZzrooJVm-65" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="组3策略调整补贴动作(发券)" vertex="1">
           <mxGeometry height="40" width="110" x="970" y="520" as="geometry" />
         </mxCell>
         <mxCell id="gczzw71T3OeXZzrooJVm-80" edge="1" parent="1" source="gczzw71T3OeXZzrooJVm-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
@@ -116,7 +116,7 @@
         <mxCell id="gczzw71T3OeXZzrooJVm-89" edge="1" parent="1" source="gczzw71T3OeXZzrooJVm-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gczzw71T3OeXZzrooJVm-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gczzw71T3OeXZzrooJVm-67" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="是否组5" vertex="1">
+        <mxCell id="gczzw71T3OeXZzrooJVm-67" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="是否组5" vertex="1">
           <mxGeometry height="50" width="167" x="866.5" y="372" as="geometry" />
         </mxCell>
         <mxCell id="gczzw71T3OeXZzrooJVm-71" edge="1" parent="1" source="gczzw71T3OeXZzrooJVm-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gczzw71T3OeXZzrooJVm-65">
@@ -147,7 +147,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gczzw71T3OeXZzrooJVm-68" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="是否组3" vertex="1">
+        <mxCell id="gczzw71T3OeXZzrooJVm-68" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="是否组3" vertex="1">
           <mxGeometry height="50" width="167" x="866.5" y="446" as="geometry" />
         </mxCell>
         <mxCell id="gczzw71T3OeXZzrooJVm-82" edge="1" parent="1" source="gczzw71T3OeXZzrooJVm-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="gczzw71T3OeXZzrooJVm-67">
@@ -166,7 +166,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gczzw71T3OeXZzrooJVm-70" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="场景/品类规则" vertex="1">
+        <mxCell id="gczzw71T3OeXZzrooJVm-70" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="场景/品类规则" vertex="1">
           <mxGeometry height="50" width="167" x="866.5" y="308" as="geometry" />
         </mxCell>
         <mxCell id="gczzw71T3OeXZzrooJVm-75" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="业务配置" vertex="1">
@@ -178,8 +178,8 @@
         <mxCell id="gczzw71T3OeXZzrooJVm-85" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#f8cecc;strokeColor=none;" value="" vertex="1">
           <mxGeometry height="30" width="50" x="1140" y="510" as="geometry" />
         </mxCell>
-        <mxCell id="gczzw71T3OeXZzrooJVm-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="屏蔽补贴动作" vertex="1">
-          <mxGeometry height="15" width="99" x="1181" y="520" as="geometry" />
+        <mxCell id="gczzw71T3OeXZzrooJVm-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="屏蔽补贴动作，进行场景修复" vertex="1">
+          <mxGeometry height="40" width="139" x="1200" y="510" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
