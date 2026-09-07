@@ -1,0 +1,151 @@
+<mxfile host="app.diagrams.net" agent="pope-feasibility">
+  <diagram id="pope-prefilter" name="pope2-engine 前置过滤节点">
+    <mxGraphModel dx="1026" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="edLabel" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" value="pope2-editor 配置期 · 审核通过(pass)时预算一次" vertex="1">
+          <mxGeometry height="240" width="560" x="60" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="auditPass 钩子&#xa;(CanvasLogic::auditPass / ThirdLogic)" vertex="1">
+          <mxGeometry height="50" width="200" x="110" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" value="遍历活动全部 step.action_info 券批次&#xa;batch_id → 回源券系统取 productid" vertex="1">
+          <mxGeometry height="50" width="200" x="110" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="含泛快可用券?&#xa;productid ∈ {20,25,210,212}" vertex="1">
+          <mxGeometry height="80" width="150" x="370" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="缓存 has_fankuai_coupon = true" vertex="1">
+          <mxGeometry height="40" width="200" x="110" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="缓存 has_fankuai_coupon = false" vertex="1">
+          <mxGeometry height="40" width="200" x="370" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="e1e2" edge="1" parent="1" source="e1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2e3" edge="1" parent="1" source="e2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3yes" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e4" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3no" edge="1" parent="1" source="e3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="e5" value="否">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rtLabel" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;align=left;" value="pope2-engine 运行时 · 对所有找回的 newHitstep 前置过滤(逐 step 判定)" vertex="1">
+          <mxGeometry height="890" width="1630" x="60" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="r0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;" value="流量进入工作流&#xa;实时 / 定时 / 呼返batch" vertex="1">
+          <mxGeometry height="50" width="180" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;" value="找回 newHitstep&#xa;(WorkStepPrepare)" vertex="1">
+          <mxGeometry height="50" width="180" x="330" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="f0" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则0&#xa;定时任务流? &amp;&amp;&#xa;event_data.city_id&lt;0 ?" vertex="1">
+          <mxGeometry height="90" width="160" x="590" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="f0a" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="读常驻城市特征&#xa;passenger.bizdata.city_id&#xa;回填实验判断入参" vertex="1">
+          <mxGeometry height="60" width="190" x="820" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="f1" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则1&#xa;命中白名单?&#xa;(template/canvas_id/trigger)" vertex="1">
+          <mxGeometry height="90" width="170" x="580" y="483" as="geometry" />
+        </mxCell>
+        <mxCell id="f2" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则2&#xa;活动含泛快可用券?&#xa;(读 editor 预算缓存)" vertex="1">
+          <mxGeometry height="90" width="160" x="895" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="f3" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则3&#xa;进端绑template 且命中 ddo 实验?&#xa;(逐个 toggle 配置内实验key)" vertex="1">
+          <mxGeometry height="100" width="180" x="885" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="f4" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="规则4&#xa;命中呼返联合实验?&#xa;(走配置)" vertex="1">
+          <mxGeometry height="90" width="170" x="890" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="x1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="放行 → 走正常引擎命中逻辑 → 发券" vertex="1">
+          <mxGeometry height="60" width="210" x="1420" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="x2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="屏蔽该 step，不发券" vertex="1">
+          <mxGeometry height="60" width="210" x="870" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="er0r1" edge="1" parent="1" source="r0" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="r1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="er1f0" edge="1" parent="1" source="r1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="f0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef0yes" edge="1" parent="1" source="f0" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="f0a" value="是">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef0no" edge="1" parent="1" source="f0" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="f1" value="否">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ef0ayes" edge="1" parent="1" source="f0a" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="f1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="460" />
+              <mxPoint x="670" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ef1hit" edge="1" parent="1" source="f1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="x1" value="命中 → 放行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef1miss" edge="1" parent="1" source="f1" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="f2" value="未命中">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef2pass" edge="1" parent="1" source="f2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="x1" value="不含泛快 → 放行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef2f3" edge="1" parent="1" source="f2" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="f3" value="含泛快券">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef3pass" edge="1" parent="1" source="f3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="x1" value="命中 ddo → 放行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef3f4" edge="1" parent="1" source="f3" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="f4" value="未命中">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef4hit" edge="1" parent="1" source="f4" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="x2" value="命中 → 屏蔽">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ef4pass" edge="1" parent="1" source="f4" style="edgeStyle=orthogonalEdgeStyle;html=1;" target="x1" value="未命中 → 放行">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cfg_wl" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=0.12;fillColor=#fff2cc;strokeColor=#d6b656;" value="白名单配置(apollo)&#xa;template/canvas/trigger" vertex="1">
+          <mxGeometry height="40" width="160" x="330" y="508" as="geometry" />
+        </mxCell>
+        <mxCell id="cfg_ddo" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=0.12;fillColor=#fff2cc;strokeColor=#d6b656;" value="ddo 实验key 配置&#xa;(apollo / 活动配置)" vertex="1">
+          <mxGeometry height="40" width="170" x="585" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="cfg_joint" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=0.12;fillColor=#fff2cc;strokeColor=#d6b656;" value="呼返联合实验配置(apollo)" vertex="1">
+          <mxGeometry height="40" width="180" x="585" y="995" as="geometry" />
+        </mxCell>
+        <mxCell id="cfg_fs" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=0.12;fillColor=#fff2cc;strokeColor=#d6b656;" value="pope-fs(dmp) 特征服务&#xa;passenger.bizdata.city_id" vertex="1">
+          <mxGeometry height="40" width="200" x="1080" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cfg_cache" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=0.12;fillColor=#fff2cc;strokeColor=#d6b656;" value="editor 预算缓存&#xa;has_fankuai_coupon" vertex="1">
+          <mxGeometry height="40" width="180" x="580" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="e_wl" edge="1" parent="1" source="cfg_wl" style="dashed=1;html=1;strokeColor=#9673a6;" target="f1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_ddo" edge="1" parent="1" source="cfg_ddo" style="dashed=1;html=1;strokeColor=#9673a6;" target="f3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_joint" edge="1" parent="1" source="cfg_joint" style="dashed=1;html=1;strokeColor=#9673a6;" target="f4" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_fs" edge="1" parent="1" source="cfg_fs" style="dashed=1;html=1;strokeColor=#9673a6;" target="f0a" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_cache" edge="1" parent="1" source="cfg_cache" style="dashed=1;html=1;strokeColor=#9673a6;" target="f2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
