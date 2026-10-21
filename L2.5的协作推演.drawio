@@ -1,0 +1,231 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="4G1Zl7l57ursUB93viHt">
+    <mxGraphModel dx="1874" dy="837" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="piqp0hQxnns67YFGL5I7-46" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="xxx需求的项目组织" vertex="1">
+          <mxGeometry height="725" width="1630" x="-590" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="服务端" vertex="1">
+          <mxGeometry height="300" width="560" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="共享文件系统" vertex="1">
+          <mxGeometry height="120" width="390" x="120" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-51" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-52" connectable="0" parent="piqp0hQxnns67YFGL5I7-51" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="挂载" vertex="1">
+          <mxGeometry relative="1" x="-0.1066" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="准星配置agent" vertex="1">
+          <mxGeometry height="30" width="90" x="52" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-54" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="pope联调agent" vertex="1">
+          <mxGeometry height="30" width="90" x="-200" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-56" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="pope提测agent" vertex="1">
+          <mxGeometry height="30" width="90" x="369" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="..." vertex="1">
+          <mxGeometry height="30" width="90" x="428" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="R-WYC-752725需求空间" vertex="1">
+          <mxGeometry height="30" width="110" x="130" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="pope日常协作空间" vertex="1">
+          <mxGeometry height="30" width="117.5" x="247.5" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="裂变日常协作空间" vertex="1">
+          <mxGeometry height="30" width="117.5" x="373" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="各agent工作现场" vertex="1">
+          <mxGeometry height="30" width="360.5" x="130" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="基础服务支撑" vertex="1">
+          <mxGeometry height="80" width="390" x="120" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="身份/权限" vertex="1">
+          <mxGeometry height="30" width="90" x="130" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="双向同步" vertex="1">
+          <mxGeometry height="30" width="90" x="234" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="项目配置和管理" vertex="1">
+          <mxGeometry height="30" width="90" x="338" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="..." vertex="1">
+          <mxGeometry height="30" width="58" x="442" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-47" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-49" connectable="0" parent="piqp0hQxnns67YFGL5I7-47" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="分享" vertex="1">
+          <mxGeometry relative="1" x="0.0103" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-53" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-55" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="xx研发(pope后端)的dsh客户端" vertex="1">
+          <mxGeometry height="280" width="314" x="-60" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="合成文件目录" vertex="1">
+          <mxGeometry height="80" width="284" x="-50" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="本地agent工作目录" vertex="1">
+          <mxGeometry height="40" width="117.5" x="-40" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="agent core&lt;div&gt;(dsh原生)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="127.5" x="-50" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sso插件" vertex="1">
+          <mxGeometry height="45" width="127.5" x="-50" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="来自项目的同步目录" vertex="1">
+          <mxGeometry height="40" width="117.5" x="100" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="项目插件" vertex="1">
+          <mxGeometry height="45" width="144" x="90" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="共享agent插件" vertex="1">
+          <mxGeometry height="45" width="144" x="90" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="组织基座插件&lt;div&gt;CI/CD 日志平台 部署平台等...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="284" x="-50" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="xx测试的dsh客户端" vertex="1">
+          <mxGeometry height="280" width="314" x="570" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="合成文件目录" vertex="1">
+          <mxGeometry height="80" width="284" x="580" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="本地agent工作目录" vertex="1">
+          <mxGeometry height="40" width="117.5" x="590" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="agent core&lt;div&gt;(dsh原生)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="127.5" x="580" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sso插件" vertex="1">
+          <mxGeometry height="45" width="127.5" x="580" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="来自项目的同步目录" vertex="1">
+          <mxGeometry height="40" width="117.5" x="730" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-34" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="项目插件" vertex="1">
+          <mxGeometry height="45" width="144" x="720" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-35" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="共享agent插件" vertex="1">
+          <mxGeometry height="45" width="144" x="720" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="组织基座插件&lt;div&gt;CI/CD 日志平台 部署平台等...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="284" x="580" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-37" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="xx研发(前端端)的dsh客户端" vertex="1">
+          <mxGeometry height="280" width="314" x="-550" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-38" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="合成文件目录" vertex="1">
+          <mxGeometry height="80" width="284" x="-540" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-39" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="本地agent工作目录" vertex="1">
+          <mxGeometry height="40" width="117.5" x="-530" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-40" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="agent core&lt;div&gt;(dsh原生)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="127.5" x="-540" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-41" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="sso插件" vertex="1">
+          <mxGeometry height="45" width="127.5" x="-540" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="来自项目的同步目录" vertex="1">
+          <mxGeometry height="40" width="117.5" x="-390" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-43" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="项目插件" vertex="1">
+          <mxGeometry height="45" width="144" x="-400" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-44" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="共享agent插件" vertex="1">
+          <mxGeometry height="45" width="144" x="-400" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="组织基座插件&lt;div&gt;CI/CD 日志平台 部署平台等...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="45" width="284" x="-540" y="775" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-48" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-50" connectable="0" parent="piqp0hQxnns67YFGL5I7-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="挂载" vertex="1">
+          <mxGeometry relative="1" x="-0.3243" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-59" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=-0.75;tipY=-0.676;align=left;" value="来源：本需求成功完成的一次准星配置&lt;div&gt;可以回答：&lt;/div&gt;&lt;div&gt;这个需求中，该如何自动化创建准星物料？&lt;/div&gt;&lt;div&gt;相关的运营位是什么？&lt;/div&gt;&lt;div&gt;模版是什么？&lt;/div&gt;&lt;div&gt;如何加白？&lt;/div&gt;&lt;div&gt;我已经加白了哪些帐号&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="200" x="150" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-60" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=-0.14;tipY=-0.786;align=left;" value="&lt;div&gt;来源：研发调度agent完成测试的会话&lt;/div&gt;&lt;div&gt;回答：&lt;/div&gt;&lt;div&gt;研发的测试用例是什么，准入用例都覆盖了吗&lt;/div&gt;&lt;div&gt;xxx卡点研发是怎么测的&lt;/div&gt;&lt;div&gt;prd之外有哪些隐性测试点&lt;/div&gt;&lt;div&gt;验证通过的证据是什么，如何获取&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="200" x="338" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-61" parent="1" style="shape=wedgeCallout;whiteSpace=wrap;html=1;tipX=-0.062;tipY=-0.735;align=left;" value="来源：研发技术方案、调试过程&lt;div&gt;回答：&lt;/div&gt;&lt;div&gt;接口契约背后的详细逻辑&lt;/div&gt;&lt;div&gt;字段含义&lt;/div&gt;&lt;div&gt;trace如何排查，重点关注什么日志&lt;/div&gt;&lt;div&gt;研发的决策：这个交给前端做..&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="160" x="-230" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-63" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=top;" value="分享一个agent很简单" vertex="1">
+          <mxGeometry height="220" width="650" x="-550" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-66" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-64" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="一次成功的agent任务执行" vertex="1">
+          <mxGeometry height="80" width="120" x="-532.5" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-73" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-74" connectable="0" parent="piqp0hQxnns67YFGL5I7-73" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];defaultLabelBackgroundColor=gap;" value="skill抽取" vertex="1">
+          <mxGeometry relative="1" x="-0.1612" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-65" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;verticalAlign=bottom;" value="会话记录" vertex="1">
+          <mxGeometry height="181" width="160" x="-360" y="1079" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-67" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="用户输入" vertex="1">
+          <mxGeometry height="30" width="99" x="-329.5" y="1089" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-68" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="读写过的文件" vertex="1">
+          <mxGeometry height="30" width="99" x="-329" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-69" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="产出物/记忆" vertex="1">
+          <mxGeometry height="30" width="99" x="-329.5" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-70" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="用到的skill/mcp" vertex="1">
+          <mxGeometry height="30" width="99" x="-329.5" y="1208" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-76" edge="1" parent="1" source="piqp0hQxnns67YFGL5I7-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=gap;" target="piqp0hQxnns67YFGL5I7-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-71" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="简单筛选/取舍后的文件包" vertex="1">
+          <mxGeometry height="60" width="120" x="-150" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-72" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="分享到项目空间" vertex="1">
+          <mxGeometry height="80" width="120" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-77" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
+          <mxGeometry height="30" width="60" x="600" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="piqp0hQxnns67YFGL5I7-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=18;" value="&lt;br&gt;&lt;div&gt;核心：原本基于聊天+文档的信息传递，变成了基于agent的信息同步&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="111" width="506" x="395.75" y="1070" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
