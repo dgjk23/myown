@@ -1,0 +1,209 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="GDFP9qwVVTxdai7u9M7G">
+    <mxGraphModel dx="1656" dy="1259" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="算法实验策略命中(已有逻辑，CRM实现)" vertex="1">
+          <mxGeometry height="140" width="310" x="1241" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="呼返定价实验命中屏蔽组" vertex="1">
+          <mxGeometry height="130" width="730" x="980" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-21" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="215" width="590" x="90" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-3" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="进端绑流量" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-7" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-12" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-13" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="350" y="380" />
+              <mxPoint x="540" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="crm" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人工" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="泛快算法" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="其他算法" vertex="1">
+          <mxGeometry height="60" width="120" x="770" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="人工&lt;div&gt;is_ai = 0&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="170" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-25" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="泛快算法(处理掉一部分)&lt;div&gt;表达式&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-27" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="其他算法&lt;div&gt;ddo命中/不命中&lt;/div&gt;&lt;div&gt;namespace=xxx&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-11" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-26" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="POPE屏蔽逻辑(呼返进定价)&lt;div&gt;呼返定价实验&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="310" x="200" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-15" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.097;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-17" parent="1" style="shape=sumEllipse;perimeter=ellipsePerimeter;whiteSpace=wrap;html=1;backgroundOutline=1;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="190" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="泛快算法(处理掉一部分)&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-20" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="其他算法&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-24" edge="1" parent="1" source="beYWZINXkttyY4XocFVY-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="beYWZINXkttyY4XocFVY-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="beYWZINXkttyY4XocFVY-23" parent="1" style="shape=ext;double=1;rounded=0;whiteSpace=wrap;html=1;" value="配置" vertex="1">
+          <mxGeometry height="80" width="120" x="670" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-21" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.392;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-22" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="540" />
+              <mxPoint x="1480" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="CRM进端绑" vertex="1">
+          <mxGeometry height="60" width="120" x="1290" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-16" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="纯pope进端绑" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-19" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="CRM人工" vertex="1">
+          <mxGeometry height="60" width="120" x="1170" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-28" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-29" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="CRM算法" vertex="1">
+          <mxGeometry height="60" width="120" x="1420" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-31" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-32" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="泛快空间" vertex="1">
+          <mxGeometry height="60" width="120" x="1330" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-27" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.57;entryY=0.074;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-30" connectable="0" parent="lFenT7df_i5YGm9Wo5z8-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="放行" vertex="1">
+          <mxGeometry relative="1" x="0.2946" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="非泛快空间" vertex="1">
+          <mxGeometry height="60" width="120" x="1520" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-7" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="930" y="770" as="sourcePoint" />
+            <mxPoint x="1660" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="其他算法策略&lt;div&gt;(被屏蔽)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1260" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-34" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="算法实验允许的策略" vertex="1">
+          <mxGeometry height="60" width="120" x="1420" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-11" edge="1" parent="1" style="endArrow=none;dashed=1;html=1;rounded=0;defaultLabelBackgroundColor=page;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="930" y="990" as="sourcePoint" />
+            <mxPoint x="1660" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="活动分类" vertex="1">
+          <mxGeometry height="30" width="60" x="880" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CRM-算法实验策略" vertex="1">
+          <mxGeometry height="30" width="60" x="890" y="865" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="POPE-呼返定价实验策略" vertex="1">
+          <mxGeometry height="40" width="120" x="860" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="纯pope进端绑&lt;br&gt;&lt;div&gt;(被屏蔽)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1010" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;fillColor=#f8cecc;strokeColor=#b85450;" value="CRM人工&lt;div&gt;（被屏蔽）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1170" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-24" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="410" />
+              <mxPoint x="1350" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-25" edge="1" parent="1" source="lFenT7df_i5YGm9Wo5z8-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="lFenT7df_i5YGm9Wo5z8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1210" y="410" />
+              <mxPoint x="1070" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-23" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="进端绑" vertex="1">
+          <mxGeometry height="60" width="120" x="1150" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="非泛快空间&lt;div&gt;放行&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1510" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="lFenT7df_i5YGm9Wo5z8-33" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="算法实验允许的策略&lt;div&gt;（放行）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="1370" y="1080" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
